@@ -34,4 +34,19 @@ Raspberry PI Imager
 
 Installare RPI imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry PI OS (other)”, quindi Raspberry PI Lite (32-bit).
 
+<p align="center">
 <img src="/images/image6.png" height="180"> <img src="/images/image1.png" height="180"> <img src="/images/image20.png" height="180">
+</p>
+
+Premere su “Choose Sd card” e selezionare la microsd inserita precedentemente, quindi premere write ed acconsentire alla formattazione della MicroSD
+
+<p align="center">
+<img src="/images/image8.png" height="180"> <img src="/images/image5.png" height="180"> <img src="/images/image15.png" height="180">
+</p>
+
+Una volta che la scrittura e’ terminata, rimuovere la MicroSD dal pc e re-inserirla: comparirà un volume "boot"
+
+Scaricare i seguenti due files, per abilitare la headless mode. 
+Cliccando su “Code”, poi “download zip”. 
+Decomprimere i due file direttamente nella root (cartella principale) della micro sd. 
+Aprire con BLOCCO NOTE il file appena copiato denominato “wpa_supplicant.conf”. Dentro le virgolette mettere il SSID(nome della wifi) della tua wifi e sotto mettere la password della wifi.
