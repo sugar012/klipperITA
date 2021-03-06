@@ -70,4 +70,5 @@ Una Volta inseriti i dati, premere login, apparirà una notifica che ci chiede s
 Avremo due schermate, una é il nostro terminale remoto in SSH, l’altra e’ il sFTP (cartelle e dati salvate sul rpi in accesso remoto). Per ora ci interessa il SSH, andiamo a digitare i primi comandi per aggiornare il sistema:
 
 ```sudo apt-get update```
+
 ```sudo apt-get upgrade```
