@@ -15,4 +15,19 @@ Queste, oltre ad essere graficamente belle e curate, vanno a sostituire o affian
 
 >Per ulteriori approfondimenti qui un link con Le features di Klipper: klipper | Klipper is a 3d-printer firmware (klipper3d.org)
 
->Adesso cominciamo!
+Adesso cominciamo!
+
+---
+
+## PREREQUISITI
+
+Raspberry Pi, consigliato 3/4 (A+ o  B+) ma anche uno zero andrebbe bene (meno porte)
+Micro SD Card (almeno 8Gb)
+
+Programmi utili:
+Bitwise SSH and sFTP client oppure WinSCP+Putty
+Raspberry PI Imager
+
+## PREPARAZIONE RASPBERRY PI
+
+Installare RPI imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry PI OS (other)”, quindi Raspberry PI Lite (32-bit).
