@@ -33,3 +33,4 @@ Raspberry PI Imager
 ## PREPARAZIONE RASPBERRY PI
 
 Installare RPI imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry PI OS (other)”, quindi Raspberry PI Lite (32-bit).
+![image1](https://user-images.githubusercontent.com/53581505/110213185-2f190200-7e9f-11eb-8c7a-e7a37c011c5a.png =250x)
