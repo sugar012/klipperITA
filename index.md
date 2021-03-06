@@ -1,4 +1,6 @@
-![main_menu](https://www.klipper3d.org/img/klipper-logo.png)
+<p align="center">
+<a href="https://www.klipper3d.org"><img src="https://www.klipper3d.org/img/klipper-logo.png"</a>
+</p>
 
 # PREMESSA
 
