@@ -72,3 +72,19 @@ Avremo due schermate, una é il nostro terminale remoto in SSH, l’altra e’ i
 ```sudo apt-get update```
 
 ```sudo apt-get upgrade```
+
+Ora cambiamo la password di default con una a nostra scelta:
+
+```sudo passwd pi```
+
+Premiamo INVIO, poi digitiamo la nuova password (non c’e’ da preoccuparsi se non viene visualizzato niente nel terminale, e’ una misura di sicurezza).
+
+Una volta finito di scriverla premiamo di nuovo INVIO. Potrebbe venire richiesta una conferma della password appena inserita, nel caso basta ri-digitarla e premere INVIO.. Una volta fatto riavviamo dando il comando:
+
+```sudo reboot```
+
+Bitvise ci notificherà della disconnessione avvenuta. Chiudiamo le finestre SSH e sFTP, clicchiamo su logout in basso, quindi cambiamo la password nella casella di testo con quella appena immessa. dopodiché aspettiamo che Bitwise si ricolleghi (in basso verrà notificato). Clicchiamo nuovamente login (dare 1 minuto al RPI per avviarsi) e andiamo sulla console SSH.
+
+A questo punto siamo pronti ad installare Kiauh, il gestore che permette di installare comodamente Klipper, le API Moonraker e una webGUI a nostra scelta come Fluidd.
+
+
