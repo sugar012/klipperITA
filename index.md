@@ -46,7 +46,7 @@ Premere su “Choose Sd card” e selezionare la microsd inserita precedentement
 
 Una volta che la scrittura e’ terminata, rimuovere la MicroSD dal pc e re-inserirla: comparirà un volume "boot"
 
-Scaricare i seguenti due files, per abilitare la headless mode. 
-Cliccando su “Code”, poi “download zip”. 
+Per poter abilitare SSH e WIFI direttamente al boot(headless mode) scaricare i [seguenti due files](https://github.com/Blaster1920/RPI_headless_tools/tree/main) cliccando su “Code”, poi “download zip”.
 Decomprimere i due file direttamente nella root (cartella principale) della micro sd. 
 Aprire con BLOCCO NOTE il file appena copiato denominato “wpa_supplicant.conf”. Dentro le virgolette mettere il SSID(nome della wifi) della tua wifi e sotto mettere la password della wifi.
+<img src="/images/image12.png" height="280">
