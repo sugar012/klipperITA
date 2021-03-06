@@ -1,3 +1,5 @@
+![main_menu](https://www.klipper3d.org/img/klipper-logo.png)
+
 # PREMESSA
 
 >ATTENZIONE! Installare questo firmware richiede un minimo di manualità con linux e soprattutto con l’uso di Google, noi ci siamo impegnati a rendere la guida il più semplice possibile ma procedere a proprio rischio e leggere attentamente prima di acquistare il Raspberry.
