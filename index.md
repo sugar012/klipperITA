@@ -21,6 +21,7 @@ Adesso cominciamo!
 
 ---
 
+## MENU
 
 * [PREREQUISITI](https://github.com/sugar012/klipperITA/blob/main/index.md#prerequisiti)
 
@@ -129,7 +130,7 @@ Bitvise ci notificherà della disconnessione avvenuta. Chiudiamo le finestre SSH
 
 A questo punto siamo pronti ad installare Kiauh, il gestore che permette di installare comodamente Klipper, le API Moonraker e una webGUI a nostra scelta come Fluidd.
 
-
+[torna al menu](https://github.com/sugar012/klipperITA/blob/main/index.md#menu)
 ***
 
 
