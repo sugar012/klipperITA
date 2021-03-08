@@ -21,6 +21,25 @@ Adesso cominciamo!
 
 ---
 
+
+* [PREMESSA](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#premessa)
+
+* [PREREQUISITI](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#prerequisiti)
+
+* [PREPARAZIONE RASPBERRY PI](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#preparazione-raspberry-pi)
+
+* [TVBOX](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#per-chi-ha-seguito-la-guida-per-tvbox-proseguire-da-questo-punto-in-avanti)
+
+* [INSTALLAZIONE KIAUH](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#installazione-kiauh)
+
+* [COMPILAZIONE FIRMWARE E FLASH SU STAMPANTE](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#compilazione-firmware-e-flash-su-stampante)
+
+* [CONFIGURAZIONE](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#configurazione)
+
+* [SETTAGGI SLICER](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#settaggi-slicer)
+
+
+
 ## PREREQUISITI
 
 Raspberry Pi, consigliato 3/4 (A+ o  B+) ma anche uno zero andrebbe bene (meno porte)
