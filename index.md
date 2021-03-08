@@ -22,19 +22,23 @@ Adesso cominciamo!
 ---
 
 
-* [PREREQUISITI](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#prerequisiti)
+* [PREREQUISITI](https://github.com/sugar012/klipperITA/blob/main/index.md#prerequisiti)
 
-* [PREPARAZIONE RASPBERRY PI](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#preparazione-raspberry-pi)
+* [PREPARAZIONE RASPBERRY PI](https://github.com/sugar012/klipperITA/blob/main/index.md#preparazione-raspberry-pi)
 
-* [TVBOX](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#per-chi-ha-seguito-la-guida-per-tvbox-proseguire-da-questo-punto-in-avanti)
+* [TVBOX](https://github.com/sugar012/klipperITA/blob/main/index.md#per-chi-ha-seguito-la-guida-per-tvbox-proseguire-da-questo-punto-in-avanti)
 
-* [INSTALLAZIONE KIAUH](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#installazione-kiauh)
+* [INSTALLAZIONE KIAUH](https://github.com/sugar012/klipperITA/blob/main/index.md#installazione-kiauh)
 
-* [COMPILAZIONE FIRMWARE E FLASH SU STAMPANTE](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#compilazione-firmware-e-flash-su-stampante)
+* [COMPILAZIONE FIRMWARE E FLASH SU STAMPANTE](https://github.com/sugar012/klipperITA/blob/main/index.md#compilazione-firmware-e-flash-su-stampante)
 
-* [CONFIGURAZIONE](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#configurazione)
+* [CONFIGURAZIONE](https://github.com/sugar012/klipperITA/blob/main/index.md#configurazione)
 
-* [SETTAGGI SLICER](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#settaggi-slicer)
+* [SETTAGGI SLICER](hhttps://github.com/sugar012/klipperITA/blob/main/index.md#settaggi-slicer)
+
+* [CALIBRAZIONI](hhttps://github.com/sugar012/klipperITA/blob/main/index.md#calibrazioni)
+
+
 
 
 ---
@@ -280,7 +284,147 @@ Ora tocca a voi navigare tra i [DOC](https://github.com/KevinOConnor/klipper/tre
 
 ## SETTAGGI SLICER
 
-...
+Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart distance e advance extruder pressure..
+
+Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md)
 
 
 ***
+
+
+## CALIBRAZIONI
+
+* [Bed Leveling](https://www.klipper3d.org/Bed_Level.html) - Come calibrare il piatto usando Klipper
+* [E-Steps](https://github.com/KevinOConnor/klipper/blob/master/docs/Rotation_Distance.md#calibrating-rotation_distance-on-extruders) - Calibrazione degli steps estrusore
+* [Pressure Advance](https://github.com/KevinOConnor/klipper/blob/master/docs/Pressure_Advance.md) - Per gestire la pressione del filamento e avere angoli più netti
+* [Resonance Compensation](https://www.klipper3d.org/Resonance_Compensation.html) - Per eliminare il ghosting dovuto alla risonanza della stampante
+
+
+***
+
+
+## ALTRI LINK UTILI
+
+
+* [https://www.klipper3d.org/Rotation_Distance.html](https://www.klipper3d.org/Rotation_Distance.html) / [Post su Telegram](https://t.me/Klipper3DITA/24399) - Gli “step/mm” di Klipper
+* [Config changes](https://github.com/KevinOConnor/klipper/blob/master/docs/Config_Changes.md) - Da visionare prima di ogni upgrade
+* [Config Reference](https://github.com/KevinOConnor/klipper/blob/master/docs/Config_Reference.md) - In dettaglio ogni sezione del file di configurazione
+* [G-Codes](https://github.com/KevinOConnor/klipper/blob/master/docs/G-Codes.md) - Lista dei gcodes e comandi ammessi in klipper
+* [Bed Mesh e Homing con probe ed endstop separati](https://github.com/KevinOConnor/klipper/blob/master/docs/Bed_Mesh.md#the-relative-reference-index) 
+* [Plugins Moonraker](https://github.com/Arksine/moonraker/blob/master/docs/configuration.md) - (per esempio per spegnere e accendere la stampante con relè)
+* [Come aggiungere una webcam all’interfaccia web](https://3dp.tumbleweedlabs.com/firmware/klipper-firmware/adding-webcam-support-to-mainsail)
+
+
+
+***
+
+
+## F.A.Q. aka Domande Frequenti
+
+Se non trovi una domanda con relativa risposta scrivine una di seguito, risponderemo quando possibile.
+
+-Dove trovo il config per la mia stampante? 
+Dentro la cartella `config` della vostra o installazione o [Qui](https://github.com/KevinOConnor/klipper/tree/master/config)
+
+-Come faccio a calibrare il piatto? 
+[Qui](https://github.com/sugar012/klipperITA/blob/main/index.md#calibrazioni)
+
+-Dove devo mettere il file config della mia stampante?
+nella cartella `klipper_config`
+
+
+***
+
+## INSTALLAZIONE MULTIPRINTER
+
+KIAUH permette inoltre l’installazione automatica di due o più istanze di Klipper per poter gestire più stampanti.Il procedimento è simile all’installazione semplice con la sola differenza che quando KIAUH ci chiederà quante istanze installare andremo ad inserire il numero che ci interessa:
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image7.png" height="450">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image23.png" height="450">
+</p>
+
+Una volta installate le due istanze di klipper riavviamo con 
+```shell
+sudo reboot
+```
+Riavviamo KIAUH e scegliamo l’installazione di MOONRAKER.
+A questo punto KIAUH è consapevole dell’installazione di più installazioni di klipper e ci chiederà di installare altrettante istanze di MOONRAKER
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image14.png" height="450">
+</p>
+
+Di default vengono create le istanze MOONRAKER con le porte successive a 7125. Ovvero con due istanze la seconda avrà come porta 7126.
+Verranno quindi create 2 cartelle distinte con all’interno printer.cfg e moonraker.conf da poter impostare a piacimento.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image19.png" height="350">
+</p>
+
+Il resto dell’installazione è coma una normale procedura descritta sopra: installazione del frontend (FLUIDD o MAINSAIL o altro) e quanto ne consegue.
+
+Per poter gestire le stampanti da FLUIDD, ad esempio, basterà recarsi all’indirizzo della stampante nel browser (cosiddetta printer1) e dal menu a destra selezionare `add another printer`
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image10.png" height="100">
+</p>
+
+Basterà mettere `IP:PORTA` della seconda istanza di moonraker per ritrovarsi a gestirle entrambe facendo un semplice switch dallo stesso menu
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image18.png" height="300">
+</p>
+
+Una cosa aggiuntiva che è possibile fare è l’upload diretto(e stampa) da slicer.
+Prima di tutto andremo a creare due cartelle separate dove fare l’upload dei gcode dove MOONRAKER+FLUIDD andranno a pescare.E’ possibile scegliere quale cartella si vuole, ad esempio nella directory principali sdcard1 e sdcard2:
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image9.png" height="100">
+</p>
+
+Successivamente andremo ad inserire nei rispettivi printer.cfg delle stampanti le directory dove punteranno per il salvataggio/lettura dei gcode.
+```shell
+[virtual_sdcard]
+path: ~/sdcard1
+```
+
+e
+
+```shell
+[virtual_sdcard]
+path: ~/sdcard2
+```
+
+A questo punto aprire i rispettivi moonraker.conf e aggiungere questa stringa:
+
+```shell
+[octoprint_compat]
+```
+
+Passiamo ora allo slicer
+Con Prusaslicer/Superslicer basta mettere indirizzo IP:PORTA della rispettiva istanza MOONRAKER dentro alla configurazione per octoprint della stampante fisica e i file verranno inviate rispettivamente alle cartelle impostate
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image13.png" height="350">
+</p>
+
+
+***
+
+
+## COMMUNITY
+
+[Discord (internazionale)](https://discord.klipper3d.org/)
+[Gruppo Telegram Italiano](https://t.me/Klipper3DITA)
+[Gruppo Facebook Italiano](https://www.facebook.com/groups/2753077415021752)
+
+
+
+Grazie a: laurienzu, Factotum_res, Jacopo Franco, sugar0
+
+Per aver creato questa guida!
+
+
+
+
