@@ -392,21 +392,22 @@ Prima di tutto andremo a creare due cartelle separate dove fare l’upload dei g
 </p>
 
 Successivamente andremo ad inserire nei rispettivi printer.cfg delle stampanti le directory dove punteranno per il salvataggio/lettura dei gcode.
-```shell
+
+```
 [virtual_sdcard]
 path: ~/sdcard1
 ```
 
 e
 
-```shell
+```
 [virtual_sdcard]
 path: ~/sdcard2
 ```
 
 A questo punto aprire i rispettivi moonraker.conf e aggiungere questa stringa:
 
-```shell
+```
 [octoprint_compat]
 ```
 
@@ -419,11 +420,6 @@ Con Prusaslicer/Superslicer basta mettere indirizzo IP:PORTA della rispettiva is
 
 
 ***
-
-***
-
-***
-
 
 ## COMMUNITY
 
