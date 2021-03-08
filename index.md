@@ -22,8 +22,6 @@ Adesso cominciamo!
 ---
 
 
-* [PREMESSA](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#premessa)
-
 * [PREREQUISITI](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#prerequisiti)
 
 * [PREPARAZIONE RASPBERRY PI](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#preparazione-raspberry-pi)
@@ -38,6 +36,8 @@ Adesso cominciamo!
 
 * [SETTAGGI SLICER](https://github.com/sugar012/klipperITA/wiki/GUIDA-IN-ITALIANO-INSTALLAZIONE-KLIPPER#settaggi-slicer)
 
+
+---
 
 
 ## PREREQUISITI
