@@ -34,9 +34,17 @@ Adesso cominciamo!
 
 * [CONFIGURAZIONE](https://github.com/sugar012/klipperITA/blob/main/index.md#configurazione)
 
-* [SETTAGGI SLICER](hhttps://github.com/sugar012/klipperITA/blob/main/index.md#settaggi-slicer)
+* [SETTAGGI SLICER](https://github.com/sugar012/klipperITA/blob/main/index.md#settaggi-slicer)
 
-* [CALIBRAZIONI](hhttps://github.com/sugar012/klipperITA/blob/main/index.md#calibrazioni)
+* [CALIBRAZIONI](https://github.com/sugar012/klipperITA/blob/main/index.md#calibrazioni)
+
+* [ALTRI LINK UTILI](https://github.com/sugar012/klipperITA/blob/main/index.md#altri-link-utili)
+
+* [F.A.Q. aka Domande Frequenti](https://github.com/sugar012/klipperITA/blob/main/index.md#faq-aka-domande-frequenti)
+
+* [INSTALLAZIONE MULTIPRINTER](https://github.com/sugar012/klipperITA/blob/main/index.md#installazione-multiprinter)
+
+* [COMMUNITY](https://github.com/sugar012/klipperITA/blob/main/index.md#community)
 
 
 
@@ -412,12 +420,16 @@ Con Prusaslicer/Superslicer basta mettere indirizzo IP:PORTA della rispettiva is
 
 ***
 
+***
+
+***
+
 
 ## COMMUNITY
 
-[Discord (internazionale)](https://discord.klipper3d.org/)
-[Gruppo Telegram Italiano](https://t.me/Klipper3DITA)
-[Gruppo Facebook Italiano](https://www.facebook.com/groups/2753077415021752)
+* [Discord (internazionale)](https://discord.klipper3d.org/)
+* [Gruppo Telegram Italiano](https://t.me/Klipper3DITA)
+* [Gruppo Facebook Italiano](https://www.facebook.com/groups/2753077415021752)
 
 
 
