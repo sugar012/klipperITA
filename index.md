@@ -471,6 +471,7 @@ USB 2.0 PC Cam (usb-0000:01:00.0-1.4):
 ```
 
 Le nostre webcam saranno quindi distinte in `/dev/video0` e `/dev/video2`
+
 Ora modifichiamo i due file `webcamDaemon` aggiungendo a quale device dovranno connettersi e farli uscire con due porte distinte
 
 <p align="center">
@@ -478,13 +479,18 @@ Ora modifichiamo i due file `webcamDaemon` aggiungendo a quale device dovranno c
 </p>
 
 Nel file `webcamDaemon1` basterà sosituire `/dev/video0` con `/dev/video2` e cambiare la porta con 8081
+
 Sostituiamo anche la stringa in `webcam1` come di seguito
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image32.png" height="450">
 </p>
 
-In ultimo andiamo quindi ad inserire nel file `/etc/rc.local` la stringa per l'avvio della seconda istanza `home/TUOUSER/scripts/webcam1 start`
+In ultimo andiamo quindi ad inserire nel file `/etc/rc.local` la stringa per l'avvio della seconda istanza 
+
+```
+home/TUOUSER/scripts/webcam1 start
+```
 
 
 [torna al menu](https://github.com/sugar012/klipperITA/blob/main/index.md#menu)
