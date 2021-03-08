@@ -182,7 +182,7 @@ Se tutto è andato correttamente dovreste trovarvi davanti una situazione del ge
 
 Complimenti, ora avete correttamente installato Klipper e la WebUI sul vostro Raspberry, siete a metà strada dalla vostra prima stampa con Klipper! :P
 
-
+[torna al menu](https://github.com/sugar012/klipperITA/blob/main/index.md#menu)
 ***
 
 
@@ -226,7 +226,7 @@ Se invece la vostra scheda prevede il flash da SDcard dovrete estrarre i file fi
 
 Fare attenzione che alcune schede come ad esempio la MKS Robin Nano, hanno bisogno di comandi aggiuntivi dopo il make del firmware, questi sono indicati sempre nella parte alta del printer.cfg.
 
-
+[torna al menu](https://github.com/sugar012/klipperITA/blob/main/index.md#menu)
 ***
 
 
@@ -270,7 +270,7 @@ Cliccare sul file printer.cfg, comparirà un menù a tendina, cliccare su edit.
 
 Si aprirà adesso un editor di testo, copiare e sostituire quindi il contenuto del file config scaricato precedentemente all’interno dell’editor dell'interfaccia,  all'interno del file alla voce [mcu] incollare la stringa precedentemente trovata in questo modo:
 
-```shell
+```
 [mcu]
 serial:  /dev/serial/by-id/…
 ```
@@ -287,7 +287,7 @@ Ricordiamo che dove è presente il cancelletto (#) la riga viene disabilitata e 
 
 Ora tocca a voi navigare tra i [DOC](https://github.com/KevinOConnor/klipper/tree/master/docs) di Klipper per completare e affinare la vostra configurazione!
 
-
+[torna al menu](https://github.com/sugar012/klipperITA/blob/main/index.md#menu)
 ***
 
 
@@ -297,7 +297,7 @@ Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart dis
 
 Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md)
 
-
+[torna al menu](https://github.com/sugar012/klipperITA/blob/main/index.md#menu)
 ***
 
 
@@ -308,7 +308,7 @@ Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/maste
 * [Pressure Advance](https://github.com/KevinOConnor/klipper/blob/master/docs/Pressure_Advance.md) - Per gestire la pressione del filamento e avere angoli più netti
 * [Resonance Compensation](https://www.klipper3d.org/Resonance_Compensation.html) - Per eliminare il ghosting dovuto alla risonanza della stampante
 
-
+[torna al menu](https://github.com/sugar012/klipperITA/blob/main/index.md#menu)
 ***
 
 
@@ -324,7 +324,7 @@ Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/maste
 * [Come aggiungere una webcam all’interfaccia web](https://3dp.tumbleweedlabs.com/firmware/klipper-firmware/adding-webcam-support-to-mainsail)
 
 
-
+[torna al menu](https://github.com/sugar012/klipperITA/blob/main/index.md#menu)
 ***
 
 
@@ -341,7 +341,7 @@ Dentro la cartella `config` della vostra o installazione o [Qui](https://github.
 -Dove devo mettere il file config della mia stampante?
 nella cartella `klipper_config`
 
-
+[torna al menu](https://github.com/sugar012/klipperITA/blob/main/index.md#menu)
 ***
 
 ## INSTALLAZIONE MULTIPRINTER
@@ -419,7 +419,7 @@ Con Prusaslicer/Superslicer basta mettere indirizzo IP:PORTA della rispettiva is
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image13.png" height="350">
 </p>
 
-
+[torna al menu](https://github.com/sugar012/klipperITA/blob/main/index.md#menu)
 ***
 
 ## COMMUNITY
