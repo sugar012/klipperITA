@@ -433,7 +433,8 @@ Per poter utilizzare due o più webcam con MJPG-Streamer (avendo seguito la [gui
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image30.png" height="100">
 </p>
-e dare i seguenti comandi
+
+e dare i seguenti comandi:
 
 ```shell
 sudo chmod +x /home/TUOUSER/scripts/webcam1
