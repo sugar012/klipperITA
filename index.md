@@ -15,7 +15,7 @@ Queste, oltre ad essere graficamente belle e curate, vanno a sostituire o affian
 
 >Tra gli altri vantaggi di klipper troviamo la possibilità di essere modificato senza alcuna compilazione: tramite l'interfaccia web è infatti possibile accedere al file di configurazione printer.cfg ed editarlo al volo. Basterà salvare e fare un restart del firmware et voilà! Vi dimenticherete di visual studio e di quelle mille righe di codice da scorrere ogni volta. Su klipper il printer.cfg funziona al contrario di Marlin: è vuoto e andremo ad aggiungere le funzioni dalla documentazione solo se ci interessano, questo rende più facile e veloce la configurazione.
 
->Per ulteriori approfondimenti qui un link con le features di [Klipper](https://www.klipper3d.org/Features.html)
+>Per ulteriori approfondimenti qui un link con le [features di Klipper](https://www.klipper3d.org/Features.html)
 
 Adesso cominciamo!
 
