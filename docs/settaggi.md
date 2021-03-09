@@ -10,7 +10,7 @@ permalink: /impostazioni-slicer/
 
 ## IMPOSTAZIONI SLICER
 
-Per l'upload diretto su server con Prusaslice/Superslicer basta inserie l' IP del server come di seguito:
+Per l'upload diretto su server con Prusaslicer/Superslicer basta inserie l'IP del server come di seguito:
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image13.png" height="350">
 </p>
