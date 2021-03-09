@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Raspberry
-nav_order: 2
+nav_order: 3
 ---
 
 Installare RPI imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry PI OS (other)”, quindi Raspberry PI Lite (32-bit).
