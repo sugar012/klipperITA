@@ -3,6 +3,7 @@ layout: default
 title: Webcam
 nav_order: 7
 has_children: false
+permalink: /webcam/
 ---
 ## INSTALLAZIONE WEBCAM
 
