@@ -6,6 +6,8 @@ has_children: false
 permalink: /configurazione/
 ---
 
+{% include breadcrumbs.html %}
+
 ## CONFIGURAZIONE
 
 
