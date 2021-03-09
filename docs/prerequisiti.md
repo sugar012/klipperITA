@@ -6,6 +6,10 @@ nav_order: 2
 
 ## PREREQUISITI
 
-Raspberry Pi, consigliato 3/4 (A+ o B+) ma anche uno zero andrebbe bene (meno porte) Micro SD Card (almeno 8Gb)
+* Una stampante 3D che monti una scheda con uno dei seguenti (quasi tutti) [bootloaders](https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md)
 
-Programmi utili: Bitwise SSH and sFTP client oppure WinSCP+Putty Raspberry PI Imager
+* Raspberry Pi, consigliato 3/4 (A+ o B+) ma anche uno zero andrebbe bene (meno porte)
+
+* Micro SD Card (almeno 8Gb)
+
+* Programmi utili: Bitwise SSH and sFTP client oppure WinSCP+Putty e Raspberry PI Imager
