@@ -2,6 +2,7 @@
 layout: default
 title: Prerequisiti
 nav_order: 2
+permalink: /prerequisiti/
 ---
 
 ## PREREQUISITI
