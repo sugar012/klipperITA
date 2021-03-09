@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Prerequisiti
-nav_order: 3
+nav_order: 2
 ---
 
 Raspberry Pi, consigliato 3/4 (A+ o B+) ma anche uno zero andrebbe bene (meno porte) Micro SD Card (almeno 8Gb)
