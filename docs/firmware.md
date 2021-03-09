@@ -3,6 +3,7 @@ layout: default
 title: Firmware
 nav_order: 5
 has_children: false
+permalink: /firmware/
 ---
 
 ## COMPILAZIONE FIRMWARE E FLASH SU STAMPANTE
