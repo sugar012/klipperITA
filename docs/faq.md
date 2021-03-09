@@ -6,6 +6,8 @@ has_children: false
 permalink: /faq/
 ---
 
+{% include breadcrumbs.html %}
+
 ## F.A.Q. aka Domande Frequenti
 
 Se non trovi una domanda con relativa risposta scrivine una di seguito, risponderemo quando possibile sui nostri canali.
