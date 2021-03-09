@@ -160,3 +160,5 @@ Cambiamo i permessi di `rc.local`:
 ```shell
 sudo chmod +x /etc/rc.local
 ```
+
+Il link da inserire nell'interfaccia web (`UI SETTINGS` in fluidd) sarà quindi http://IP/?action=stream
