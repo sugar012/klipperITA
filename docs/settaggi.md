@@ -6,6 +6,8 @@ has_children: false
 permalink: /settaggi/
 ---
 
+{% include breadcrumbs.html %}
+
 ## SETTAGGI SLICER
 
 Per l'upload diretto su server con Prusaslice/Superslicer basta inserie l' IP del server come di seguito:
