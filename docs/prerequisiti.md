@@ -5,7 +5,7 @@ nav_order: 2
 permalink: /prerequisiti/
 ---
 
-{% include _includes/breadcrumbs.html %}
+{% include breadcrumbs.html %}
 
 ## PREREQUISITI
 
