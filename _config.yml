@@ -2,6 +2,3 @@ title: "Guida Klipper"
 remote_theme: pmarsceill/just-the-docs
 logo: "/images/title.png"
 search_enabled: true
-relative_links:
-  enabled:     true
-  collections: true
