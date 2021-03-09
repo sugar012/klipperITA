@@ -6,6 +6,8 @@ has_children: false
 permalink: /community/
 ---
 
+{% include breadcrumbs.html %}
+
 ## COMMUNITY
 
 * [Discord (internazionale)](https://discord.klipper3d.org/)
