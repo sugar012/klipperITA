@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Webcam
+title: Installazione Webcam
 nav_order: 7
 has_children: false
-permalink: /webcam/
+permalink: /installazione-webcam/
 ---
 
 {% include breadcrumbs.html %}
