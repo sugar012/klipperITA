@@ -6,6 +6,8 @@ has_children: false
 permalink: /firmware/
 ---
 
+{% include breadcrumbs.html %}
+
 ## COMPILAZIONE FIRMWARE E FLASH SU STAMPANTE
 
 Per comunicare correttamente con la stampante la scheda di quest’ultima deve essere flashata per Klipper. 
