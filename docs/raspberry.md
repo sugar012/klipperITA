@@ -9,13 +9,13 @@ nav_order: 3
 Installare RPI imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry PI OS (other)”, quindi Raspberry PI Lite (32-bit).
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image6.png" height="180"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image1.png" height="180"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image20.png" height="180">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image6.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image1.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image20.png" width="300">
 </p>
 
 Premere su “Choose Sd card” e selezionare la microsd inserita precedentemente, quindi premere write ed acconsentire alla formattazione della MicroSD
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image8.png" height="180"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image5.png" height="180"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image15.png" height="180">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image8.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image5.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image15.png" width="300">
 </p>
 
 Una volta che la scrittura e’ terminata, rimuovere la MicroSD dal pc e re-inserirla: comparirà un volume "boot"
@@ -25,7 +25,7 @@ Decomprimere i due file direttamente nella root (cartella principale) della micr
 Aprire con BLOCCO NOTE il file appena copiato denominato “wpa_supplicant.conf”. Dentro le virgolette mettere il SSID(nome della wifi) della tua wifi e sotto mettere la password della wifi.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image12.png" height="280">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image12.png" width="280">
 </p>
 
 La microsd e’ ora pronta: toglierla dal computer ed inserirla nel Raspberry PI (da spento) ed alimentatelo. Aspettare qualche minuto per l’avvenuta connessione Wi-Fi
@@ -36,7 +36,7 @@ Una volta che si ha l’IP, aprire il programma Bitvise SSH Client, e configurar
 Inserire l’utente `pi` e la password di default `raspberry`
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image11.png" height="380">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image11.png" width="380">
 </p>
 
 Una Volta inseriti i dati, premere login, apparirà una notifica che ci chiede se vogliamo salvare la chiave privata per il tunnel SSH, gli diciamo sì per sempre.
@@ -71,3 +71,4 @@ A questo punto siamo pronti ad installare Kiauh, il gestore che permette di inst
 Bitvise ci notificherà della disconnessione avvenuta. Chiudiamo le finestre SSH e sFTP, clicchiamo su logout in basso, quindi cambiamo la password nella casella di testo con quella appena immessa. dopodiché aspettiamo che Bitwise si ricolleghi (in basso verrà notificato). Clicchiamo nuovamente login (dare 1 minuto al RPI per avviarsi) e andiamo sulla console SSH.
 
 A questo punto siamo pronti ad installare Kiauh, il gestore che permette di installare comodamente Klipper, le API Moonraker e una webGUI a nostra scelta come Fluidd.
+
