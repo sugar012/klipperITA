@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Calibrazioni
+title: Calibrazioni Klipper
 nav_order: 8
 has_children: false
-permalink: /calibrazioni/
+permalink: /calibrazioni-klipper/
 ---
 
 {% include breadcrumbs.html %}
 
-## CALIBRAZIONI
+## CALIBRAZIONI KLIPPER
 
-* [Verifica Configurazioni](https://github.com/KevinOConnor/klipper/blob/master/docs/Config_checks.md) - Da effettuare non appena installato e configurato Klipper
+* [Verifica Configurazioni](https://github.com/KevinOConnor/klipper/blob/master/docs/Config_checks.md) - Passi importanti da effettuare non appena installato e configurato Klipper
 
 * [Bed Leveling](https://www.klipper3d.org/Bed_Level.html) - Come calibrare il piatto usando Klipper
 * [E-Steps](https://github.com/KevinOConnor/klipper/blob/master/docs/Rotation_Distance.md#calibrating-rotation_distance-on-extruders) - Calibrazione degli steps estrusore
