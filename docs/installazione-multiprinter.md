@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Multiprinter
+title: Installazione Multiprinter
 nav_order: 11
 has_children: false
-permalink: /multiprinter/
+permalink: /installazione-multiprinter/
 ---
 
 {% include breadcrumbs.html %}
