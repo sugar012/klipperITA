@@ -8,7 +8,7 @@ has_children: false
 ## INSTALLAZIONE MULTICAM
 
 
-Per poter utilizzare due o più webcam con MJPG-Streamer (avendo seguito la [guida](https://github.com/sugar012/klipperITA/blob/main/index.md#altri-link-utili) basta aggiungere un altra coppia di scripts per l'avvio automatico nella cartella scripts.
+Per poter utilizzare due o più webcam con MJPG-Streamer (avendo seguito la [guida](https://sugar012.github.io/klipperITA/docs/links.html#altri-link-utili) basta aggiungere un altra coppia di scripts per l'avvio automatico nella cartella scripts.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image30.png" height="100">
