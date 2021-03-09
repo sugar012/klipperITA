@@ -5,6 +5,8 @@ nav_order: 4
 permalink: /kiau/
 ---
 
+{% include breadcrumbs.html %}
+
 ## INSTALLAZIONE KIAUH
 
 Prepariamoci ad installare Kiauh con il comando:
