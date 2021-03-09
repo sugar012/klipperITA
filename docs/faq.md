@@ -8,7 +8,7 @@ permalink: /faq/
 
 {% include breadcrumbs.html %}
 
-## F.A.Q. aka Domande Frequenti
+## F.A.Q. AKA DOMANDE FREQUENTI
 
 Se non trovi una domanda con relativa risposta scrivine una di seguito, risponderemo quando possibile sui nostri canali.
 
