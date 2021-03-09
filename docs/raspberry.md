@@ -54,7 +54,7 @@ sudo apt-get upgrade
 Ora cambiamo la password di default con una a nostra scelta:
 
 ```shell
-sudo passwd pi
+passwd pi
 ```
 
 Premiamo INVIO, poi digitiamo la nuova password (non c’e’ da preoccuparsi se non viene visualizzato niente nel terminale, e’ una misura di sicurezza).
