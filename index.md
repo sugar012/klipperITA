@@ -4,6 +4,9 @@ title: Benvenuto
 nav_order: 1
 has_children: false
 ---
+
+{% include breadcrumbs.html %}
+
 ## GUIDA INSTALLAZIONE KLIPPER
 
 
