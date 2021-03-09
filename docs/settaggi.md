@@ -3,6 +3,7 @@ layout: default
 title: Settaggi Slicer
 nav_order: 8
 has_children: false
+permalink: /settaggi/
 ---
 
 ## SETTAGGI SLICER
