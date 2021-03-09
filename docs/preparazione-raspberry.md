@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Raspberry
+title: Preparazione Raspberry Pi
 nav_order: 3
-permalink: /raspberry/
+permalink: /preparazione-raspberry/
 ---
 
 {% include breadcrumbs.html %}
