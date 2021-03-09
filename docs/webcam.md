@@ -5,6 +5,9 @@ nav_order: 7
 has_children: false
 permalink: /webcam/
 ---
+
+{% include breadcrumbs.html %}
+
 ## INSTALLAZIONE WEBCAM
 
 ATTENZIONE: Nei seguenti pezzi di codice di esempio sotituire sempre `TUOUSER` con il proprio username
