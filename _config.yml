@@ -4,4 +4,4 @@ logo: "/images/title.png"
 search_enabled: true
 relative_links:
   enabled:     true
-  collections: false
+  collections: true
