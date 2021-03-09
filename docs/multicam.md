@@ -3,6 +3,7 @@ layout: default
 title: Multicam
 nav_order: 12
 has_children: false
+permalink: /multicam/
 ---
 
 ## INSTALLAZIONE MULTICAM
