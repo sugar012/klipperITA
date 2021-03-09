@@ -7,13 +7,13 @@ nav_exclude: true
 Installare RPI imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry PI OS (other)”, quindi Raspberry PI Lite (32-bit).
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image6.png" width="250"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image1.png" width="250"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image20.png" width="250">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image6.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image1.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image20.png" width="300">
 </p>
 
 Premere su “Choose Sd card” e selezionare la microsd inserita precedentemente, quindi premere write ed acconsentire alla formattazione della MicroSD
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image8.png" width="250"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image5.png" width="250"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image15.png" width="250">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image8.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image5.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image15.png" width="300">
 </p>
 
 Una volta che la scrittura e’ terminata, rimuovere la MicroSD dal pc e re-inserirla: comparirà un volume "boot"
