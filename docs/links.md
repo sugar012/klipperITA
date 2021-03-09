@@ -14,4 +14,3 @@ has_children: false
 * [G-Codes](https://github.com/KevinOConnor/klipper/blob/master/docs/G-Codes.md) - Lista dei gcodes e comandi ammessi in klipper
 * [Bed Mesh e Homing con probe ed endstop separati](https://github.com/KevinOConnor/klipper/blob/master/docs/Bed_Mesh.md#the-relative-reference-index) 
 * [Plugins Moonraker](https://github.com/Arksine/moonraker/blob/master/docs/configuration.md) - (per esempio per spegnere e accendere la stampante con relè)
-* [Come aggiungere una webcam all’interfaccia web](https://docs.google.com/document/d/1AqtBhPTZOei1bds82Q2bN_Hy5QSHhvsh3vqAmPzSiJo) - Pagina 4
