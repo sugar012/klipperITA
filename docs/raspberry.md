@@ -3,6 +3,7 @@ layout: default
 title: Raspberry
 nav_order: 3
 permalink: /raspberry/
+breadcrumb_text: Raspberry Pi
 ---
 
 ## PREPARAZIONE RASPBERRY PI
