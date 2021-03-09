@@ -1,8 +1,8 @@
 ---
 layout: default
-title: KIAUH
+title: Installazione KIAUH
 nav_order: 4
-permalink: /kiau/
+permalink: /installazione-kiauh/
 ---
 
 {% include breadcrumbs.html %}
