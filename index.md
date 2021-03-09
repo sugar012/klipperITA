@@ -5,6 +5,8 @@ nav_order: 1
 has_children: false
 ---
 
+[prerequisiti >](/docs/prerequisiti.md)
+
 ## GUIDA INSTALLAZIONE KLIPPER
 <br/>
 **ATTENZIONE!**
