@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome
+title: Benvenuto
 nav_order: 1
 has_children: false
 ---
