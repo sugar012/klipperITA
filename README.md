@@ -7,5 +7,5 @@ Documentazione per l'installazione di Klipper Firmware e altri componenti
 
 * [Kevin O'Connor](https://github.com/KevinOConnor) per aver creato il fantastico firmware per stampanti 3D chiamato [Klipper](https://github.com/KevinOConnor/klipper)
 * [Eric Callahan (arksine)](https://github.com/Arksine) per [Moonraker (Klipper API)](https://github.com/Arksine/moonraker).
-* [Fluidd](https://github.com/cadriel/fluidd) di Cadriel
-* [Mainsail](https://github.com/meteyou/mainsail) di Meteyou
+* [Cadriel](https://github.com/cadriel) per la fantastica interfaccia [Fluidd](https://github.com/cadriel/fluidd)
+* [Meteyou](https://github.com/meteyou) per la altrettanto fantastica interfaccia [Mainsail](https://github.com/meteyou/mainsail)
