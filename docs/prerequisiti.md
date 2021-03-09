@@ -17,7 +17,7 @@ permalink: /prerequisiti/
 
 * Programmi utili:
   * Raspberry Pi Imager
-  * Bitwise SSH and sFTP client
+  * Bitvise SSH and sFTP client
 
      _oppure_
 
