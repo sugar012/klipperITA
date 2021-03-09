@@ -6,6 +6,8 @@ has_children: false
 permalink: /multiprinter/
 ---
 
+{% include breadcrumbs.html %}
+
 ## INSTALLAZIONE MULTIPRINTER
 
 KIAUH permette inoltre l’installazione automatica di due o più istanze di Klipper per poter gestire più stampanti.Il procedimento è simile all’installazione semplice con la sola differenza che quando KIAUH ci chiederà quante istanze installare andremo ad inserire il numero che ci interessa:
