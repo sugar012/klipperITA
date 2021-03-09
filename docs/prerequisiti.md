@@ -15,4 +15,10 @@ permalink: /prerequisiti/
 
 * Micro SD Card (almeno 8Gb)
 
-* Programmi utili: Bitwise SSH and sFTP client oppure WinSCP+Putty e Raspberry PI Imager
+* Programmi utili:
+  * Raspberry PI Imager
+  * Bitwise SSH and sFTP client
+
+     _oppure_
+
+  * WinSCP+Putty
