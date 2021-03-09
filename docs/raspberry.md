@@ -2,6 +2,7 @@
 layout: default
 title: Raspberry
 nav_order: 3
+permalink: /raspberry/
 ---
 
 ## PREPARAZIONE RASPBERRY PI
