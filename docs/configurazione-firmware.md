@@ -1,15 +1,14 @@
 ---
 layout: default
-title: Configurazione
+title: Installazione e Configurazione Firmware
 nav_order: 6
 has_children: false
-permalink: /configurazione/
+permalink: /configurazione-firmware/
 ---
 
 {% include breadcrumbs.html %}
 
-## CONFIGURAZIONE
-
+## INSTALLAZIONE E CONFIGURAZIONE FIRMWARE
 
 Prima di iniziare la configurazione è necessario recuperare la stringa della seriale della nostra stampante.
 Ancora su Kiauh tornare al menù advanced:
@@ -26,7 +25,7 @@ Copiamo questa stringa (ci servirà dopo).
 
 La parte difficile è adesso finita! Da ora in poi useremo l’interfaccia web :)
 
-Se tutto è andato correttamente e il Raspberry è collegato alla nostra rete LAN, inserendo il suo indirizzo IP su un browser di qualunque dispositivo collegato alla rete di casa dovrebbe comparire l’interfaccia web scelta.
+Se tutto è andato correttamente e il Raspberry è collegato alla nostra rete LAN, inserendo il suo indirizzo IP su un browser di qualunque dispositivo collegato alla rete di casa dovrebbe comparire l’interfaccia web scelta (negli esempi seguenti l'interfaccia Fluidd).
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image3.png" height="350">
