@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Firmware
+title: Compilazione Firmware
 nav_order: 5
 has_children: false
-permalink: /firmware/
+permalink: /compilazione-firmware/
 ---
 
 {% include breadcrumbs.html %}
