@@ -1,6 +1,6 @@
 ---
 layout: default
-title: F.A.Q.
+title: FAQ
 nav_order: 10
 has_children: false
 permalink: /faq/
