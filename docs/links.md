@@ -3,6 +3,7 @@ layout: default
 title: Link Utili
 nav_order: 9
 has_children: false
+permalink: /links/
 ---
 
 ## ALTRI LINK UTILI
