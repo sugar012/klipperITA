@@ -5,6 +5,29 @@ nav_order: 3
 permalink: /raspberry/
 ---
 
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="{{ site.baseurl }}">Raspberry</a>
+  </li>
+
+  {%- for category in page.categories -%}
+  {%-   assign crumb = site.data.breadcrumbs[category] -%}
+  {%-   if crumb -%}
+  <li class="breadcrumb-item">
+    <a href="{{ crumb.url | prepend: site.baseurl }}">
+      {{ crumb.title }}
+    </a>
+  </li>
+  {%-   endif -%}
+  {%- endfor -%}
+
+  <li class="breadcrumb-item active">
+    <a href="{{ page.url | prepend: site.baseurl }}">
+      {{ page.title }}
+    </a>
+  </li>
+</ol>
+
 ## PREPARAZIONE RASPBERRY PI
 
 Installare RPI imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry PI OS (other)”, quindi Raspberry PI Lite (32-bit).
