@@ -6,8 +6,7 @@ has_children: false
 ---
 
 ## GUIDA INSTALLAZIONE KLIPPER
-
-
+<br/>
 **ATTENZIONE!**
 
 Installare questo firmware richiede un minimo di manualità con linux e soprattutto con l’uso di Google, noi ci siamo impegnati a rendere la guida il più semplice possibile ma procedere a proprio rischio e leggere attentamente prima di acquistare il Raspberry.
