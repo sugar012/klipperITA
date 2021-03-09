@@ -6,6 +6,8 @@ has_children: false
 permalink: /calibrazioni/
 ---
 
+{% include breadcrumbs.html %}
+
 ## CALIBRAZIONI
 
 * [Bed Leveling](https://www.klipper3d.org/Bed_Level.html) - Come calibrare il piatto usando Klipper
