@@ -3,6 +3,7 @@ layout: default
 title: Calibrazioni
 nav_order: 8
 has_children: false
+permalink: /calibrazioni/
 ---
 
 ## CALIBRAZIONI
