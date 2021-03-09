@@ -3,6 +3,7 @@ layout: default
 title: Community
 nav_order: 13
 has_children: false
+permalink: /community/
 ---
 
 ## COMMUNITY
