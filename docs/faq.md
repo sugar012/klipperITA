@@ -3,6 +3,7 @@ layout: default
 title: F.A.Q.
 nav_order: 10
 has_children: false
+permalink: /faq/
 ---
 
 ## F.A.Q. aka Domande Frequenti
