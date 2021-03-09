@@ -16,7 +16,7 @@ permalink: /prerequisiti/
 * Micro SD Card (almeno 8Gb)
 
 * Programmi utili:
-  * Raspberry PI Imager
+  * Raspberry Pi Imager
   * Bitwise SSH and sFTP client
 
      _oppure_
