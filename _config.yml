@@ -5,6 +5,9 @@ search_enabled: true
 
 baseurl: "/"
 
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
+
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
