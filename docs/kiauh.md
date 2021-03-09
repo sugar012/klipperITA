@@ -2,6 +2,7 @@
 layout: default
 title: KIAUH
 nav_order: 4
+permalink: /kiau/
 ---
 
 ## INSTALLAZIONE KIAUH
