@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Settaggi Slicer
+title: Impostazioni Slicer
 nav_order: 8
 has_children: false
-permalink: /settaggi/
+permalink: /impostazioni-slicer/
 ---
 
 {% include breadcrumbs.html %}
 
-## SETTAGGI SLICER
+## IMPOSTAZIONI SLICER
 
 Per l'upload diretto su server con Prusaslice/Superslicer basta inserie l' IP del server come di seguito:
 <p align="center">
