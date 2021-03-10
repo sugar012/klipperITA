@@ -27,7 +27,7 @@ gcode:
     \{% endif %\}
     BED_MESH_CALIBRATE
     \{% if 'S' in params %\}
-      M140 S{S}
+      M140 S\{S\}
     \{% endif %\}
     G90
     G1 Z10 F240
