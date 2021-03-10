@@ -1,7 +1,7 @@
 ---
 layout: default
 title: G27 - Park toolhead
-nav_order: 2
+nav_order: 1
 parent: Raccolta Macro di Desuuuu
 has_children: false
 permalink: /g27/
