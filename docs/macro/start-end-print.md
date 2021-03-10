@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Start Print ed End Print
-nav_order: 1
+nav_order: 2
 parent: Esempi di Macro su Klipper
 has_children: false
 permalink: /start-end-print/
