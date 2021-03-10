@@ -1,3 +1,12 @@
+---
+layout: default
+title: Start Print ed End Print
+nav_order: 9
+parent: Esempi di Macro su Klipper
+has_children: false
+permalink: /start-end-print/
+---
+
 # ================================================================================
 # GCode Macro: START_PRINT
 # Add START_PRINT in your slicers starting script. 
