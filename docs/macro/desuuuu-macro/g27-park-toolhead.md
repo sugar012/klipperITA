@@ -2,7 +2,7 @@
 layout: default
 title: G27 - Park toolhead
 nav_order: 1
-parent: Esempi di Macro su Klipper
+parent: Raccolta Macro di Desuuuu
 has_children: false
 permalink: /g27/
 ---
