@@ -7,8 +7,6 @@ has_children: false
 permalink: /start-end-print/
 ---
 
-{% include breadcrumbs.html %}
-
 ## Esempio di "START_PRINT" ed "END_PRINT" da utilizzare nello Slicer
 
 ## ATTENZIONE: QUESTO E' SOLO UN ESEMPIO NON ANCORA UFFICIALE, NON UTILIZZARLO!!!
