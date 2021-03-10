@@ -7,7 +7,8 @@ has_children: false
 permalink: /g27/
 ---
 
-## Park the nozzle at a predefined XYZ position.
+## G27 - Park toolhead
+Park the nozzle at a predefined XYZ position.
 
 ```
 [gcode_macro G27]
