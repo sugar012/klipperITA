@@ -11,6 +11,7 @@ permalink: /g27/
 ## G27 - Park toolhead
 Park the nozzle at a predefined XYZ position.
 
+{% raw %}
 ```
 [gcode_macro G27]
 default_parameter_X: 20
@@ -28,3 +29,4 @@ gcode:
     RESTORE_GCODE_STATE NAME=G27_state MOVE=0
   {% endif %}
 ```
+{% endraw %}
