@@ -7,6 +7,8 @@ has_children: false
 permalink: /start-end-print/
 ---
 
+## ATTENZIONE: QUESTO E' SOLO UN ESEMPIO NON ANCORA UFFICIALE, NON UTILIZZARLO!!!
+
 ```
 # ================================================================================
 # GCode Macro: START_PRINT
