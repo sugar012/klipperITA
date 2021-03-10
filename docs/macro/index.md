@@ -10,4 +10,4 @@ permalink: /esempi-macro/
 
 ## ESEMPI DI MACRO SU KLIPPER
 
-In questa sezione troverete alcuni esempi di Macro che è possibile configurare su Klipper e da cui potete prendere spunto per poi adattarle alle vostre esigenze.
+In questa sezione troverete degli esempi di Macro che è possibile configurare su Klipper e da cui potete prendere spunto per poi adattarle alle vostre esigenze.
