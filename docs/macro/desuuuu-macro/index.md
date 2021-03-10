@@ -8,5 +8,3 @@ permalink: /desuuuu-macro/
 ---
 
 ## Raccolta di Macro dell'utente GitHub Desuuuu da utilizzare su Klipper
-
-## In stesura
