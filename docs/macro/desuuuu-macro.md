@@ -7,8 +7,6 @@ has_children: false
 permalink: /desuuuu-macro/
 ---
 
-{% include breadcrumbs.html %}
-
 ## Raccolta di Macro dell'utente GitHub Desuuuu da utilizzare su Klipper
 
 ## In stesura
