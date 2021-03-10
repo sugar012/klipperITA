@@ -1,7 +1,7 @@
 # klipperITA
 Documentazione per l'installazione di Klipper Firmware e altri componenti
 
-[Vai alla guida in formato web](bit.ly/guidaklipperITA)
+[Vai alla guida in formato web](https://bit.ly/guidaklipperITA)
 ## Credit & Sources
 * Grazie a: Laurienzu, Factotum_res, Jacopo Franco, TheBugLebowsky e sugar0 per aver creato questa guida!
 
