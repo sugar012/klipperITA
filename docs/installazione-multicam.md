@@ -73,5 +73,5 @@ Sostituiamo anche la stringa in `webcam1` come di seguito
 In ultimo andiamo quindi ad inserire nel file `/etc/rc.local` la stringa per l'avvio della seconda istanza 
 
 ```
-home/TUOUSER/scripts/webcam1 start
+/home/TUOUSER/scripts/webcam1 start
 ```
