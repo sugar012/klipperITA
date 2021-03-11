@@ -30,12 +30,12 @@ sudo ./mjpg_streamer -i "./input_uvc.so" -o "./output_http.so"
 ```
 
 
-Creaiamo lo script di avvio automatico(non usare sudo):
+Creaiamo lo script di avvio automatico (non usare sudo):
 
 ```shell
 cd ~
 mkdir scripts
-nano /home/TUOUSER/scripts/webcam
+nano ~/scripts/webcam
 ```
 
 ```
@@ -58,7 +58,7 @@ case "$1" in
 esac
 ```
 
-Creaiamo lo script demone dello stream(non usare sudo):
+Creaiamo lo script demone dello stream (non usare sudo):
 
 ```shell
 nano /home/TUOUSER/scripts/webcamDaemon
@@ -124,8 +124,8 @@ done
 Editiamo i permessi dei file di startup:
 
 ```shell
-sudo chmod +x /home/TUOUSER/scripts/webcam
-sudo chmod +x /home/TUOUSER/scripts/webcamDaemon
+chmod +x ~/scripts/webcam
+chmod +x ~/scripts/webcamDaemon
 ```
 
 Aggiungiamo `webcam` allo startup:
@@ -157,7 +157,7 @@ exit 0
 
 Start webcam:
 ```shell
-sudo /home/TUOUSER/scripts/webcam start
+sudo ~/scripts/webcam start
 ```
 
 Cambiamo i permessi di `rc.local`:
