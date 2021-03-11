@@ -70,7 +70,8 @@ Sostituiamo anche la stringa in `webcam1` come di seguito
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image32.png" height="450">
 </p>
 
-In ultimo andiamo quindi ad inserire nel file `/etc/rc.local` la stringa per l'avvio della seconda istanza 
+In ultimo andiamo quindi ad inserire nel file `/etc/rc.local` la stringa per l'avvio della seconda istanza.
+
 Attenzione a sostituire `TUOUSER` con il proprio user (quasi sempre sarà `pi`)
 
 ```
