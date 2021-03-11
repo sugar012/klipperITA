@@ -43,6 +43,7 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 ## Get your Telegram chat ID
 
 1. Paste the following link in your browser. Replace <API-access-token> with the API access token that you identified or created in the previous section:
+
 ```
 https://api.telegram.org/bot<API-access-token>/getUpdates?offset=0
 ```
@@ -50,6 +51,7 @@ https://api.telegram.org/bot<API-access-token>/getUpdates?offset=0
 3. Refresh your browser.
 
 4. Identify the numerical chat ID by finding the id inside the chat JSON object. In the example below, the chat ID is 123456789.
+
 ```
 {  
    "ok":true,
@@ -84,21 +86,25 @@ First of all check you have added [display_status] to your klipper config. when 
 Download an install the plugin
 
 if u use it the first time use this
+
 ```
 cd
 git clone https://github.com/Raabi91/moonraker-telegram
 cd moonraker-telegram
 ```
+
 then install the script with
 
 ```
 chmod 755 ./scripts/install.sh
 ./scripts/install.sh
 ```
+
 during installation you will be asked for the config path of moonraker. enter the full path here. if you have only one instance of moonraker it should 
 ```
 /home/pi/klipper_config
 ```
+
 be
 
 you will also be asked for multiple installations. 
