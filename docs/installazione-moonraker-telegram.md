@@ -12,17 +12,17 @@ permalink: /installazione-moonraker-telegram/
 
 ## PRESTO DISPONIBILE IN ITALIANO
 
-# Installation
-
 ## Create a Telegram bot
 
 1. Search for the @BotFather username in your Telegram application
 2. Click Start to begin a conversation with @BotFather
 3. Send /newbot to @BotFather. @BotFather will respond:
 4. Send your bot’s name to @BotFather. Your bot’s name can be anything.
+
 ```
 Note that this is not your bot’s Telegram @username. You will create the username in step 5.
 ```
+
 5. Send your bot’s username to @BotFather. BotFather will respond:
 6. Begin a conversation with your bot. Click on the t.me/<bot-username> link in @BotFather’s response and click Start at the bottom of your Telegram application. Your newly-created bot will appear in the chat list on the left side of the application.
 
@@ -33,6 +33,7 @@ Telegram’s @BotFather bot sent you an API access token when you created your b
 
 1. Send /token to @BotFather
 2. Select the relevant bot at the bottom of your Telegram application. @BotFather responds with a new API access token:
+
 ```
 You can use this token to access HTTP API:
 <API-access-token>
@@ -47,6 +48,7 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 ```
 https://api.telegram.org/bot<API-access-token>/getUpdates?offset=0
 ```
+
 2. Send a message to your bot in the Telegram application. The message text can be anything. Your chat history must include at least one message to get your chat ID.
 3. Refresh your browser.
 
@@ -101,6 +103,7 @@ chmod 755 ./scripts/install.sh
 ```
 
 during installation you will be asked for the config path of moonraker. enter the full path here. if you have only one instance of moonraker it should 
+
 ```
 /home/pi/klipper_config
 ```
