@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Installazione e Configurazione Firmware
-nav_order: 6
+parent: Guida installazione su Raspberri Pi
+nav_order: 5
 has_children: false
 permalink: /configurazione-firmware/
 ---
