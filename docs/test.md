@@ -1,4 +1,6 @@
 ---
+layout: default
+permalink: /links/
 nav_exclude: true
 ---
 
