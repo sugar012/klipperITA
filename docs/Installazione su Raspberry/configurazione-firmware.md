@@ -7,8 +7,6 @@ has_children: false
 permalink: /installazione-rpi/configurazione-firmware/
 ---
 
-{% include breadcrumbs.html %}
-
 ## INSTALLAZIONE E CONFIGURAZIONE FIRMWARE
 
 Prima di iniziare la configurazione è necessario recuperare la stringa della seriale della nostra stampante.
