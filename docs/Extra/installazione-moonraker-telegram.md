@@ -35,6 +35,7 @@ Good. Now let's choose a username for your bot. It must end in `bot`. Like this,
 ATTENZIONE: questo non sarà lo @username del nuovo bot Telegram. Lo @username verrà creato al passo 5.
 ```
 5. Invia lo `username` desiderato per il tuo bot a @BotFather seguito da `_bot` (es: Pippo_bot) e @BotFather risponderà con una serie di frasi fra cui la HTTP API token:
+{% raw %}
 ```
 Done! Congratulations on your new bot. You will find it at t.me/Pippo_bot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
 
@@ -44,6 +45,7 @@ Keep your token secure and store it safely, it can be used by anyone to control 
 
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api
 ```
+{% endraw %}
 6. Inizia una conversazione col tuo nuovo bot. Clicca sul link `t.me/<bot-username>` nella risposta di @BotFather’s e clicca su Start in basso sulla chat che si aprirà. Il bot appena creato apparirà nella lista delle chat Telegram.
 
 ## Recuperare l'access token della API Telegram
