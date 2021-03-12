@@ -5,8 +5,14 @@ nav_order: 1
 has_children: false
 ---
 
+
 ## GUIDA INSTALLAZIONE KLIPPER
-<br/>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/klipper-logo-it.png" height="350">
+</p>
+
+
 **ATTENZIONE!**
 
 Installare questo firmware richiede un minimo di manualità con linux e soprattutto con l’uso di Google, noi ci siamo impegnati a rendere la guida il più semplice possibile ma procedere a proprio rischio e leggere attentamente prima di acquistare un Raspberry Pi.
