@@ -1,12 +1,11 @@
 ---
 layout: default
 title: Installazione Webcam
-nav_order: 7
+parent: Extra
+nav_order: 1
 has_children: false
-permalink: /installazione-webcam/
+permalink: /extra/installazione-webcam/
 ---
-
-{% include breadcrumbs.html %}
 
 ## INSTALLAZIONE WEBCAM
 
