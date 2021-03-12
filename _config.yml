@@ -35,4 +35,4 @@ gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Google Analytics
-google_analytics:: G-40ECNP71SJ
+google_analytics: G-40ECNP71SJ
