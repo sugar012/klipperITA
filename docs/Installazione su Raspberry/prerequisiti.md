@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Prerequisiti
-nav_order: 2
+nav_order: 1
+parent: Guida installazione su Raspberri Pi
 permalink: /prerequisiti/
 ---
 
