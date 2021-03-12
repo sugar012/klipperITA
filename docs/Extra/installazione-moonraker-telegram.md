@@ -183,7 +183,7 @@ Se è stato fatto tutto a dovere, all'avvio di una stampa verrà inviata una not
 
 ## Configurazioni extra
 
-E possibile inviare una notifica Telegram ogni determinato numero di secondi modificando il parametro `time` sempre all'interno del file `telegram_config.sh` (nell'esempio seguente impostata a 900 secondi, quindi 15 minuti):
+Se necessario è possibile inviare una notifica Telegram ogni determinato numero di secondi modificando il parametro `time` sempre all'interno del file `telegram_config.sh` (nell'esempio seguente impostata a 900 secondi, quindi 15 minuti):
 
 {% raw %}
 ```
