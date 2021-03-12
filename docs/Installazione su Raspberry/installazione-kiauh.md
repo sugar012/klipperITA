@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Installazione KIAUH
-nav_order: 4
+parent: Guida installazione su Raspberri Pi
+nav_order: 3
 permalink: /installazione-kiauh/
 ---
 
