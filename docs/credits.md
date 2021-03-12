@@ -1,12 +1,9 @@
 ---
 layout: default
 title: Credits
-nav_order: 15
-has_children: false
+nav_order: 8
 permalink: /credits/
 ---
-
-{% include breadcrumbs.html %}
 
 ## CREDITS
 
