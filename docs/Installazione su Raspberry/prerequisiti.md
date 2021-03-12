@@ -3,7 +3,7 @@ layout: default
 title: Prerequisiti
 nav_order: 1
 parent: Guida installazione su Raspberri Pi
-permalink: /prerequisiti/
+permalink: /installazione-rpi/prerequisiti/
 ---
 
 ## PREREQUISITI
