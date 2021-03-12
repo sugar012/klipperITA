@@ -4,10 +4,8 @@ title: Compilazione Firmware
 parent: Guida installazione su Raspberri Pi
 nav_order: 4
 has_children: false
-permalink: /compilazione-firmware/
+permalink: /installazione-rpi/compilazione-firmware/
 ---
-
-{% include breadcrumbs.html %}
 
 ## COMPILAZIONE FIRMWARE E FLASH SU STAMPANTE
 
