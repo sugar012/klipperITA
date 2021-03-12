@@ -1,12 +1,11 @@
 ---
 layout: default
 title: Installazione Moonraker-Telegram
-nav_order: 8
+parent: Extra
+nav_order: 2
 has_children: false
-permalink: /installazione-moonraker-telegram/
+permalink: /extra/installazione-moonraker-telegram/
 ---
-
-{% include breadcrumbs.html %}
 
 ## INSTALLAZIONE MOONRAKER-TELEGRAM
 
