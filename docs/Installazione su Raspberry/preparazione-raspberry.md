@@ -3,10 +3,8 @@ layout: default
 title: Preparazione Raspberry Pi
 nav_order: 2
 parent: Guida installazione su Raspberri Pi
-permalink: /preparazione-raspberry/
+permalink: /installazione-rpi/preparazione-raspberry/
 ---
-
-{% include breadcrumbs.html %}
 
 ## PREPARAZIONE RASPBERRY PI
 
