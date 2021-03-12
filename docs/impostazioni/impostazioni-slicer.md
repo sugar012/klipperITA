@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Impostazioni Slicer
-nav_order: 10
-has_children: false
+parent: impostazioni
+nav_order: 2
 permalink: /impostazioni-slicer/
 ---
 
