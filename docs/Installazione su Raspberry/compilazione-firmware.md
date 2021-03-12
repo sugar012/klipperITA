@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Compilazione Firmware
-parent: Guida installazione su Raspberri Pi
+parent: Installazione su Raspberry
 nav_order: 4
 has_children: false
 permalink: /installazione-rpi/compilazione-firmware/
