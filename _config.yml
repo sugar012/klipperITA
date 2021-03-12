@@ -3,7 +3,13 @@ remote_theme: pmarsceill/just-the-docs
 logo: "/images/klipper-logo-it.png"
 search_enabled: true
 
-#baseurl: "/"
+# Build settings
+baseurl: "/docs" # the subpath of your site, e.g. /blog
+url: "https://klipper-italia.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+# permalink: pretty
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
+, "docs/tests/"
+]
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: foo
