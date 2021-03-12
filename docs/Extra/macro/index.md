@@ -4,7 +4,7 @@ title: Macro
 parent: Extra
 nav_order: 1
 has_children: true
-permalink: /extra/macro/esempi-macro/
+permalink: /extra/macro/
 ---
 
 ## ESEMPI DI MACRO SU KLIPPER
