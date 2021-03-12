@@ -2,7 +2,7 @@
 layout: default
 title: Start Print ed End Print
 nav_order: 2
-parent: Macro
+parent: /Extra/Macro/
 has_children: false
 permalink: /extra/macro/start-end-print/
 ---
