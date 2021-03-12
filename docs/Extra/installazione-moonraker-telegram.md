@@ -37,7 +37,7 @@ Inserisci il nome del bot che vuoi creare (es: Pippo) e @BotFather risponderà:
 ```
 Good. Now let's choose a username for your bot. It must end in `bot`. Like this, for example: TetrisBot or tetris_bot.
 
-ATTENZIONE: questo non sarà lo @username del nuovo bot Telegram. Lo @username verrà creato al passo 5.
+ATTENZIONE: questo non sarà lo @username del nuovo bot Telegram. Lo @username verrà creato al prossimo passo.
 ```
 {% endraw %}
 
@@ -59,7 +59,7 @@ Inizia una conversazione col tuo nuovo bot. Clicca sul link `t.me/<bot-username>
 
 ## Recuperare l'access token della API Telegram
 
-Il bot @BotFather invierà una API access token non appena creato il tuo bot. Per recuperare il tuo token relativo al bot, vedi il passo 5 nella precedente sezione. Se non riesci a trovare la API access token, crea un nuovo token seguendo i passi indicati di seguito.
+Il bot @BotFather invierà una API access token non appena creato il tuo bot. Per recuperare il tuo token relativo al bot, vedi la precedente sezione. Se non riesci a trovare la API access token, crea un nuovo token seguendo i passi indicati di seguito.
 
 Invia `/token` a @BotFather
 
