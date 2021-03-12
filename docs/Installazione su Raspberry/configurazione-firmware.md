@@ -4,7 +4,7 @@ title: Installazione e Configurazione Firmware
 parent: Guida installazione su Raspberri Pi
 nav_order: 5
 has_children: false
-permalink: /configurazione-firmware/
+permalink: /installazione-rpi/configurazione-firmware/
 ---
 
 {% include breadcrumbs.html %}
