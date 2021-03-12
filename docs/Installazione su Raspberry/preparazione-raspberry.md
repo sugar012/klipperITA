@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Preparazione Raspberry Pi
-nav_order: 3
+nav_order: 2
+parent: Guida installazione su Raspberri Pi
 permalink: /preparazione-raspberry/
 ---
 
