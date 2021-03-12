@@ -4,7 +4,7 @@ title: Start Print ed End Print
 nav_order: 2
 parent: Esempi di Macro su Klipper
 has_children: false
-permalink: /start-end-print/
+permalink: /extra/macro/start-end-print/
 ---
 
 ## Esempio di "START_PRINT" ed "END_PRINT" da utilizzare nello Slicer
