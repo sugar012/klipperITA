@@ -3,10 +3,8 @@ layout: default
 title: Impostazioni Slicer
 parent: Impostazioni
 nav_order: 2
-permalink: /impostazioni-slicer/
+permalink: /installazione-rpi/impostazioni-slicer/
 ---
-
-{% include breadcrumbs.html %}
 
 ## IMPOSTAZIONI SLICER
 
