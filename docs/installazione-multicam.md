@@ -1,12 +1,11 @@
 ---
 layout: default
 title: Installazione Multicam
-nav_order: 13
+parent: Extra
+nav_order: 4
 has_children: false
-permalink: /installazione-multicam/
+permalink: /extra/installazione-multicam/
 ---
-
-{% include breadcrumbs.html %}
 
 ## INSTALLAZIONE MULTICAM
 
