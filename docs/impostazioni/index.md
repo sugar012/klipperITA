@@ -6,7 +6,4 @@ has_children: true
 permalink: /impostazioni/
 ---
 
-
-{% include breadcrumbs.html %}
-
 ## Impostazioni e settaggi Klipper
