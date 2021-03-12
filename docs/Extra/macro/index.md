@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Esempi di Macro su Klipper
+parent: Extra
 nav_order: 1
 has_children: true
 permalink: /extra/macro/esempi-macro/
