@@ -1,12 +1,10 @@
 ---
 layout: default
 title: Esempi di Macro su Klipper
-nav_order: 10
+nav_order: 1
 has_children: true
-permalink: /esempi-macro/
+permalink: /extra/macro/esempi-macro/
 ---
-
-{% include breadcrumbs.html %}
 
 ## ESEMPI DI MACRO SU KLIPPER
 
