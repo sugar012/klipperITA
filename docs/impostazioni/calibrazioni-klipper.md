@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Calibrazioni Klipper
-parent: Extra
+parent: impostazioni
 nav_order: 1
 permalink: /calibrazioni-klipper/
 ---
