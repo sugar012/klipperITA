@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Start Print ed End Print
+title: Start Print / End Print
 nav_order: 2
 parent: Macro
-has_children: false
+has_children: true
 permalink: /extra/macro/start-end-print/
 ---
 
