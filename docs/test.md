@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /links/
+permalink: /test/
 nav_exclude: true
 ---
 
