@@ -1,12 +1,9 @@
 ---
 layout: default
 title: Community
-nav_order: 14
-has_children: false
+nav_order: 7
 permalink: /community/
 ---
-
-{% include breadcrumbs.html %}
 
 ## COMMUNITY
 
