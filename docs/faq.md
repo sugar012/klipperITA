@@ -1,12 +1,9 @@
 ---
 layout: default
 title: FAQ
-nav_order: 11
-has_children: false
+nav_order: 5
 permalink: /faq/
 ---
-
-{% include breadcrumbs.html %}
 
 ## F.A.Q. AKA DOMANDE FREQUENTI
 
