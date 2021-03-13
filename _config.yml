@@ -1,4 +1,6 @@
-title: "Guida Klipper"
+title: "Guida installazione Klipper"
+tagline: Guida in italiano installazione Klipper e altri componenti
+description: Documentazione in Italiano per l'installazione del Firmware Klipper, Moonraker, Mainsail, Fluidd e altri componenti per Stampanti 3D
 remote_theme: pmarsceill/just-the-docs
 logo: "/images/klipper-logo-it.png"
 search_enabled: true
@@ -38,6 +40,13 @@ gh_edit_repository: "https://github.com/sugar012/klipperITA" # the github URL fo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      image: images/rtfm.png
 
 # Google Analytics
 ga_tracking: UA-6214740-11
