@@ -259,7 +259,7 @@ Ora apriamo il file di configurazione `telegram_config.sh` dove, oltre ad inseri
 
 ## Configurazioni extra
 
-Se necessario è possibile inviare una notifica Telegram ogni determinato numero di secondi modificando il parametro `time` sempre all'interno del file `telegram_config.sh` (nell'esempio seguente il parametro è impostato a 300 secondi, ovvero 5 minuti):
+Se necessario, quando si è in stampa è possibile inviare una notifica Telegram sullo stato della stampa stessa ogni determinato numero di secondi, basta modificare il parametro `time` sempre all'interno del file `telegram_config.sh` (nell'esempio seguente il parametro è impostato a 300 secondi, ovvero 5 minuti):
 
 {% raw %}
 ```
@@ -268,7 +268,7 @@ time="300"
 ```
 {% endraw %}
 
-al termine di qualsiasi modifica è sempre necessario riavviare moonraker-telegram da SSH con il seguente comando
+al termine di qualsiasi modifica è sempre necessario riavviare moonraker-telegram da SSH con il seguente comando (valido solo per il singola istanza, per istanza multipla differisce, quindi si deve inserire il nome fornito all'istanza)
 
 {% raw %}
 ```
