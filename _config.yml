@@ -11,6 +11,7 @@ url: "https://klipper-italia.xyz" # the base hostname & protocol for your site, 
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: foo
