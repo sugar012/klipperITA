@@ -15,7 +15,7 @@ Se non si possiede già un bot Telegram è necessario procedere alla creazione s
 
 A seconda dei casi servirà l'installazione su singola o multipla istanza:
 
-[Installazione su singola istanza](#installazione-su-singola-istanza) - Per installare una sola stampante 3D connessa al Raspberry Pi
+[Installazione singola istanza](#installazione-singola-istanza) - Per installare una sola stampante 3D connessa al Raspberry Pi
 
 [Installazione su istanze multiple](#installazione-su-istanze-multiple) - Per installare multiple stampanti 3D connesse ad un solo Raspberry Pi
 
