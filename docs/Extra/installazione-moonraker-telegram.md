@@ -216,7 +216,46 @@ Se è stato eseguito tutto a dovere, all'avvio di una stampa verrà inviata una 
 
 **ATTENZIONE: Questa configurazione è opzionale ed è necessaria solo se si possiedono due stampanti 3D connesse allo stesso Raspberry Pi e si vogliono ricevere notifiche su due bot separati. Ciò implica a sua volta che siano presenti due istanze distinte e separate di moonraker.**
 
-IN STESURA - A BREVE DISPONIBILE
+Se provieni da una singola istanza procediamo quanto segue:
+
+{% raw %}
+```
+cd
+git clone https://github.com/Raabi91/moonraker-telegram moonraker-telegram2
+cd moonraker-telegram2
+chmod 755 ./scripts/install.sh
+sudo ./scripts/install.sh
+```
+{% endraw %}
+
+durante l'installazione ti verrà richiesto di indicare il percorso contenente il file di configurazione di moonraker:
+
+{% raw %}
+```
+your moonraker config path (like /home/pi/klipper_config):
+```
+{% endraw %}
+
+inserire il percorso di del secondo config di klipper che avete scelto nell'installazione multipreinter. Se avete seguito la guida sarà:
+
+{% raw %}
+```
+/home/pi/klipper_config/printer_2
+```
+{% endraw %}
+
+uccessivamente verrà richiesto se si desidera configurare installazioni multiple:
+
+{% raw %}
+```
+if you want to use multiple instances on one pi, enter an identifier here. this is needed to create the sytemd service
+If you only use it once per hardware, simply press enter.
+```
+{% endraw %}
+
+Questa volta inseriamo `2` e verrà quindi creata una istanza di autoavvio al boot chiamata `moonraker-telegram2.service`
+
+Oraapriamo il file di configurazione dove, oltre ad inserire i dati del secondo bot, c'è da modificare la porta di moonraker al quale si collega da `7125` a `7126` che è quella che è stat scelta nell'installazione multiprinter. Inoltre, scorrendo in basso, cambiare la porta della webcam sulla stringa `webcam="http://127.0.0.1:8080/?action=snapshot` in `8081`. ora riavviate il servizio o tutta la macchina e dovrestre avere i due bot distinti.
 
 ## Configurazioni extra
 
