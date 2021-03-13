@@ -11,7 +11,11 @@ permalink: /extra/installazione-moonraker-telegram/
 
 Con questo plugin è possibile inviare a un bot Telegram messaggi sullo stato delle stampe 3D comprensivi di foto (se è stata configurata una Cam sul Raspberry Pi).
 
-Se non si possiede già un bot Telegram è necessario procedere alla creazione seguendo tutti i passi della guida, mentre se si è già in possesso di un bot Telegram basta seguire la guida dal punto [Installare lo script su un Raspberry Pi](#installare-lo-script-su-un-raspberry-pi) in avanti.
+Se non si possiede già un bot Telegram è necessario procedere alla creazione seguendo tutti i passi della guida, mentre se si è già in possesso di un bot Telegram basta seguire la guida dal punto [Installare lo script su un Raspberry Pi](#installare-lo-script-su-un-raspberry-pi).
+
+A seconda dei casi servirà l'installazione su singola o multipla istanza:
+[Installazione su singola istanza](#installazione-su-singola-istanza) - Per installare una sola stampante 3D connessa al Raspberry Pi
+[Installazione su istanze multiple](#installazione-su-istanze-multiple) - Per installare multiple stampanti 3D connesse ad un solo Raspberry Pi
 
 ## Creazione di un bot Telegram
 
@@ -135,7 +139,7 @@ git clone https://github.com/Raabi91/moonraker-telegram
 ```
 {% endraw %}
 
-## Installazione istanza singola
+## Installazione singola istanza
 
 **ATTENZIONE: Questa configurazione è necessaria se si possiede un Raspberry Pi connesso a una sola stampante 3D.
 Se si possiedono più stampanti 3D connesse a un solo Raspberry Pi seguire i punti alla sezione [Installazione istanze multiple](#installazione-istanze-multiple)**
@@ -206,9 +210,9 @@ Se è stato eseguito tutto a dovere, all'avvio di una stampa verrà inviata una 
 
 ## Installazione istanze multiple
 
-**ATTENZIONE: Questa configurazione è opzionale ed è necessaria solo se si possiedono due stampanti 3D connesse allo stesso Raspberry Pi e si vogliono ricevere notifiche su due bot separati.**
+**ATTENZIONE: Questa configurazione è opzionale ed è necessaria solo se si possiedono due stampanti 3D connesse allo stesso Raspberry Pi e si vogliono ricevere notifiche su due bot separati. Ciò implica a sua volta che siano presenti due istanze distinte e separate di moonraker.**
 
-IN STESURA
+IN STESURA - A BREVE DISPONIBILE
 
 ## Configurazioni extra
 
