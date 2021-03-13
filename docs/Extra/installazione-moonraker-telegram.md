@@ -122,32 +122,43 @@ Recuperare il numero di chat ID ricercando l'id all'interno dell'oggetto JSON. N
 ```
 {% endraw %}
 
-## Installare lo script su un Raspberry Pi
+## Installazione script su un Raspberry Pi
 
 Innanzitutto verifica di aver aggiunto la stringa `[display_status]` alla configurazione di klipper. Se già presente non è necessario effettuare operazioni.
 
-Scarica e installa il plugin
-
-se è la prima volta che si procede allo scaricamento del plugin è necessario utilizzare i seguenti comandi SSH
+Se è la prima volta che procedi allo scaricamento del plugin è necessario utilizzare i seguenti comandi SSH
 
 {% raw %}
 ```
 cd
 git clone https://github.com/Raabi91/moonraker-telegram
-cd moonraker-telegram
 ```
 {% endraw %}
 
-quindi è possibile installare lo script con i seguenti comandi
+## Installazione istanza singola
+
+Questa configurazione è necessaria se si possiede un Raspberry Pi connesso a una sola stampante 3D.
+Se si possiedono più stampanti 3D connesse a un solo Raspberry Pi seguire i punti alla sezione [Installazione istanze multiple](#Installazione-istanze-multiple)
+
+Una volta scaricato lo script come indicato sopra è possibile procedere all'installazione con i seguenti comandi
 
 {% raw %}
 ```
+cd moonraker-telegram
 chmod 755 ./scripts/install.sh
 ./scripts/install.sh
 ```
 {% endraw %}
 
-durante l'installazione ti verrà richiesto di indicare il percorso contenente il file di configurazione di moonraker. Inserisci il percorso completo. Se hai solo una istanza di moonraker il percorso sarà il seguente 
+durante l'installazione ti verrà richiesto di indicare il percorso contenente il file di configurazione di moonraker:
+
+{% raw %}
+```
+your moonraker config path (like /home/pi/klipper_config):
+```
+{% endraw %}
+
+inserire il percorso di default che sarà il seguente
 
 {% raw %}
 ```
@@ -155,8 +166,16 @@ durante l'installazione ti verrà richiesto di indicare il percorso contenente i
 ```
 {% endraw %}
 
-verrà anche richiesto se si hanno installazioni multiple. 
-Nel caso si abbia una sola installazione, basterà solo confermare premendo invio. 
+successivamente verrà richiesto se si desidera configurare installazioni multiple:
+
+{% raw %}
+```
+if you want to use multiple instances on one pi, enter an identifier here. this is needed to create the sytemd service
+If you only use it once per hardware, simply press enter.
+```
+{% endraw %}
+
+essendo una installazione su istanza singola è necessario solo confermare premendo invio.
 
 Da questo punto in poi sarà possibile modificare la configurazione utilizzando l'interfaccia web di Mainsail o Fluidd, modificando il file `telegram_config.sh`
 
@@ -183,7 +202,13 @@ sudo systemctl restart moonraker-telegram
 ```
 {% endraw %}
 
-Se è stato fatto tutto a dovere, all'avvio di una stampa verrà inviata una notifica su Telegram all'interno del proprio bot.
+Se è stato eseguito tutto a dovere, all'avvio di una stampa verrà inviata una notifica su Telegram all'interno del proprio bot.
+
+## Installazione istanze multiple
+
+ATTENZIONE: Questa configurazione è opzionale ed è necessaria solo se si possiedono due stampanti 3D connesse allo stesso Raspberry Pi e si vogliono ricevere notifiche su due bot separati.
+
+IN STESURA
 
 ## Configurazioni extra
 
