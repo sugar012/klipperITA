@@ -128,7 +128,7 @@ Recuperare il numero di chat ID ricercando l'id all'interno dell'oggetto JSON. N
 ```
 {% endraw %}
 
-## Installazione lo script su un Raspberry Pi
+## Installare lo script su un Raspberry Pi
 
 Innanzitutto verifica di aver aggiunto la stringa `[display_status]` alla configurazione di klipper. Se già presente non è necessario effettuare operazioni.
 
@@ -144,7 +144,6 @@ git clone https://github.com/Raabi91/moonraker-telegram
 ## Installazione singola istanza
 
 **ATTENZIONE: Questa configurazione è necessaria se si possiede un Raspberry Pi connesso a una sola stampante 3D.
-
 Se si possiedono più stampanti 3D connesse a un solo Raspberry Pi seguire i punti alla sezione [Installazione istanze multiple](#installazione-istanze-multiple)**
 
 Una volta scaricato lo script come indicato sopra è possibile procedere all'installazione con i seguenti comandi
