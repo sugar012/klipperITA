@@ -5,6 +5,7 @@ nav_order: 1
 has_children: false
 ---
 
+{% raw %}{% seo %}{% endraw %}
 
 ## GUIDA INSTALLAZIONE KLIPPER
 
