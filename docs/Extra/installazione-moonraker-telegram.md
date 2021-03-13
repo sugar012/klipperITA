@@ -122,7 +122,7 @@ Recuperare il numero di chat ID ricercando l'id all'interno dell'oggetto JSON. N
 ```
 {% endraw %}
 
-## Installazione script su un Raspberry Pi
+## Installazione lo script su un Raspberry Pi
 
 Innanzitutto verifica di aver aggiunto la stringa `[display_status]` alla configurazione di klipper. Se già presente non è necessario effettuare operazioni.
 
