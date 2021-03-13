@@ -218,12 +218,12 @@ IN STESURA - A BREVE DISPONIBILE
 
 ## Configurazioni extra
 
-Se necessario è possibile inviare una notifica Telegram ogni determinato numero di secondi modificando il parametro `time` sempre all'interno del file `telegram_config.sh` (nell'esempio seguente impostata a 900 secondi, quindi 15 minuti):
+Se necessario è possibile inviare una notifica Telegram ogni determinato numero di secondi modificando il parametro `time` sempre all'interno del file `telegram_config.sh` (nell'esempio seguente il parametro è impostato a 300 secondi, ovvero 5 minuti):
 
 {% raw %}
 ```
 # time in seconds to get an State update. to disable set it to 0
-time="900"
+time="300"
 ```
 {% endraw %}
 
