@@ -154,7 +154,7 @@ Una volta scaricato lo script come indicato sopra è possibile procedere all'ins
 ```
 cd moonraker-telegram
 chmod 755 ./scripts/install.sh
-sudo ./scripts/install.sh
+./scripts/install.sh
 ```
 {% endraw %}
 
@@ -224,7 +224,7 @@ cd
 git clone https://github.com/Raabi91/moonraker-telegram moonraker-telegram2
 cd moonraker-telegram2
 chmod 755 ./scripts/install.sh
-sudo ./scripts/install.sh
+./scripts/install.sh
 ```
 {% endraw %}
 
