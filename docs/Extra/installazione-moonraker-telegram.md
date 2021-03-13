@@ -138,7 +138,7 @@ git clone https://github.com/Raabi91/moonraker-telegram
 ## Installazione istanza singola
 
 Questa configurazione è necessaria se si possiede un Raspberry Pi connesso a una sola stampante 3D.
-Se si possiedono più stampanti 3D connesse a un solo Raspberry Pi seguire i punti alla sezione [Installazione istanze multiple](#Installazione-istanze-multiple)
+Se si possiedono più stampanti 3D connesse a un solo Raspberry Pi seguire i punti alla sezione [Installazione istanze multiple](#installazione-istanze-multiple)
 
 Una volta scaricato lo script come indicato sopra è possibile procedere all'installazione con i seguenti comandi
 
