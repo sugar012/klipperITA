@@ -8,6 +8,7 @@ has_children: false
 
 ## GUIDA INSTALLAZIONE KLIPPER ED ALTRE COMPONENTI
 
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/klipper-logo-it.png" height="350">
 </p>
