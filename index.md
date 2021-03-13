@@ -6,7 +6,7 @@ nav_order: 1
 has_children: false
 ---
 
-## GUIDA INSTALLAZIONE KLIPPER ED ALTRE COMPONENTI
+## GUIDA INSTALLAZIONE KLIPPER E ALTRI COMPONENTI
 
 
 <p align="center">
