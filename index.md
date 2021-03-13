@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Benvenuto
+description: Guida per l'installazione del Firmware Klipper, Moonraker, Mainsail, Fluidd e altri componenti per Stampanti 3D
 nav_order: 1
 has_children: false
 ---
