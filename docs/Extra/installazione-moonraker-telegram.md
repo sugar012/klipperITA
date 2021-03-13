@@ -19,6 +19,8 @@ A seconda dei casi servirà l'installazione su singola o multipla istanza:
 
 [Installazione su istanze multiple](#installazione-su-istanze-multiple) - Per installare multiple stampanti 3D connesse ad un solo Raspberry Pi
 
+{:toc}
+
 ## Creazione di un bot Telegram
 
 Cerca lo user @BotFather all'interno dell'applicazione Telegram
