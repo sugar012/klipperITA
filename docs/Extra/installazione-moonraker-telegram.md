@@ -17,7 +17,7 @@ A seconda dei casi servirà l'installazione su singola o multipla istanza:
 
 [Installazione singola istanza](#installazione-singola-istanza) - Per installare una sola stampante 3D connessa al Raspberry Pi
 
-[Installazione su istanze multiple](#installazione-su-istanze-multiple) - Per installare multiple stampanti 3D connesse ad un solo Raspberry Pi
+[Installazione su istanze multiple](#installazione-istanze-multiple) - Per installare multiple stampanti 3D connesse ad un solo Raspberry Pi
 
 
 
