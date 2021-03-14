@@ -30,6 +30,8 @@ In caso si volessero visualizzare il numero di layer da interfaccia web (Fluidd 
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/prusaslicer-superslicer-layer.png" height="400">
 </p>
 
+dopo aver avviato la stampa apparirà il numero del layer in stampa al momento e il conteggio totale di layer, sia sull'interfaccia web che sul display della stampante (se presente e supportato).
+
 ### ULTIMAKER CURA
 
 Per l'upload diretto su server con con Ultimaker Cura è necessario installare dal Marketplace il Plugin "OctoPrint Connection"
@@ -69,3 +71,5 @@ In caso si volessero visualizzare il numero di layer da interfaccia web (Fluidd 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/cura-layer-display.png" height="450">
 </p>
+
+dopo aver avviato la stampa apparirà il numero del layer in stampa al momento e il conteggio totale di layer, sia sull'interfaccia web che sul display della stampante (se presente e supportato).
