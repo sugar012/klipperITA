@@ -66,7 +66,7 @@ Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/maste
 
 - **Configurazione Opzionale per visualizzazione layer di stampa**
 
-In caso si volessero visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Ultimaker Cura sotto "Extensions" - "Post Processing" - "Modify G-Code" all'apertura del pop-up selezionare "Add a script" e "Display Filename And Layer On LCD", come da esempio seguente
+In caso si volessero visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Ultimaker Cura sotto il menu "Extensions --> Post Processing --> Modify G-Code" all'apertura del pop-up selezionare "Add a script" e "Display Filename And Layer On LCD", come da esempio seguente
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/cura-layer-display.png" height="450">
