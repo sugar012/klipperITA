@@ -15,6 +15,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-target-blank
+  
+# Aux links for the upper right navigation
+aux_links:
+  "Torna alla Home":
+    - "//klipper-italia.xyz"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: foo
