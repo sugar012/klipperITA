@@ -130,6 +130,20 @@ Recuperare il numero di chat ID ricercando l'id all'interno dell'oggetto JSON. N
 ```
 {% endraw %}
 
+In alternativa, tramite l'App Telegram è possibile scrivere al bot [GetIDs Bot](https://t.me/getidsbot), il bot risponderà con la `chat ID`, che non è altro che il valore del campo `id` (nell'esempio seguente `12345678`):
+
+{% raw %}
+```
+👤 You
+ ├ id: 12345678
+ ├ is_bot: false
+ ├ first_name: XYZ
+ ├ username: Pippo (https://t.me/XYZ)
+ ├ language_code: en (-)
+ └ created: ~ 2/2014 (?) (https://t.me/getidsbot?start=idhelp)
+ ```
+  {% endraw %}
+
 ## Installare lo script su un Raspberry Pi
 
 Innanzitutto verifica di aver aggiunto la stringa `[display_status]` alla configurazione di klipper. Se già presente non è necessario effettuare operazioni.
