@@ -3,7 +3,7 @@ layout: default
 title: Calibrazioni Klipper
 parent: Impostazioni
 nav_order: 1
-permalink: /installazione-rpi/calibrazioni-klipper/
+permalink: /impostazioni/calibrazioni-klipper/
 ---
 
 ## CALIBRAZIONI KLIPPER
