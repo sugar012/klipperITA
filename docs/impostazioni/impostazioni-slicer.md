@@ -8,7 +8,7 @@ permalink: /installazione-rpi/impostazioni-slicer/
 
 ## IMPOSTAZIONI SLICER
 
-- **Prusaslicer/Superslicer**
+- **PRUSASLICER/SUPERSLICER**
 
 Per l'upload diretto su server con Prusaslicer/Superslicer basta inserie l'IP del server come di seguito:
 
@@ -30,7 +30,7 @@ In caso si volessero visualizzare il numero di layer da interfaccia web (Fluidd 
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/prusaslicer-superslicer-layer.png" height="400">
 </p>
 
-- **Ultimaker Cura**
+- **ULTIMAKER CURA**
 
 Per l'upload diretto su server con con Ultimaker Cura è necessario installare dal Marketplace il Plugin "OctoPrint Connection"
 
