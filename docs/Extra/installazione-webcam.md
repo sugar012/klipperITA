@@ -119,6 +119,8 @@ while true; do
     sleep 120
 done
 ```
+Salviamo il documento con `CTRL+X`
+
 In nello script è possibile aggiustare risoluzione e framerate semplicemente editando i valori nella riga `camera_usb_options`.
 
 Si consiglia di non esagerare con la risoluzione e il framerate perchè molto dipendono dal vostro sistema/rete. Per stare conservativi e avere buona fluidità rimanere al messimo a 720p e 15/20fps.
@@ -156,7 +158,7 @@ sudo nano /etc/rc.local
 
 exit 0
 ```
-
+Salviamo il documento con `CTRL+X`
 
 Start webcam:
 ```shell
