@@ -16,17 +16,19 @@ Per l'upload diretto su server con Prusaslicer/Superslicer basta inserie l'IP de
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image13.png" height="350">
 </p>
 
-Per visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Prusaslicer/Superslicer sotto "Printer Settings" - "Custom G-code" e non modificando i G-code già esistenti, inserire `M117` nel campo "End G-code" e {% raw %}`M117 Layer {layer_num+1} of [total_layer_count]`{% endraw %} nel campo "Before layer change G-code", come da esempio seguente
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/prusaslicer-superslicer-layer.png" height="400">
-</p>
-
 se tutti i passi sono stati effettuati correttamente ci si connetterà senza problemi a Moonraker e si potranno inviare i file direttamente dallo Slicer all'interfaccia Web. 
 
 Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart distance e advance extruder pressure..
 
 Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md)
+
+- Configurazione Opzionale
+
+In caso si volessero visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Prusaslicer/Superslicer sotto "Printer Settings" - "Custom G-code" e non modificando i G-code già esistenti, inserire `M117` nel campo "End G-code" e {% raw %}`M117 Layer {layer_num+1} of [total_layer_count]`{% endraw %} nel campo "Before layer change G-code", come da esempio seguente
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/prusaslicer-superslicer-layer.png" height="400">
+</p>
 
 - **Ultimaker Cura**
 
@@ -54,14 +56,16 @@ una volta aggiunta l'istanza, inserire una API Key casuale (es: 1234567890) e cl
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/moonraker_octoprint_cura.png" height="300">
 </p>
 
-Per visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Ultimaker Cura sotto "Extensions" - "Post Processing" - "Modify G-Code" all'apertura del pop-up selezionare "Add a script" e "Display Filename And Layer On LCD", come da esempio seguente
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/cura-layer-display.png" height="450">
-</p>
-
 se tutti i passi sono stati effettuati correttamente ci si connetterà senza problemi a Moonraker e si potranno inviare i file direttamente dallo Slicer all'interfaccia Web. 
 
 Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart distance e advance extruder pressure..
 
 Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md)
+
+- Configurazione Opzionale
+
+In caso si volessero visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Ultimaker Cura sotto "Extensions" - "Post Processing" - "Modify G-Code" all'apertura del pop-up selezionare "Add a script" e "Display Filename And Layer On LCD", come da esempio seguente
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/cura-layer-display.png" height="450">
+</p>
