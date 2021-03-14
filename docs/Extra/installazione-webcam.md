@@ -60,7 +60,7 @@ esac
 Creaiamo lo script demone dello stream (non usare sudo):
 
 ```shell
-nano /home/TUOUSER/scripts/webcamDaemon
+nano ~/scripts/webcamDaemon
 ```
 ```
 #!/bin/bash
@@ -119,6 +119,10 @@ while true; do
     sleep 120
 done
 ```
+In nello script è possibile aggiustare risoluzione e framerate semplicemente editando i valori nella riga `camera_usb_options`.
+
+Si consiglia di non esagerare con la risoluzione e il framerate perchè molto dipendono dal vostro sistema/rete. Per stare conservativi e avere buona fluidità rimanere al messimo a 720p e 15/20fps.
+
 
 Editiamo i permessi dei file di startup:
 
