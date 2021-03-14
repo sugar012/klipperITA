@@ -169,3 +169,7 @@ sudo chmod +x /etc/rc.local
 ```
 
 Il link da inserire nell'interfaccia web (`UI SETTINGS` in fluidd) sarà quindi http://VOSTRO-IP:8080/?action=stream
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image33.png" height="450">
+</p>
