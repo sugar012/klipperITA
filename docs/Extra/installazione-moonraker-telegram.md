@@ -99,7 +99,7 @@ https://api.telegram.org/bot<API-access-token>/getUpdates?offset=0
 Invia un messaggio al tuo bot tramite l'applicazione Telegram. Il contenuto del messaggio può essere qualunque frase. La cronologia della chat dovrà contenere almeno un messaggio per poter recuperare la chat ID.
 Effettua un refresh del browser (lo si può fare anche premendo il tasto F5 sulla tastiera del PC).
 
-Recuperare il numero di chat ID ricercando l'id all'interno dell'oggetto JSON. Nell'esempio seguente la chat ID è `123456789`.
+Recuperare il valore numerico di chat ID ricercando l'id all'interno dell'oggetto JSON. Nell'esempio seguente la `chat ID` è `123456789`.
 
 {% raw %}
 ```
@@ -112,13 +112,13 @@ Recuperare il numero di chat ID ricercando l'id all'interno dell'oggetto JSON. N
             "message_id":2,
             "from":{  
                "id":123456789,
-               "first_name":"Fungo",
-               "last_name":"Cane"
+               "first_name":"XYZ",
+               "last_name":"ZYX"
             },
             "chat":{  
                "id":123456789,
-               "first_name":"Fungo",
-               "last_name":"Cane",
+               "first_name":"XYZ",
+               "last_name":"ZYX",
                "type":"private"
             },
             "date":1487183963,
@@ -130,7 +130,7 @@ Recuperare il numero di chat ID ricercando l'id all'interno dell'oggetto JSON. N
 ```
 {% endraw %}
 
-In alternativa, tramite l'App Telegram è possibile scrivere al bot [GetIDs Bot](https://t.me/getidsbot), il bot risponderà con la `chat ID`, che non è altro che il valore del campo `id` (nell'esempio seguente `12345678`):
+In alternativa, tramite l'App Telegram è possibile scrivere al bot [GetIDs Bot](https://t.me/getidsbot), il bot risponderà con la `chat ID`, che non è altro che il valore numerico del campo `id` (nell'esempio seguente `12345678`):
 
 {% raw %}
 ```
@@ -138,7 +138,7 @@ In alternativa, tramite l'App Telegram è possibile scrivere al bot [GetIDs Bot]
  ├ id: 12345678
  ├ is_bot: false
  ├ first_name: XYZ
- ├ username: Pippo (https://t.me/XYZ)
+ ├ username: XYZ (https://t.me/XYZ)
  ├ language_code: en (-)
  └ created: ~ 2/2014 (?) (https://t.me/getidsbot?start=idhelp)
  ```
