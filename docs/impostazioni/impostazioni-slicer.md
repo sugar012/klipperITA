@@ -22,6 +22,12 @@ Per visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/prusaslicer-superslicer-layer.png" height="400">
 </p>
 
+se tutti i passi sono stati effettuati correttamente ci si connetterà senza problemi a Moonraker e si potranno inviare i file direttamente dallo Slicer all'interfaccia Web. 
+
+Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart distance e advance extruder pressure..
+
+Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md)
+
 - **Ultimaker Cura**
 
 Per l'upload diretto su server con con Ultimaker Cura è necessario installare dal Marketplace il Plugin "OctoPrint Connection"
@@ -48,8 +54,13 @@ una volta aggiunta l'istanza, inserire una API Key casuale (es: 1234567890) e cl
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/moonraker_octoprint_cura.png" height="300">
 </p>
 
-se tutti i passi sono stati effettuati correttamente ci si connetterà senza problemi a Moonraker e si potranno inviare i file direttamente dallo Slicer all'interfaccia Web. 
+Per visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Ultimaker Cura sotto "Extensions" - "Post Processing" - "Modify G-Code" all'apertura del pop-up selezionare "Add a script" e "Display Filename And Layer On LCD", come da esempio seguente
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/cura-layer-display.png" height="450">
+</p>
+
+se tutti i passi sono stati effettuati correttamente ci si connetterà senza problemi a Moonraker e si potranno inviare i file direttamente dallo Slicer all'interfaccia Web. 
 
 Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart distance e advance extruder pressure..
 
