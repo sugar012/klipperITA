@@ -8,7 +8,9 @@ permalink: /impostazioni/impostazioni-slicer/
 
 ## IMPOSTAZIONI SLICER
 
+
 **ATTENZIONE: Prima di procedere è necessario accertarsi che sia stata configurata la stringa {% raw %}`[octoprint_compat]`{% endraw %} all'interno del file di configurazione `moonraker.conf`, in caso non sia stata configurata, la seguente procedura non funzionerà.**
+
 
 ### PRUSASLICER/SUPERSLICER
 
