@@ -24,7 +24,7 @@ Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/maste
 
 - **Configurazione Opzionale per visualizzazione layer di stampa**
 
-In caso si volessero visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Prusaslicer/Superslicer sotto "Printer Settings" - "Custom G-code" e non modificando i G-code già esistenti, inserire `M117` nel campo "End G-code" e {% raw %}`M117 Layer {layer_num+1} of [total_layer_count]`{% endraw %} nel campo "Before layer change G-code", come da esempio seguente
+In caso si volesse visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Prusaslicer/Superslicer sotto "Printer Settings" - "Custom G-code" e non modificando i G-code già esistenti, inserire `M117` nel campo "End G-code" e {% raw %}`M117 Layer {layer_num+1} of [total_layer_count]`{% endraw %} nel campo "Before layer change G-code", come da esempio seguente
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/prusaslicer-superslicer-layer.png" height="400">
@@ -66,7 +66,7 @@ Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/maste
 
 - **Configurazione Opzionale per visualizzazione layer di stampa**
 
-In caso si volessero visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Ultimaker Cura sotto il menu "Extensions --> Post Processing --> Modify G-Code" all'apertura del pop-up selezionare "Add a script" e "Display Filename And Layer On LCD", come da esempio seguente
+In caso si volesse visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Ultimaker Cura sotto il menu "Extensions --> Post Processing --> Modify G-Code" all'apertura del pop-up selezionare "Add a script" e "Display Filename And Layer On LCD", come da esempio seguente
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/cura-layer-display.png" height="450">
