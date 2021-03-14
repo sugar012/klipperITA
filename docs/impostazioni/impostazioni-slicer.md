@@ -22,7 +22,7 @@ Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart dis
 
 Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md)
 
-- Configurazione Opzionale
+- Configurazione Opzionale per visualizzazione layer di stampa
 
 In caso si volessero visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Prusaslicer/Superslicer sotto "Printer Settings" - "Custom G-code" e non modificando i G-code già esistenti, inserire `M117` nel campo "End G-code" e {% raw %}`M117 Layer {layer_num+1} of [total_layer_count]`{% endraw %} nel campo "Before layer change G-code", come da esempio seguente
 
@@ -64,7 +64,7 @@ Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart dis
 
 Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md)
 
-- Configurazione Opzionale
+- Configurazione Opzionale per visualizzazione layer di stampa
 
 In caso si volessero visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Ultimaker Cura sotto "Extensions" - "Post Processing" - "Modify G-Code" all'apertura del pop-up selezionare "Add a script" e "Display Filename And Layer On LCD", come da esempio seguente
 
