@@ -6,7 +6,7 @@ nav_order: 3
 permalink: /installazione-rpi/installazione-kiauh/
 ---
 
-# INSTALLAZIONE KIAUH
+# Installazione KIAUH
 
 Prepariamoci ad installare Kiauh con il comando:
 
