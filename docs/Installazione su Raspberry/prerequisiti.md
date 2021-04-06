@@ -10,7 +10,7 @@ permalink: /installazione-rpi/prerequisiti/
 
 * Una stampante 3D che monti una scheda con uno dei seguenti (quasi tutti) [bootloaders](https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md){:target="_blank"}
 
-* Un Raspberry Pi, consigliato 3/4 (A+ o B+) ma anche uno zero andrebbe bene (meno porte e meno performante)
+* Un Raspberry Pi (RPi), consigliato RPi 3 oppure RPi 4 (A+ o B+) ma anche uno zero andrebbe bene (meno porte e meno performance)
 
 * Micro SD Card (da almeno 8Gb)
 
