@@ -8,7 +8,7 @@ permalink: /installazione-rpi/preparazione-raspberry/
 
 # Preparazione Raspberry Pi
 
-Installare RPI imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry PI OS (other)”, quindi Raspberry PI Lite (32-bit).
+Installare Raspberry Pi imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry Pi OS (other)”, quindi Raspberry Pi Lite (32-bit).
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image6.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image1.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image20.png" width="300">
@@ -22,7 +22,7 @@ Premere su “Choose Sd card” e selezionare la microsd inserita precedentement
 
 Una volta che la scrittura e’ terminata, rimuovere la MicroSD dal pc e re-inserirla: comparirà un volume "boot"
 
-Per poter abilitare SSH e WIFI direttamente al boot(headless mode) scaricare i [seguenti due files](https://github.com/Blaster1920/RPI_headless_tools/tree/main) cliccando su “Code”, poi “download zip”.
+Per poter abilitare SSH e WIFI direttamente al boot(headless mode) scaricare i [seguenti due files](https://github.com/Blaster1920/RPI_headless_tools/tree/main){:target="_blank"} cliccando su “Code”, poi “download zip”.
 Decomprimere i due file direttamente nella root (cartella principale) della micro sd. 
 Aprire con BLOCCO NOTE il file appena copiato denominato “wpa_supplicant.conf”. Dentro le virgolette mettere il SSID(nome della wifi) della tua wifi e sotto mettere la password della wifi.
 
