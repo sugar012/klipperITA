@@ -15,7 +15,8 @@ has_children: false
 </p>
 
 
-**ATTENZIONE!**
+## ATTENZIONE!
+{: .text-center }
 
 **Installare questo firmware richiede un minimo di manualità con linux e soprattutto con l’uso di Google, noi ci siamo impegnati a rendere la guida il più semplice possibile ma procedere a proprio rischio e leggere attentamente prima di acquistare un Raspberry Pi, che è il sistema SBC sulla quale sono basati i comandi e le configurazioni presenti in questa guida.**
 
