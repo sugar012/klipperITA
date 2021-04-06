@@ -8,17 +8,11 @@ permalink: /extra/installazione-moonraker-telegram/
 ---
 
 ## INSTALLAZIONE MOONRAKER-TELEGRAM
-{: .no_toc .text-delta }
+{: .no_toc }
 
 Con questo plugin è possibile inviare a un bot Telegram messaggi sullo stato delle stampe 3D comprensivi di foto (se è stata configurata una Cam sul Raspberry Pi).
 
 Se non si possiede già un bot Telegram è necessario procedere alla creazione seguendo tutti i passi della guida, mentre se si è già in possesso di un bot Telegram basta seguire la guida dal punto [Installare lo script su un Raspberry Pi](#installare-lo-script-su-un-raspberry-pi).
-
-A seconda dei casi servirà l'installazione su singola o multipla istanza:
-
-[Installazione singola istanza](#installazione-singola-istanza) - Per installare una sola stampante 3D connessa al Raspberry Pi
-
-[Installazione su istanze multiple](#installazione-istanze-multiple) - Per installare multiple stampanti 3D connesse ad un solo Raspberry Pi
 
 - TOC
 {:toc}
