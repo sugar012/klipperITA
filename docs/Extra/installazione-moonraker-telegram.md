@@ -360,3 +360,26 @@ Se tutti i passi saranno stati effettuati correttamente, apparirà la voce `moon
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/moonraker-telegram-update-manager.png" height="500">
 </p>
+
+### Inserimento comandi di controllo stampa da @BotFather
+
+Tramite il bot Telegram è possibile inviare dei messaggi che effettuano delle azioni/operazioni sulla stampante.
+
+Per poter configurare queste azioni è necessario aprire la chat con @BotFather, inviare il comando `/setcommands`, se si hanno bot multipli, @BotFather chiederà su quale bot impostare i comandi `Choose a bot to change the list of commands.`, quindi selezionare il bot interessato, inserire le seguenti stringhe (devono essere su un singolo messaggio con linee multiple) ed inviare il messaggio
+
+{% raw %}
+```
+state - Sends the current status including a current photo.
+pause - Pause current Print.  A confirmation is required
+resume - resume current Print.
+cancel - Aborts the currently running print. A confirmation is required
+help - show list of commands.
+print - Will open a file dialog showing the files stored in moonraker. You can select a file to print it.
+```
+{% endraw %}
+
+ ed inviare il messaggio.
+
+Se tutto è stato impostato correttamente @BotFather risponderà `Success! Command list updated. /help`.
+
+Dal bot configurato per la Stampante sarà possibile interagire con la Stampante 3D stessa tramite moonraker-telegram, inviando uno dei messaggi sopra riportati antecedendo lo `/` gli stessi effettueranno le azioni indicate nelle descrizioni (es: `/state` invia lo stato attuale della stampante comprensivo di foto).
