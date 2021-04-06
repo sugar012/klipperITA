@@ -24,7 +24,7 @@ se tutti i passi sono stati effettuati correttamente ci si connetterà senza pro
 
 Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart distance e advance extruder pressure..
 
-Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md)
+Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md){:target="_blank"}
 
 - **Configurazione Opzionale per visualizzazione layer di stampa**
 
@@ -66,7 +66,7 @@ se tutti i passi sono stati effettuati correttamente ci si connetterà senza pro
 
 Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart distance e advance extruder pressure..
 
-Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md)
+Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md){:target="_blank"}
 
 - **Configurazione Opzionale per visualizzazione layer di stampa**
 
