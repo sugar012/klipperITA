@@ -5,7 +5,7 @@ nav_order: 5
 permalink: /faq/
 ---
 
-## F.A.Q. AKA DOMANDE FREQUENTI
+# F.A.Q. AKA DOMANDE FREQUENTI
 
 Se non trovi una domanda con relativa risposta scrivine una di seguito, risponderemo quando possibile sui nostri canali.
 
