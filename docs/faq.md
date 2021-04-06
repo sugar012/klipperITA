@@ -19,4 +19,4 @@ Se non trovi una domanda con relativa risposta scrivine una di seguito, risponde
 
 * **Dove devo salvare il file `printer.cfg` della mia stampante?**
   
-  - *Nella cartella `~/klipper_config/`*
+  - *Dentro la cartella `~/klipper_config/`*
