@@ -5,6 +5,7 @@ tagline: Documentazione in Italiano per l'installazione del Firmware Klipper, Ma
 description: Documentazione in Italiano per l'installazione del Firmware Klipper, Moonraker, Mainsail, Fluidd e altri componenti per Stampanti 3D
 nav_order: 1
 has_children: false
+last_modified_date
 ---
 
 # Guida Installazione Klipper e altri Componenti
