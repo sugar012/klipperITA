@@ -17,6 +17,6 @@ Se non trovi una domanda con relativa risposta scrivine una di seguito, risponde
   
   - *[VEDI QUI](https://klipper-italia.xyz/impostazioni/calibrazioni-klipper/){:target="_blank"}*
 
-* **Dove devo salvare il file `printer.cfg` della mia stampante e il file `moonraker.conf`?**
+* **Dove devo salvare il file `moonraker.conf` e il file `printer.cfg` della mia stampante?**
   
   - *Dentro la cartella `~/klipper_config/`*
