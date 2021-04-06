@@ -408,6 +408,32 @@ Apr 06 14:01:26 RPi4-3DPrinter systemd[1]: Started moonraker-telegram.
 ```
 {% endraw %}
 
+Se dovesse essere presente un errore di permission simile al seguente:
+
+{% raw %}
+```
+chmod: changing permissions of '/home/pi/klipper_config/telegram_config.sh': Operation not permitted
+```
+{% endraw %}
+
+molto probabilmente non sono impostate sul file le permission corrette, quindi verificare con il comando `ls -la /home/pi/klipper_config/telegram_config.sh` le permission del file e se sono `root:root` come da esempio seguente
+
+{% raw %}
+```
+-rwxrwxrwx 1 root root 1373 Apr  6 14:00 /home/pi/klipper_config/telegram_config.sh
+```
+{% endraw %}
+
+lanciare il comando `sudo chown pi:pi /home/pi/klipper_config/telegram_config.sh` per modificarle, successivamente verificare che siano state correttamente modificate in `pi:pi` come da esempio seguente
+
+{% raw %}
+```
+-rwxrwxrwx 1 pi pi 1373 Apr  6 14:00 /home/pi/klipper_config/telegram_config.sh
+```
+{% endraw %}
+
+Infine riavviare il processo `moonraker-telegram`
+
 Se alle voci `<yout_bot_id>` e `<your_chat_id>` sono presenti rispettivamente il bot_id e la chat_id Telegram e il sopra menzionato comando non restituisce degli errori, vuol dire che il plugin funziona correttamente.
 
 In caso contrario tentare con un riavvio del processo oppure un riavvio del Raspberry Pi, se non dovesse ancora funzionare, rivedere la procedura di installazione/upgrade e le configurazioni all'interno del file `telegram_config.sh` (ricordarsi di procedere a un restart del processo `moonraker-telegram` ad ogni modifica effettuata).
