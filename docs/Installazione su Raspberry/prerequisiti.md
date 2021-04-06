@@ -6,7 +6,7 @@ parent: Installazione su Raspberry
 permalink: /installazione-rpi/prerequisiti/
 ---
 
-# PREREQUISITI
+# Prerequisiti
 
 * Una stampante 3D che monti una scheda con uno dei seguenti (quasi tutti) [bootloaders](https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md)
 
