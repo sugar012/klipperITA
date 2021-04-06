@@ -11,11 +11,11 @@ Se non trovi una domanda con relativa risposta scrivine una di seguito, risponde
 
 * Dove trovo il config per la mia stampante? 
 
-Dentro la cartella `~/klipper/config/` della vostra o installazione o [Qui](https://github.com/KevinOConnor/klipper/tree/master/config)
+Dentro la cartella `~/klipper/config/` della vostra o installazione o [QUI](https://github.com/KevinOConnor/klipper/tree/master/config){:target="_blank"}
 
 * Come faccio a calibrare il piatto? 
 
-[Qui](https://sugar012.github.io/klipperITA/docs/calibrazioni.html#calibrazioni)
+[VEDI QUI](https://klipper-italia.xyz/impostazioni/calibrazioni-klipper/){:target="_blank"}
 
 * Dove devo mettere il file config della mia stampante?
 
