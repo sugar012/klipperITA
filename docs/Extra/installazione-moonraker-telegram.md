@@ -434,6 +434,6 @@ lanciare il comando `sudo chown pi:pi /home/pi/klipper_config/telegram_config.sh
 
 Infine riavviare il processo `moonraker-telegram`
 
-Se alle voci `<yout_bot_id>` e `<your_chat_id>` sono presenti rispettivamente il bot_id e la chat_id Telegram e il sopra menzionato comando non restituisce degli errori, vuol dire che il plugin funziona correttamente.
+Se alle voci `<yout_bot_id>` e `<your_chat_id>` sono presenti rispettivamente il bot_id e la chat_id Telegram e il sopra menzionato comando non restituisce degli errori, il plugin dovrebbe funzionare correttamente.
 
 In caso contrario tentare con un riavvio del processo oppure un riavvio del Raspberry Pi, se non dovesse ancora funzionare, rivedere la procedura di installazione/upgrade e le configurazioni all'interno del file `telegram_config.sh` (ricordarsi di procedere a un restart del processo `moonraker-telegram` ad ogni modifica effettuata).
