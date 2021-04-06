@@ -17,6 +17,6 @@ Se non trovi una domanda con relativa risposta scrivine una di seguito, risponde
   
   - *[VEDI QUI](https://klipper-italia.xyz/impostazioni/calibrazioni-klipper/){:target="_blank"}*
 
-* **Dove devo salvare il file config della mia stampante?**
+* **Dove devo salvare il file `printer.cfg` della mia stampante?**
   
   - *Nella cartella `~/klipper_config/`*
