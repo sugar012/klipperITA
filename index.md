@@ -7,7 +7,7 @@ nav_order: 1
 has_children: false
 ---
 
-# GUIDA INSTALLAZIONE KLIPPER E ALTRI COMPONENTI
+# Guida Installazione Klipper e altri Componenti
 
 
 <p align="center">
