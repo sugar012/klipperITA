@@ -273,6 +273,8 @@ Ora apriamo il file di configurazione `telegram_config.sh` dove, oltre ad inseri
 
 ## Configurazioni extra
 
+### Invio notifica temporizzata sullo stato della stampa
+
 Se necessario, quando si è in stampa è possibile inviare una notifica Telegram sullo stato della stampa stessa ogni determinato numero di secondi, basta modificare il parametro `time` sempre all'interno del file `telegram_config.sh` (nell'esempio seguente il parametro è impostato a 300 secondi, ovvero 5 minuti):
 
 {% raw %}
@@ -282,7 +284,61 @@ time="300"
 ```
 {% endraw %}
 
+E' anche possibile scegliere se farsi inviare il messaggio di notifica corredato di foto, modificando il valore da `picture="0"` a `picture="1"`
+
+{% raw %}
+```
+# with picture = 1, without picture = 0
+picture="1"
+```
+{% endraw %}
+
 al termine di qualsiasi modifica è sempre necessario riavviare moonraker-telegram da SSH con il seguente comando (valido solo per il singola istanza, per istanza multipla differisce, quindi si deve inserire il nome fornito all'istanza)
+
+{% raw %}
+```
+sudo systemctl restart moonraker-telegram
+```
+{% endraw %}
+
+### Aggiornamento manuale
+
+Per aggiornare manualmente `moonraker-telegram` basta entrare nel path di installazione (es: /home/pi/moonraker-telegram) ed effettuare i seguenti passi
+
+{% raw %}
+```
+cd ~/moonraker-telegram
+git pull
+./scripts/install.sh
+```
+{% endraw %}
+
+Rispondere `NO` alla eventuale richiesta di sovrascrittura del file `telegram_config.sh` ed infine riavviare `moonraker-telegram`
+
+{% raw %}
+```
+sudo systemctl restart moonraker-telegram
+```
+{% endraw %}
+
+### Aggiornamento automatico tramite interfaccia grafica
+
+In uno dei recenti aggiornamenti è stato introdotta la possibilità di aggiornare `moonraker-telegram` direttamente dall'interfaccia grafica di Fluidd o Mainsail.
+Dopo aver aggiornato il plugin basta inserire la seguente configurazione all'interno del file `moonraker.conf` (es: /home/pi/klipper_config/moonraker.conf)
+
+{% raw %}
+```
+[update_manager client moonraker-telegram]
+type: git_repo
+path: /home/pi/moonraker-telegram ### ATTENZIONE: Questo deve essere il path dove è installato il plugin
+origin: https://github.com/Raabi91/moonraker-telegram.git
+env: /home/pi/.moonraker-telegram-env/bin/python
+requirements: scripts/moonraker-telegram-requirements.txt
+install_script: scripts/install.sh
+```
+{% endraw %}
+
+e successivamente riavviare `moonraker-telegram` con il seguente comando
 
 {% raw %}
 ```
