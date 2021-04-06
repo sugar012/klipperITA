@@ -364,7 +364,7 @@ Se tutti i passi saranno stati effettuati correttamente, apparirà la voce `moon
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/moonraker-telegram-update-manager.png" height="500">
 </p>
 
-### Inserimento comandi di controllo/interazione con la Stampante
+### Inserimento comandi di controllo/interazione con la Stampante 3D
 
 Tramite il bot Telegram è possibile inviare dei messaggi che effettuano delle azioni/operazioni sulla stampante.
 
