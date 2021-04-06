@@ -324,6 +324,7 @@ sudo systemctl restart moonraker-telegram
 ### Aggiornamento automatico tramite interfaccia grafica
 
 In uno dei recenti aggiornamenti è stato introdotta la possibilità di aggiornare `moonraker-telegram` direttamente dall'interfaccia grafica di Fluidd o Mainsail.
+
 Dopo aver aggiornato il plugin basta inserire la seguente configurazione all'interno del file `moonraker.conf` (es: /home/pi/klipper_config/moonraker.conf)
 
 {% raw %}
