@@ -7,7 +7,7 @@ has_children: false
 permalink: /installazione-rpi/configurazione-firmware/
 ---
 
-## INSTALLAZIONE E CONFIGURAZIONE FIRMWARE
+# INSTALLAZIONE E CONFIGURAZIONE FIRMWARE
 
 Prima di iniziare la configurazione è necessario recuperare la stringa della seriale della nostra stampante.
 Ancora su Kiauh tornare al menù advanced:
