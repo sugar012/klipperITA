@@ -361,7 +361,7 @@ Se tutti i passi saranno stati effettuati correttamente, apparirà la voce `moon
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/moonraker-telegram-update-manager.png" height="500">
 </p>
 
-### Inserimento comandi di controllo stampa da @BotFather
+### Inserimento comandi di controllo/interazione con la Stampante
 
 Tramite il bot Telegram è possibile inviare dei messaggi che effettuano delle azioni/operazioni sulla stampante.
 
