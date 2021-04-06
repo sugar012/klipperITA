@@ -5,7 +5,7 @@ nav_order: 7
 permalink: /community/
 ---
 
-# COMMUNITY
+# Community
 
 * [Discord (internazionale)](https://discord.klipper3d.org/)
 * [Discord Italiano (Unofficial)](https://discord.com/invite/GY9k8ZNGbm)
