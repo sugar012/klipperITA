@@ -7,7 +7,7 @@ has_children: false
 permalink: /installazione-rpi/compilazione-firmware/
 ---
 
-## COMPILAZIONE FIRMWARE E FLASH SU STAMPANTE
+# COMPILAZIONE FIRMWARE E FLASH SU STAMPANTE
 
 Per comunicare correttamente con la stampante la scheda di quest’ultima deve essere flashata per Klipper. 
 Per compilare e flashare la scheda stampante verrà usato ancora una volta Kiauh.
