@@ -24,7 +24,7 @@ Questa guida in Italiano ricopre tutti i passi base per poter installare il firm
 
 **Se viene utilizzato Hardware diverso da Raspberry Pi oppure Sistemi Operativi diversi da Raspberry Pi OS (ex Raspbian), alcuni comandi e/o configurazioni potrebbero differire.**
 
-**Installare questo firmware richiede un minimo di manualità con Linux e soprattutto con l’uso di Google, noi ci siamo impegnati a rendere la guida il più semplice possibile ma procedere a proprio rischio e leggere attentamente prima di acquistare un Raspberry Pi, che è il sistema [SBC](https://en.wikipedia.org/wiki/Single-board_computer) sulla quale sono basati i comandi e le configurazioni presenti in questa guida.**
+**Installare questo firmware richiede un minimo di manualità con Linux e soprattutto con l’uso di Google, noi ci siamo impegnati a rendere la guida il più semplice possibile ma procedere a proprio rischio e leggere attentamente prima di acquistare un Raspberry Pi, che è il sistema [SBC](https://en.wikipedia.org/wiki/Single-board_computer){:target="_blank"} sulla quale sono basati i comandi e le configurazioni presenti in questa guida.**
 
 Klipper è un firmware che, sfruttando la potenza di calcolo di un Raspberry Pi/PC Linux o derivati, riesce ad eseguire algoritmi complessi per il calcolo della cinematica offrendo inoltre la possibilità di raggiungere step rate più elevati.
 
@@ -35,4 +35,4 @@ Queste, oltre ad essere graficamente belle e curate, vanno a sostituire o affian
 
 Tra gli altri vantaggi di Klipper troviamo la possibilità di essere modificato senza alcuna compilazione: tramite l'interfaccia web è infatti possibile accedere al file di configurazione `printer.cfg` e modificarlo al volo. Basterà salvare e fare un restart del firmware et voilà! Vi dimenticherete di visual studio e di quelle mille righe di codice da scorrere ogni volta. Su klipper il `printer.cfg` funziona al contrario di Marlin: si parte da un file vuoto a cui andremo ad aggiungere funzioni dalla documentazione solo se ci interessano, questo rende più facile e veloce la configurazione.
 
-Per ulteriori approfondimenti qui un link (in Inglese) con le [Caratteristiche di Klipper](https://www.klipper3d.org/Features.html)
+Per ulteriori approfondimenti qui un link (in Inglese) con le [Caratteristiche di Klipper](https://www.klipper3d.org/Features.html){:target="_blank"}
