@@ -12,10 +12,10 @@ permalink: /extra/installazione-moonraker-telegram/
 
 Con questo plugin è possibile inviare a un bot Telegram messaggi sullo stato delle stampe 3D comprensivi di foto (se è stata configurata una Cam sul Raspberry Pi).
 
-Se non si possiede già un bot Telegram è necessario procedere alla creazione seguendo tutti i passi della guida, mentre se si è già in possesso di un bot Telegram basta seguire la guida dal punto [Installare lo script su un Raspberry Pi](#installare-lo-script-su-un-raspberry-pi).
-
 - TOC
 {:toc}
+
+Se non si possiede già un bot Telegram è necessario procedere alla creazione seguendo tutti i passi della guida, mentre se si è già in possesso di un bot Telegram basta seguire la guida dal punto [Installare lo script su un Raspberry Pi](#installare-lo-script-su-un-raspberry-pi).
 
 ## Creazione di un bot Telegram
 
