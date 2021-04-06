@@ -1,5 +1,4 @@
 {%- if site.footer_content -%}
   <p class="text-small text-grey-dk-100 mb-0">{{ site.footer_content }}</p>
+  <p class="text-small text-grey-dk-100 mb-0">{{ "now" | date: site.last_edit_time_format }}</p>
 {%- endif -%}
-
-{{ "now" | date: site.last_edit_time_format }}
