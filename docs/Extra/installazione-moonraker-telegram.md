@@ -389,7 +389,7 @@ Dal bot configurato per la Stampante sarà possibile interagire con la Stampante
 
 ### Verifica processo moonraker-telegram
 
-Per verificare che il processo `moonraker-telegram` sia funzionante basta digitare da SSH il comando `sudo systemctl status moonraker-telegram.service` che restituirà un output simile al seguente
+In caso di problemi, per verificare che il processo `moonraker-telegram` sia funzionante basta digitare da SSH il comando `sudo systemctl status moonraker-telegram.service` che restituirà un output simile al seguente
 
 {% raw %}
 ```
@@ -410,4 +410,4 @@ Apr 06 14:01:26 RPi4-3DPrinter systemd[1]: Started moonraker-telegram.
 
 Se alle voci `<yout_bot_id>` e `<your_chat_id>` sono presenti rispettivamente il bot_id e la chat_id Telegram e il sopra menzionato comando non restituisce degli errori, vuol dire che il plugin funziona correttamente.
 
-In caso contrario tentare con un riavvio del processo oppure un riavvio del Raspberry Pi, se non dovesse funzionare, rivedere la procedura di installazione/upgrade e le configurazioni all'interno del file `telegram_config.sh`.
+In caso contrario tentare con un riavvio del processo oppure un riavvio del Raspberry Pi, se non dovesse ancora funzionare, rivedere la procedura di installazione/upgrade e le configurazioni all'interno del file `telegram_config.sh` (ricordarsi di procedere a un restart del processo `moonraker-telegram` ad ogni modifica effettuata).
