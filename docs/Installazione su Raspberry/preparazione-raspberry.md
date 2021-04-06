@@ -6,7 +6,7 @@ parent: Installazione su Raspberry
 permalink: /installazione-rpi/preparazione-raspberry/
 ---
 
-# PREPARAZIONE RASPBERRY PI
+# Preparazione Raspberry Pi
 
 Installare RPI imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry PI OS (other)”, quindi Raspberry PI Lite (32-bit).
 
