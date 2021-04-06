@@ -338,10 +338,24 @@ install_script: scripts/install.sh
 ```
 {% endraw %}
 
-e successivamente riavviare `moonraker-telegram` con il seguente comando
+successivamente riavviare `moonraker-telegram` con il seguente comando
 
 {% raw %}
 ```
 sudo systemctl restart moonraker-telegram
 ```
 {% endraw %}
+
+e infine riavviare `moonraker` con il seguente comando
+
+{% raw %}
+```
+sudo systemctl restart moonraker
+```
+{% endraw %}
+
+Se tutti i passi saranno stati effettuati correttamente, apparirà la voce `moonraker-telegram` all'interno dell'update manager della GUI, nell'esempio seguente Fluidd
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/moonraker-telegram-update-manager.png" height="500">
+</p>
