@@ -61,4 +61,4 @@ In questa pagina sono presenti tutte le funzioni che questo firmware può offrir
 
 Ricordiamo che dove è presente il cancelletto (#) la riga viene disabilitata e trattata come un commento.
 
-Ora tocca a voi navigare tra i [DOC](https://github.com/KevinOConnor/klipper/tree/master/docs) di Klipper per completare e affinare la vostra configurazione!
+Ora tocca a voi navigare tra la [Documentazione](https://github.com/KevinOConnor/klipper/tree/master/docs){:target="_blank"} di Klipper per completare e affinare la vostra configurazione!
