@@ -253,7 +253,7 @@ your moonraker config path (like /home/pi/klipper_config):
 ```
 {% endraw %}
 
-Inserire il percorso di del secondo config di klipper che avete scelto nell'installazione multipreinter. Se avete seguito la guida sarà:
+Inserire il percorso di del secondo config di klipper che avete scelto nell'installazione multiprinter. Se avete seguito la guida sarà:
 
 {% raw %}
 ```
