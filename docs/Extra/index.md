@@ -6,4 +6,4 @@ has_children: true
 permalink: /extra/
 ---
 
-## Installazioni aggiuntive ed Extra
+# Installazioni aggiuntive ed Extra
