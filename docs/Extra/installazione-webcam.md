@@ -7,7 +7,7 @@ has_children: false
 permalink: /extra/installazione-webcam/
 ---
 
-# INSTALLAZIONE WEBCAM
+# Installazione Webcam
 
 ATTENZIONE: Nei seguenti pezzi di codice di esempio sotituire sempre `TUOUSER` con il proprio username
 
