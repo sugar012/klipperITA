@@ -6,4 +6,4 @@ has_children: true
 permalink: /impostazioni/
 ---
 
-## Impostazioni e settaggi Klipper
+# Impostazioni e settaggi Klipper
