@@ -275,7 +275,7 @@ Ora apriamo il file di configurazione `telegram_config.sh` dove, oltre ad inseri
 
 ### Invio notifica temporizzata sullo stato della stampa
 
-Se necessario, quando si è in stampa è possibile inviare una notifica Telegram sullo stato della stampa stessa ogni determinato numero di secondi, basta modificare il parametro `time` sempre all'interno del file `telegram_config.sh` (nell'esempio seguente il parametro è impostato a 300 secondi, ovvero 5 minuti):
+Se necessario, quando si è in stampa è possibile inviare una notifica Telegram sullo stato della stampa stessa ogni determinato numero di secondi, basta modificare il parametro `time` sempre all'interno del file `telegram_config.sh` (nell'installazione su singola istanza il file si trova all'interno di /home/pi/klipper_config), nell'esempio seguente il parametro è impostato a 300 secondi, ovvero 5 minuti:
 
 {% raw %}
 ```
