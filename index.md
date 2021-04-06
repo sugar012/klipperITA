@@ -17,9 +17,11 @@ has_children: false
 
 **ATTENZIONE!**
 
-Installare questo firmware richiede un minimo di manualità con linux e soprattutto con l’uso di Google, noi ci siamo impegnati a rendere la guida il più semplice possibile ma procedere a proprio rischio e leggere attentamente prima di acquistare un Raspberry Pi.
+**Installare questo firmware richiede un minimo di manualità con linux e soprattutto con l’uso di Google, noi ci siamo impegnati a rendere la guida il più semplice possibile ma procedere a proprio rischio e leggere attentamente prima di acquistare un Raspberry Pi, che è il sistema SBC sulla quale sono basati i comandi e le configurazioni presenti in questa guida.**
 
-Klipper è un firmware che, sfruttando la potenza di calcolo di un Raspberry/PC Linux o derivati, riesce ad eseguire algoritmi complessi per il calcolo della cinematica offrendo inoltre la possibilità di raggiungere step rate più elevati.
+**Se utilizzate sistemi diversi da Raspberry Pi oppure Sistemi Operativi diversi da Raspberry OS (ex Raspbian), alcuni comandi e/o configurazioni potrebbero differire.**
+
+Klipper è un firmware che, sfruttando la potenza di calcolo di un Raspberry Pi/PC Linux o derivati, riesce ad eseguire algoritmi complessi per il calcolo della cinematica offrendo inoltre la possibilità di raggiungere step rate più elevati.
 
 A differenza di Marlin, che gira sulla scheda della stampante ed è quindi limitato dalla potenza di calcolo di quest'ultima, Klipper esegue tutti i calcoli e invia le istruzioni alla scheda della stampante (anch'essa flashata con klipper per permettere la comunicazione) che deve solo eseguirli inviando i comandi ai motori/attuatori.
 
