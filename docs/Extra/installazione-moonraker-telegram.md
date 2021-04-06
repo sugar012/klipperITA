@@ -386,3 +386,28 @@ print - Will open a file dialog showing the files stored in moonraker. You can s
 Se tutto è stato impostato correttamente @BotFather risponderà `Success! Command list updated. /help`.
 
 Dal bot configurato per la Stampante sarà possibile interagire con la Stampante 3D stessa tramite moonraker-telegram, inviando uno dei messaggi sopra riportati antecedendo lo `/` (che farà anche l'autocompletamento), gli stessi effettueranno le azioni indicate nelle descrizioni (es: `/state` invia lo stato attuale della stampante comprensivo di foto).
+
+### Verifica processo moonraker-telegram
+
+Per verificare che il processo `moonraker-telegram` sia funzionante basta digitare da SSH il comando `sudo systemctl status moonraker-telegram.service` che restituirà un output simile al seguente
+
+{% raw %}
+```
+sudo systemctl status moonraker-telegram.service
+● moonraker-telegram.service - moonraker-telegram
+   Loaded: loaded (/etc/systemd/system/moonraker-telegram.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Tue 2021-04-06 14:01:26 CEST; 1h 31min ago
+  Process: 16034 ExecStart=/usr/bin/sh /home/pi/moonraker-telegram/scripts/moonraker-telegram_start.sh & (code=exited, status=0/SUCCESS)
+ Main PID: 16034 (code=exited, status=0/SUCCESS)
+    Tasks: 5 (limit: 4915)
+   CGroup: /system.slice/moonraker-telegram.service
+           ├─16042 /home/pi/.moonraker-telegram-env/bin/python /home/pi/moonraker-telegram/scripts/bot.py <your_bot_id> 7125 /home/pi/moonraker-telegram <your_chat_id>
+           └─16043 /home/pi/.moonraker-telegram-env/bin/python /home/pi/moonraker-telegram/scripts/websocket-connection-telegram.py 7125 /home/pi/moonraker-telegram
+
+Apr 06 14:01:26 RPi4-3DPrinter systemd[1]: Started moonraker-telegram.
+```
+{% endraw %}
+
+Se alle voci `<yout_bot_id>` e `<your_chat_id>` sono presenti rispettivamente il bot_id e la chat_id Telegram e il sopra menzionato comando non restituisce degli errori, vuol dire che il plugin funziona correttamente.
+
+In caso contrario tentare con un riavvio del processo oppure un riavvio del Raspberry Pi, se non dovesse funzionare, rivedere la procedura di installazione/upgrade e le configurazioni all'interno del file `telegram_config.sh`.
