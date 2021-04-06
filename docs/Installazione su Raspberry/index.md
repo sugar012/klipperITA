@@ -6,4 +6,4 @@ has_children: true
 permalink: /installazione-rpi/
 ---
 
-## Guida installazione su Raspberry Pi
+# Guida installazione su Raspberry Pi
