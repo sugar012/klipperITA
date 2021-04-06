@@ -365,7 +365,7 @@ Se tutti i passi saranno stati effettuati correttamente, apparirà la voce `moon
 
 Tramite il bot Telegram è possibile inviare dei messaggi che effettuano delle azioni/operazioni sulla stampante.
 
-Per poter configurare queste azioni è necessario aprire la chat con @BotFather, inviare il comando `/setcommands`, se si hanno bot multipli, @BotFather chiederà su quale bot impostare i comandi `Choose a bot to change the list of commands.`, quindi selezionare il bot interessato, inserire le seguenti stringhe (devono essere su un singolo messaggio con linee multiple) ed inviare il messaggio
+Per poter configurare queste azioni è necessario aprire la chat con @BotFather, inviare il comando `/setcommands`, se si hanno bot multipli, @BotFather chiederà su quale bot impostare i comandi restituendo il seguente messaggio `Choose a bot to change the list of commands.`, quindi selezionare il bot interessato, inserire le seguenti stringhe (devono essere su un singolo messaggio con linee multiple)
 
 {% raw %}
 ```
@@ -382,4 +382,4 @@ print - Will open a file dialog showing the files stored in moonraker. You can s
 
 Se tutto è stato impostato correttamente @BotFather risponderà `Success! Command list updated. /help`.
 
-Dal bot configurato per la Stampante sarà possibile interagire con la Stampante 3D stessa tramite moonraker-telegram, inviando uno dei messaggi sopra riportati antecedendo lo `/` gli stessi effettueranno le azioni indicate nelle descrizioni (es: `/state` invia lo stato attuale della stampante comprensivo di foto).
+Dal bot configurato per la Stampante sarà possibile interagire con la Stampante 3D stessa tramite moonraker-telegram, inviando uno dei messaggi sopra riportati antecedendo lo `/` (che farà anche l'autocompletamento), gli stessi effettueranno le azioni indicate nelle descrizioni (es: `/state` invia lo stato attuale della stampante comprensivo di foto).
