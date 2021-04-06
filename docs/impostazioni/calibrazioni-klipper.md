@@ -6,7 +6,7 @@ nav_order: 1
 permalink: /impostazioni/calibrazioni-klipper/
 ---
 
-## CALIBRAZIONI KLIPPER
+# CALIBRAZIONI KLIPPER
 
 * [Verifica Configurazioni](https://github.com/KevinOConnor/klipper/blob/master/docs/Config_checks.md) - Passi importanti da effettuare non appena installato e configurato Klipper
 
