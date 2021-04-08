@@ -14,7 +14,7 @@ permalink: /impostazioni/impostazioni-slicer/
 
 ### PRUSASLICER/SUPERSLICER
 
-Per l'upload diretto su server con Prusaslicer/Superslicer basta inserie l'IP del server come di seguito:
+Per l'upload diretto su server con Prusaslicer/Superslicer basta inserie l'IP e la porta del server moonraker nel formato `<IP>:<PORTA>` come esempio seguente:
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image13.png" height="350">
@@ -50,7 +50,7 @@ una volta installato chiudere e riaprire Ultimaker Cura e andare su "Preferences
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/connect_octoprint.png" height="50">
 </p>
 
-cliccare su "Add" ed inserire un nome, il proprio IP di Moonraker e la porta e cliccare su OK
+cliccare su "Add" ed inserire un nome, l'IP di Moonraker e la porta e cliccare su OK
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/add_moonraker.png" height="200">
