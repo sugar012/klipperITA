@@ -14,15 +14,15 @@ permalink: /impostazioni/impostazioni-slicer/
 
 ### PRUSASLICER/SUPERSLICER
 
-Per l'upload diretto su server con Prusaslicer/Superslicer basta inserie l'IP e la porta del server moonraker nel formato `<IP>:<PORTA>` come esempio seguente:
+Per l'upload diretto su server con Prusaslicer/Superslicer basta inserie l'IP e la porta del server moonraker nel formato `<IP>:<PORTA>` come da seguente esempio:
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image13.png" height="350">
 </p>
 
-se tutti i passi sono stati effettuati correttamente ci si connetterà senza problemi a Moonraker e si potranno inviare i file direttamente dallo Slicer all'interfaccia Web. 
+una volta premuto `OK` se tutti i passi sono stati effettuati correttamente ci si connetterà senza problemi a Moonraker e si potranno inviare i file direttamente dallo Slicer all'interfaccia Web. 
 
-Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart distance e advance extruder pressure..
+Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart distance e advance extruder pressure...
 
 Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md){:target="_blank"}
 
@@ -64,7 +64,7 @@ una volta aggiunta l'istanza, inserire una API Key casuale (es: 1234567890) e cl
 
 se tutti i passi sono stati effettuati correttamente ci si connetterà senza problemi a Moonraker e si potranno inviare i file direttamente dallo Slicer all'interfaccia Web. 
 
-Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart distance e advance extruder pressure..
+Ricordarsi di disabilitare: controllo accelerazione, coasting, extra restart distance e advance extruder pressure...
 
 Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/master/docs/Slicers.md){:target="_blank"}
 
