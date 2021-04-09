@@ -177,7 +177,7 @@ durante l'installazione ti verrà richiesto di indicare il percorso contenente i
 ```
 your moonraker config path (like /home/pi/klipper_config):
 ```
-{% endraw}
+{% endraw %}
 
 inserire il percorso di default che sarà il seguente
 
@@ -185,7 +185,7 @@ inserire il percorso di default che sarà il seguente
 ```
 /home/pi/klipper_config
 ```
-{% endraw}
+{% endraw %}
 
 successivamente verrà richiesto se si desidera configurare installazioni multiple:
 
@@ -194,7 +194,7 @@ successivamente verrà richiesto se si desidera configurare installazioni multip
 if you want to use multiple instances on one pi, enter an identifier here. this is needed to create the sytemd service
 If you only use it once per hardware, simply press enter.
 ```
-{% endraw}
+{% endraw %}
 
 essendo una installazione su istanza singola è necessario solo confermare premendo invio.
 
@@ -243,7 +243,7 @@ durante l'installazione ti verrà richiesto di indicare il percorso contenente i
 ```
 your moonraker config path (like /home/pi/klipper_config):
 ```
-{% endraw}
+{% endraw %}
 
 Inserire il percorso di del secondo config di klipper che avete scelto nell'installazione multiprinter. Se avete seguito la guida sarà:
 
@@ -251,7 +251,7 @@ Inserire il percorso di del secondo config di klipper che avete scelto nell'inst
 ```
 /home/pi/klipper_config/printer_2
 ```
-{% endraw}
+{% endraw %}
 
 Successivamente verrà richiesto se si desidera configurare installazioni multiple:
 
@@ -260,7 +260,7 @@ Successivamente verrà richiesto se si desidera configurare installazioni multip
 if you want to use multiple instances on one pi, enter an identifier here. this is needed to create the sytemd service
 If you only use it once per hardware, simply press enter.
 ```
-{% endraw}
+{% endraw %}
 
 Questa volta inseriamo `2` e verrà quindi creata una istanza di autoavvio al boot chiamata `moonraker-telegram2.service`
 
