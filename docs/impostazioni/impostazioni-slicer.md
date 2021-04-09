@@ -44,13 +44,13 @@ Per l'upload diretto su server con con Ultimaker Cura è necessario installare d
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/octoprint_connection.png" height="100">
 </p>
 
-una volta installato chiudere e riaprire Ultimaker Cura e andare su "Preferences --> Configure Cura..." selezionare "Printers" nel menu a sx, selezionare la propria stampante e infine cliccare su "Connect OctoPrint"
+una volta installato chiudere e riaprire Ultimaker Cura e andare su `Preferences --> Configure Cura...` selezionare `Printers` nel menu a sx, selezionare la propria stampante e infine cliccare su `Connect OctoPrint`
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/connect_octoprint.png" height="50">
 </p>
 
-cliccare su "Add" ed inserire un nome, l'IP di Moonraker e la porta e cliccare su OK
+cliccare su `Add` ed inserire un nome, l'IP e la porta di Moonraker nei campi corrispondenti e cliccare su OK
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/add_moonraker.png" height="200">
@@ -70,7 +70,7 @@ Per approfondimenti vai [QUI](https://github.com/KevinOConnor/klipper/blob/maste
 
 - **Configurazione Opzionale per visualizzazione layer di stampa**
 
-In caso si volesse visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Ultimaker Cura sotto il menu "Extensions --> Post Processing --> Modify G-Code" all'apertura del pop-up selezionare "Add a script" e "Display Filename And Layer On LCD", come da esempio seguente
+In caso si volesse visualizzare il numero di layer da interfaccia web (Fluidd o Mainsail) basta andare su Ultimaker Cura sotto il menu `Extensions --> Post Processing --> Modify G-Code` all'apertura del pop-up selezionare `Add a script` e `Display Filename And Layer On LCD`, come da esempio seguente
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/cura-layer-display.png" height="450">
