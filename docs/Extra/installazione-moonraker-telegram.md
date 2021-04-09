@@ -153,12 +153,10 @@ Innanzitutto verifica di aver aggiunto la stringa `[display_status]` alla config
 
 Se è la prima volta che procedi allo scaricamento del plugin è necessario utilizzare i seguenti comandi SSH
 
-{% raw %}
-```
+```shell
 cd
 git clone https://github.com/Raabi91/moonraker-telegram
 ```
-{% endraw %}
 
 ## Installazione singola istanza
 
@@ -167,13 +165,11 @@ Se si possiedono più stampanti 3D connesse a un solo Raspberry Pi seguire i pun
 
 Una volta scaricato lo script come indicato sopra è possibile procedere all'installazione con i seguenti comandi
 
-{% raw %}
-```
+```shell
 cd moonraker-telegram
 chmod 755 ./scripts/install.sh
 ./scripts/install.sh
 ```
-{% endraw %}
 
 durante l'installazione ti verrà richiesto di indicare il percorso contenente il file di configurazione di moonraker:
 
@@ -181,7 +177,7 @@ durante l'installazione ti verrà richiesto di indicare il percorso contenente i
 ```
 your moonraker config path (like /home/pi/klipper_config):
 ```
-{% endraw %}
+{% endraw}
 
 inserire il percorso di default che sarà il seguente
 
@@ -189,7 +185,7 @@ inserire il percorso di default che sarà il seguente
 ```
 /home/pi/klipper_config
 ```
-{% endraw %}
+{% endraw}
 
 successivamente verrà richiesto se si desidera configurare installazioni multiple:
 
@@ -198,7 +194,7 @@ successivamente verrà richiesto se si desidera configurare installazioni multip
 if you want to use multiple instances on one pi, enter an identifier here. this is needed to create the sytemd service
 If you only use it once per hardware, simply press enter.
 ```
-{% endraw %}
+{% endraw}
 
 essendo una installazione su istanza singola è necessario solo confermare premendo invio.
 
@@ -221,11 +217,9 @@ chatid="<chat-id>"
 
 al termine delle modifiche è necessario riavviare moonraker-telegram da SSH con il seguente comando
 
-{% raw %}
-```
+```shell
 sudo systemctl restart moonraker-telegram
 ```
-{% endraw %}
 
 Se è stato eseguito tutto a dovere, all'avvio di una stampa verrà inviata una notifica su Telegram all'interno del proprio bot.
 
@@ -235,15 +229,13 @@ Se è stato eseguito tutto a dovere, all'avvio di una stampa verrà inviata una 
 
 Se provieni da una singola istanza procediamo quanto segue:
 
-{% raw %}
-```
+```shell
 cd
 git clone https://github.com/Raabi91/moonraker-telegram moonraker-telegram2
 cd moonraker-telegram2
 chmod 755 ./scripts/install.sh
 ./scripts/install.sh
 ```
-{% endraw %}
 
 durante l'installazione ti verrà richiesto di indicare il percorso contenente il file di configurazione di moonraker:
 
@@ -251,7 +243,7 @@ durante l'installazione ti verrà richiesto di indicare il percorso contenente i
 ```
 your moonraker config path (like /home/pi/klipper_config):
 ```
-{% endraw %}
+{% endraw}
 
 Inserire il percorso di del secondo config di klipper che avete scelto nell'installazione multiprinter. Se avete seguito la guida sarà:
 
@@ -259,7 +251,7 @@ Inserire il percorso di del secondo config di klipper che avete scelto nell'inst
 ```
 /home/pi/klipper_config/printer_2
 ```
-{% endraw %}
+{% endraw}
 
 Successivamente verrà richiesto se si desidera configurare installazioni multiple:
 
@@ -268,7 +260,7 @@ Successivamente verrà richiesto se si desidera configurare installazioni multip
 if you want to use multiple instances on one pi, enter an identifier here. this is needed to create the sytemd service
 If you only use it once per hardware, simply press enter.
 ```
-{% endraw %}
+{% endraw}
 
 Questa volta inseriamo `2` e verrà quindi creata una istanza di autoavvio al boot chiamata `moonraker-telegram2.service`
 
@@ -308,21 +300,17 @@ sudo systemctl restart moonraker-telegram
 
 Per aggiornare manualmente `moonraker-telegram` basta entrare nel path di installazione (es: /home/pi/moonraker-telegram) ed effettuare i seguenti passi
 
-{% raw %}
-```
+```shell
 cd ~/moonraker-telegram
 git pull
 ./scripts/install.sh
 ```
-{% endraw %}
 
 Rispondere `NO` alla eventuale richiesta di sovrascrittura del file `telegram_config.sh` ed infine riavviare `moonraker-telegram`
 
-{% raw %}
-```
+```shell
 sudo systemctl restart moonraker-telegram
 ```
-{% endraw %}
 
 ### Aggiornamento automatico tramite interfaccia grafica
 
