@@ -51,3 +51,28 @@ Se tutto è andato correttamente dovreste trovarvi davanti una situazione del ge
 </p>
 
 Complimenti, ora avete correttamente installato Klipper e la WebUI sul vostro Raspberry, siete a metà strada dalla vostra prima stampa con Klipper! :P
+
+## Aggiornamento KIAUH
+
+Ad ogni aggiornamento di KIAUH potrebbero essere introdotti bug fixing oppure nuove funzionalità, per questo motivo sarebbe opportuno verificare ogni tanto se sono presenti aggiornamenti e procedere all'installazione.
+
+Inoltre è possibile verificare eventuali aggiornamenti importanti consultando il [CHANGELOG di KIAUH](https://github.com/th33xitus/kiauh/blob/master/docs/changelog.md){:target="_blank"}.
+
+Per verificare se sono presenti aggiornamenti ed installarli automaticamente è possibile procedere lanciando i seguenti comandi
+
+```shell
+cd ~
+cd kiauh
+git pull
+cd ~
+```
+
+se sono presenti aggiornamenti verranno scaricati i nuovi file, in caso contrario si presenterà il messaggio `Already up to date`, che vuol dire che si è già all'ultima versione disponibile.
+
+In caso siano stati scaricati aggiornamenti, lanciando nuovamente KIAUH con il comando `./kiauh/kiauh.sh` potremo verificare la nuova versione, che nel seguente esempio è la `v3.0-37`
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/kiauh_upgraded.png" height="350">
+</p>
+
+Successivamente sarà possibile entrare nei vari menu per verificare eventuali cambiamenti o funzionalità aggiunte nella nuova versione.
