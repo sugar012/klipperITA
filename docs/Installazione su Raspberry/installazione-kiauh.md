@@ -8,13 +8,13 @@ permalink: /installazione-rpi/installazione-kiauh/
 
 # Installazione KIAUH
 
-Installiamo i pacchetti necessari ad installare KIAUH con il comando:
+Per iniziare installiamo il pacchetto `git` requisito necessario per successiamente installare KIAUH, quindi digitiamo il comando:
 
 ```shell
 sudo apt-get install git -y
 ```
 
-Successivamente installiamo KIAUH digitando nella console le seguenti righe (comandi separati):
+Successivamente possiamo procedere all'installazione di KIAUH digitando nella console le seguenti righe (comandi separati):
 
 ```shell
 cd ~
