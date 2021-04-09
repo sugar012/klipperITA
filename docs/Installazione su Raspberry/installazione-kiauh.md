@@ -54,7 +54,7 @@ Complimenti, ora avete correttamente installato Klipper e la WebUI sul vostro Ra
 
 ## Aggiornamento KIAUH
 
-Ad ogni aggiornamento di KIAUH potrebbero essere introdotti bug fixing oppure nuove funzionalità, per questo motivo sarebbe opportuno verificare ogni tanto se sono presenti aggiornamenti e procedere all'installazione.
+Ad ogni aggiornamento di KIAUH potrebbero essere introdotte nuove funzionalità oppure bug fixing, per questo motivo sarebbe opportuno verificare ogni tanto se sono presenti aggiornamenti e procedere all'installazione.
 
 Inoltre è possibile verificare eventuali aggiornamenti importanti consultando il [CHANGELOG di KIAUH](https://github.com/th33xitus/kiauh/blob/master/docs/changelog.md){:target="_blank"}.
 
