@@ -6,6 +6,7 @@ permalink: /credits/
 ---
 
 # Credits
+{: .fw-400 }
 
 Puoi aiutarci a tenere aggiornata la guida inviando una Pull request su [GitHub](https://github.com/sugar012/klipperITA/pulls){:target="_blank"}
 
