@@ -16,7 +16,7 @@ permalink: /installazione-rpi/prerequisiti/
 
 1. Un Raspberry Pi (RPi), consigliato RPi 3 ([Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/){:target="_blank"} o [Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/){:target="_blank"}) oppure [RPi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/){:target="_blank"}, ma anche un RPi Zero andrebbe bene (anche se sconsigliato, dato che sono presenti un minor numero di porte ed Hardware meno performante)
 
-1. MicroSD Card (da almeno 8GB)
+1. MicroSD Card da almeno 8GB
 
 1. Pazienza, pazienza e tanta pazienza
 
