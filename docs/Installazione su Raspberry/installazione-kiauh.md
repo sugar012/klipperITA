@@ -7,6 +7,7 @@ permalink: /installazione-rpi/installazione-kiauh/
 ---
 
 # Installazione KIAUH
+{: .fw-400 }
 
 Per iniziare installiamo il pacchetto `git` requisito necessario per successivamente installare KIAUH, per procedere digitiamo il comando:
 
