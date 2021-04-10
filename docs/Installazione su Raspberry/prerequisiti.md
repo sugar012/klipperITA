@@ -7,6 +7,7 @@ permalink: /installazione-rpi/prerequisiti/
 ---
 
 # Prerequisiti
+{: .fw-400 }
 
 1. Una connessione ad Internet (per installare tutti i software necessari e per utilizzare la WebUI)
 
