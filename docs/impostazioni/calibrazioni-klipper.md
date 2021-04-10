@@ -7,6 +7,7 @@ permalink: /impostazioni/calibrazioni-klipper/
 ---
 
 # Calibrazioni Klipper
+{: .fw-400 }
 
 * [Verifica Configurazioni](https://github.com/KevinOConnor/klipper/blob/master/docs/Config_checks.md){:target="_blank"} - I primi importantissimi passi da effettuare non appena installato e configurato Klipper
 
