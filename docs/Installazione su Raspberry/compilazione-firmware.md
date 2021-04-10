@@ -8,6 +8,7 @@ permalink: /installazione-rpi/compilazione-firmware/
 ---
 
 # Compilazione Firmware e Flash su Stampante 3D
+{: .fw-400 }
 
 Per comunicare correttamente con la stampante la scheda di quest’ultima deve essere flashata per Klipper. 
 Per compilare e flashare la scheda stampante verrà usato ancora una volta Kiauh.
