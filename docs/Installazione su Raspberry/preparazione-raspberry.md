@@ -11,29 +11,29 @@ permalink: /installazione-rpi/preparazione-raspberry/
 Installare Raspberry Pi imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry Pi OS (other)”, quindi Raspberry Pi Lite (32-bit).
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image6.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image1.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image20.png" width="300">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image6.png" width="350"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image1.png" width="350"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image20.png" width="350">
 </p>
 
 Premere su “Choose Sd card” e selezionare la microsd inserita precedentemente, quindi premere write ed acconsentire alla formattazione della MicroSD
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image8.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image5.png" width="300"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image15.png" width="300">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image8.png" width="350"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image5.png" width="350"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image15.png" width="350">
 </p>
 
 Una volta che la scrittura e’ terminata, rimuovere la MicroSD dal pc e re-inserirla: comparirà un volume "boot"
 
 Per poter abilitare SSH e WIFI direttamente al boot(headless mode) scaricare i [seguenti due files](https://github.com/Blaster1920/RPI_headless_tools/tree/main){:target="_blank"} cliccando su “Code”, poi “download zip”.
 Decomprimere i due file direttamente nella root (cartella principale) della micro sd. 
-Aprire con BLOCCO NOTE il file appena copiato denominato “wpa_supplicant.conf”. Dentro le virgolette mettere il SSID(nome della wifi) della tua wifi e sotto mettere la password della wifi.
+Aprire con BLOCCO NOTE il file appena copiato denominato `wpa_supplicant.conf`. Dentro le virgolette mettere il `SSID`, cioè il nome della propria rete wifi e sotto, alla voce `psk` inserire sempre fra virgolette la password della propria rete wifi.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image12.png" width="280">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image12.png" width="600">
 </p>
 
 La microsd e’ ora pronta: toglierla dal computer ed inserirla nel Raspberry PI (da spento) ed alimentatelo. Aspettare qualche minuto per l’avvenuta connessione Wi-Fi
 
 Avvalendosi del programma gratuito della Nirsoft “Wireless Network Watcher”, trovare l’ip locale del RPI, altrimenti ci si puo’ riferire alla pagina di gestione del proprio router.
-Una volta che si ha l’IP, aprire il programma Bitvise SSH Client, e configurarlo come segue, tenendo cura di inserire l’ip del RPI trovato in precedenza. 
+Una volta che si ha l’IP, aprire il programma Bitvise SSH Client, e configurarlo come segue, tenendo cura di inserire l’IP del RPI trovato in precedenza. 
 
 Inserire l’utente `pi` e la password di default `raspberry`
 
