@@ -18,6 +18,8 @@ permalink: /installazione-rpi/prerequisiti/
 
 - [x] Pazienza, pazienza e tanta pazienza
 
+
+
 * Programmi utili:
   * [Raspberry Pi Imager](https://www.raspberrypi.org/software/){:target="_blank"}
   * [Bitvise SSH and sFTP client](https://www.bitvise.com/ssh-client-download){:target="_blank"}
