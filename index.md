@@ -18,7 +18,7 @@ has_children: false
 ## ATTENZIONE!
 {: .text-center }
 
-*La guida è in continuo aggiornamento, è possibile verificare la data di ultima modifica in fondo ad ogni singola pagina.*
+*La guida è in continuo aggiornamento, è possibile verificare la data di ultima modifica in fondo ad ogni singola pagina, dove è indicato `Utima modifica del GG/MM/AAAA alle ore HH:MM`*
 
 Al seguente link (in Inglese) è possibile visionare le [Caratteristiche di Klipper](https://www.klipper3d.org/Features.html){:target="_blank"}
 
