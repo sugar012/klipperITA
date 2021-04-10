@@ -10,6 +10,8 @@ permalink: /installazione-rpi/prerequisiti/
 
 1. Una connessione ad Internet (per installare tutti i software necessari per utilizzare la WebUI)
 
+1. Manualità con Linux e soprattutto con l’uso di un motore di ricerca (es: Google)
+
 1. Una stampante 3D che monti una scheda con uno dei seguenti (quasi tutti) [bootloaders](https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md){:target="_blank"}
 
 1. Un Raspberry Pi (RPi), consigliato RPi 3 oppure RPi 4 (A+ o B+) ma anche uno zero andrebbe bene (meno porte e meno performance)
