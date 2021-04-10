@@ -8,7 +8,7 @@ permalink: /installazione-rpi/prerequisiti/
 
 # Prerequisiti
 
-1. Una connessione ad Internet (per installare tutti i software necessari per utilizzare la WebUI)
+1. Una connessione ad Internet (per installare tutti i software necessari e per utilizzare la WebUI)
 
 1. Manualità con Linux e soprattutto con l’uso di un motore di ricerca (es: Google)
 
