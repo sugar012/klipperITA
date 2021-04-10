@@ -8,6 +8,7 @@ permalink: /extra/installazione-webcam/
 ---
 
 # Installazione Webcam
+{: .fw-400 }
 
 ATTENZIONE: Nei seguenti pezzi di codice di esempio sotituire sempre `TUOUSER` con il proprio username
 
