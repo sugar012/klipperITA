@@ -9,6 +9,7 @@ permalink: /extra/macro/start-end-print/
 ---
 
 # Esempio di "START_PRINT" ed "END_PRINT" da utilizzare nello Slicer
+{: .fw-400 }
 
 ## ATTENZIONE: QUESTO E' SOLO UN ESEMPIO NON ANCORA UFFICIALE, NON UTILIZZARLO!!!
 
