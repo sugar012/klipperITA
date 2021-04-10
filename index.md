@@ -20,7 +20,7 @@ has_children: false
 
 *La guida è in continuo aggiornamento, è possibile verificare la data di ultima modifica in fondo ad ogni singola pagina.*
 
-Al seguente link (in Inglese) con le [Caratteristiche di Klipper](https://www.klipper3d.org/Features.html){:target="_blank"}
+Al seguente link (in Inglese) è possibile visionare le [Caratteristiche di Klipper](https://www.klipper3d.org/Features.html){:target="_blank"}
 
 Questa guida in Italiano ricopre tutti i passi base per poter installare il firmware Klipper e altri componenti sulla propria Stampante 3D (se supportata) in modo da avere un'installazione completa e funzionante. Data la varietà di singoli Hardware e Sistemi Operativi ad oggi presenti sul mercato, la guida per il momento ricopre per buona parte l'installazione su Raspberry Pi con Raspberry Pi OS (ex Raspbian).
 
