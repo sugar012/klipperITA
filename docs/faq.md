@@ -9,13 +9,13 @@ permalink: /faq/
 
 Se non trovi una domanda con relativa risposta scrivine una di seguito, risponderemo quando possibile sui nostri canali.
 
-* **Dove trovo il file di configurazione per la mia stampante?**
-  - *Dentro la cartella `~/klipper/config/` della vostra installazione oppure [QUI](https://github.com/KevinOConnor/klipper/tree/master/config){:target="_blank"}*
+1. **Dove trovo il file di configurazione per la mia stampante?**
+   - *Dentro la cartella `~/klipper/config/` della vostra installazione oppure [QUI](https://github.com/KevinOConnor/klipper/tree/master/config){:target="_blank"}*
 
 
-* **Come faccio a calibrare il piatto?**
-  - *[VEDI QUI](https://klipper-italia.xyz/impostazioni/calibrazioni-klipper/){:target="_blank"}*
+2. **Come faccio a calibrare il piatto?**
+   - *[VEDI QUI](https://klipper-italia.xyz/impostazioni/calibrazioni-klipper/){:target="_blank"}*
 
 
-* **Dove devo salvare il file `moonraker.conf` e il file `printer.cfg` della mia stampante?**
-  - *Dentro la cartella `~/klipper_config/`*
+3. **Dove devo salvare il file `moonraker.conf` e il file `printer.cfg` della mia stampante?**
+   - *Dentro la cartella `~/klipper_config/`*
