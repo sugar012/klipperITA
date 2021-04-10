@@ -7,3 +7,4 @@ permalink: /extra/
 ---
 
 # Installazioni aggiuntive ed Extra
+{: .fw-400 }
