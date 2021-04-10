@@ -12,10 +12,10 @@ Puoi aiutarci a tenere aggiornata la guida inviando una Pull request su [GitHub]
 
 Grazie a
 
-* **Laurienzu**
-* **Factotum_res**
-* **Jacopo Franco**
-* **TheBugLebowsky**
-* **sugar0**
+* Laurienzu
+* Factotum_res
+* Jacopo Franco
+* TheBugLebowsky
+* sugar0
 
 per aver creato questa guida!
