@@ -6,6 +6,7 @@ permalink: /faq/
 ---
 
 # F.A.Q. aka Domande Frequenti
+{: .fw-400 }
 
 Se non trovi una domanda con relativa risposta scrivine una di seguito, risponderemo quando possibile sui nostri canali.
 
