@@ -7,6 +7,7 @@ permalink: /installazione-rpi/preparazione-raspberry/
 ---
 
 # Preparazione Raspberry Pi
+{: .fw-400 }
 
 Installare Raspberry Pi imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry Pi OS (other)”, quindi Raspberry Pi OS Lite (32-bit).
 
