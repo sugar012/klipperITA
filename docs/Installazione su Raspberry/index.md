@@ -7,3 +7,4 @@ permalink: /installazione-rpi/
 ---
 
 # Guida installazione su Raspberry Pi
+{: .fw-400 }
