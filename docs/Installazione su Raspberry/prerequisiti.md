@@ -8,15 +8,15 @@ permalink: /installazione-rpi/prerequisiti/
 
 # Prerequisiti
 
-* Una connessione ad Internet (per installare tutti i software necessari per utilizzare la WebUI)
+- [x] Una connessione ad Internet (per installare tutti i software necessari per utilizzare la WebUI)
 
-* Una stampante 3D che monti una scheda con uno dei seguenti (quasi tutti) [bootloaders](https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md){:target="_blank"}
+- [x] Una stampante 3D che monti una scheda con uno dei seguenti (quasi tutti) [bootloaders](https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md){:target="_blank"}
 
-* Un Raspberry Pi (RPi), consigliato RPi 3 oppure RPi 4 (A+ o B+) ma anche uno zero andrebbe bene (meno porte e meno performance)
+- [x] Un Raspberry Pi (RPi), consigliato RPi 3 oppure RPi 4 (A+ o B+) ma anche uno zero andrebbe bene (meno porte e meno performance)
 
-* Micro SD Card (da almeno 8Gb)
+- [x] Micro SD Card (da almeno 8Gb)
 
-* Pazienza, pazienza e pazienza
+- [x] Pazienza, pazienza e tanta pazienza
 
 * Programmi utili:
   * [Raspberry Pi Imager](https://www.raspberrypi.org/software/){:target="_blank"}
