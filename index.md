@@ -8,7 +8,7 @@ has_children: false
 ---
 
 # Guida Installazione Klipper e altri Componenti
-{: .fw-700 }
+{: .fw-500 }
 
 
 <p align="center">
