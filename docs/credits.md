@@ -10,7 +10,7 @@ permalink: /credits/
 
 Puoi aiutarci a tenere aggiornata la guida inviando una Pull request su [GitHub](https://github.com/sugar012/klipperITA/pulls){:target="_blank"}
 
-Grazie a
+Ringraziamo
 
 * Laurienzu
 * Factotum_res
