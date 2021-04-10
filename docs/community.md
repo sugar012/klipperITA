@@ -6,6 +6,7 @@ permalink: /community/
 ---
 
 # Community
+{: .fw-400 }
 
 * [Discord (internazionale)](https://discord.klipper3d.org/){:target="_blank"}
 * [Discord Italiano (Unofficial)](https://discord.com/invite/GY9k8ZNGbm){:target="_blank"}
