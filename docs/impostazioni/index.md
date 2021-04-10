@@ -7,3 +7,4 @@ permalink: /impostazioni/
 ---
 
 # Impostazioni e settaggi Klipper
+{: .fw-400 }
