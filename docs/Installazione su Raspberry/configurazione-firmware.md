@@ -8,6 +8,7 @@ permalink: /installazione-rpi/configurazione-firmware/
 ---
 
 # Installazione e Configurazione Firmware
+{: .fw-400 }
 
 Prima di iniziare la configurazione è necessario recuperare la stringa della seriale della nostra stampante.
 Ancora su Kiauh tornare al menù advanced:
