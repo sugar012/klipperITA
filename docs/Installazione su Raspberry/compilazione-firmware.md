@@ -17,7 +17,7 @@ Per compilare e flashare la scheda stampante verrà usato ancora una volta Kiauh
 
 🟥**IMPORTANTE**: Nella parte iniziale del file ci sono svariate righe di testo con dei `#` davanti, leggerle attentamente e tenerle a portata di mano perchè indicano le impostazioni per creare il firmware al passo successivo.
 
-Su Kiauh selezionare la voce `4) Advanced` e si aprirà il seguente menù:
+Su KIAUH selezionare la voce `4) Advanced` e si aprirà il seguente menù:
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image24.png" height="350">
@@ -43,6 +43,6 @@ Solo quando siamo sicuri di aver terminato, colleghiamo la stampante (accesa) vi
 
 Ora inizierà la compilazione e successivo flash della scheda stampante.
 
-Se invece la vostra scheda prevede il flash da SDcard dovrete estrarre i file firmware.bin ed effettuare il flash manualmente mettendolo sulla SDcard e inserendola nella stampante.
+Se invece la vostra scheda prevede il flash solamente da MicroSD card dovrete scaricare sul PC il file `klipper.bin` che è presente al percorso `~/klipper/out` del Raspberry Pi, rinominarlo in `firmware.bin`, copiare il file sulla MicroSD card, una volta copiato, inserire la MicroSD card nella stampante spenta, accendere la stampante ed attendere circa 1 minuto, se tutto sarà andato per la meglio, reinserendo la MicroSD sul PC troverete un file denominato `FIRMWARE.CUR`, che vorrà dire che il firmware è stato correttamente installato sulla scheda della stampante.
 
 Fare attenzione che alcune schede come ad esempio la MKS Robin Nano, hanno bisogno di comandi aggiuntivi dopo il make del firmware, questi sono indicati sempre nella parte alta del printer.cfg.
