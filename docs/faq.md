@@ -10,8 +10,8 @@ permalink: /faq/
 
 Se non trovi una domanda con relativa risposta scrivine una di seguito, risponderemo quando possibile sui nostri canali.
 
-1. **Dove trovo il file di configurazione "base" per la mia stampante?**
-   - *Se presente una configurazione "base", si trova dentro la cartella `~/klipper/config/` della vostra installazione oppure [QUI](https://github.com/KevinOConnor/klipper/tree/master/config){:target="_blank"}*
+1. **Dove trovo il file di configurazione "di base" per la mia stampante?**
+   - *Se presente una configurazione "di base", si trova con nome `printer-<vendor>-<modello_stampante>-<anno_di_commercializzazione>.cfg` (es: `printer-creality-ender3-2018.cfg`) dentro la cartella `~/klipper/config/` della vostra installazione oppure [QUI](https://github.com/KevinOConnor/klipper/tree/master/config){:target="_blank"}. In caso non sia presente si deve partire da una configurazione generica in base alla propria Board, riconoscibile col nome `generic-<vendor>-<modello_board>.cfg` (es: `generic-bigtreetech-skr-v1.3.cfg`)*
 
 
 1. **Come faccio a calibrare il piatto?**
