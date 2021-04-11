@@ -15,7 +15,7 @@ Per compilare e flashare la scheda stampante verrà usato ancora una volta Kiauh
 
 🟥**IMPORTANTE**: Recuperare da [QUI](https://github.com/KevinOConnor/klipper/tree/master/config) il file.cfg relativo alla propria stampante (es: `printer-creality-ender3-2018.cfg`) o scheda (board) utilizzata (es: `generic-bigtreetech-skr-v1.3.cfg`), perchè sarà il file dove andremo a configurare i parametri aggiuntivi oltre a quelli presenti di default.
 
-🟥**IMPORTANTE**: Nella parte iniziale del file ci sono svariate righe di testo con dei # davanti, leggerle attentamente e tenerle a portata di mano perchè ci indicano le impostazioni per creare il firmware al passo successivo.
+🟥**IMPORTANTE**: Nella parte iniziale del file ci sono svariate righe di testo con dei `#` davanti, leggerle attentamente e tenerle a portata di mano perchè indicano le impostazioni per creare il firmware al passo successivo.
 
 Su Kiauh selezionare la voce `4) Advanced` e si aprirà il seguente menù:
 
