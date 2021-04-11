@@ -11,11 +11,11 @@ permalink: /installazione-rpi/configurazione-firmware/
 {: .fw-400 }
 
 Prima di iniziare la configurazione è necessario recuperare la stringa della seriale della nostra stampante.
-Ancora su Kiauh tornare al menù advanced:
+Ancora su tornare al menù advanced:
 
 Qui, a stampante accesa e collegata al Raspberry, selezionate la voce `6) [Get MCU ID]`
 
-Se il flashing del firmware è andato correttamente e la stampante comunica con il nostro Raspberry, Kiauh ci restituirà una stringa del tipo: 
+Se il flashing del firmware è andato correttamente e la stampante comunica con il nostro Raspberry, KIAUH ci restituirà una stringa del tipo: 
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image2.png" height="350">
