@@ -20,7 +20,7 @@ has_children: false
 
 ## Prefazione
 
-Klipper è un firmware per Stampante 3D che combina la potenza di un computer generico con uno o più microcontrollori.
+Klipper è un firmware per Stampante 3D che combina la potenza di un computer generico con uno o più microcontrollori (ovvero le board delle Stampanti 3D).
 
 Al seguente link (in Inglese) è possibile visionare le [Caratteristiche di Klipper](https://www.klipper3d.org/Features.html){:target="_blank"}
 
