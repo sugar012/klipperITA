@@ -10,4 +10,4 @@ permalink: /extra/configurazioni-moonraker/
 # Configurazioni Moonraker
 {: .fw-400 }
 
-## Presto disponibile
+## Guida presto disponibile
