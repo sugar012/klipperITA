@@ -10,7 +10,7 @@ permalink: /faq/
 
 Se non trovi una domanda con relativa risposta scrivine una di seguito, risponderemo quando possibile sui nostri canali.
 
-1. **Dove trovo il file di configurazione per la mia stampante?**
+1. **Dove trovo il file di configurazione "base" per la mia stampante?**
    - *Dentro la cartella `~/klipper/config/` della vostra installazione oppure [QUI](https://github.com/KevinOConnor/klipper/tree/master/config){:target="_blank"}*
 
 
