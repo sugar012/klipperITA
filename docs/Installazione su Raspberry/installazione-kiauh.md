@@ -9,13 +9,15 @@ permalink: /installazione-rpi/installazione-kiauh/
 # Installazione KIAUH
 {: .fw-400 }
 
-Per iniziare installiamo il pacchetto `git` requisito necessario per successivamente installare KIAUH, per procedere digitiamo il comando:
+KIAUH, acronimo di "Klipper Installation And Update Helper" (in Italiano "Aiutante per l'installazione e l'aggiornamento di Klipper") consiste in una raccolta di Shell Script utili per automatizzare l'installazione di diverse componenti sul Raspberry Pi, come ad esempio Klipper, Moonraker, Fluidd, Mainsail e molto altro...
+
+Per iniziare è necessario avere installato il pacchetto `git` che è il requisito minimo per successivamente installare KIAUH, quindi procediamo digitando da console `SSH` il comando:
 
 ```shell
 sudo apt-get install git -y
 ```
 
-Successivamente possiamo procedere all'installazione di KIAUH digitando nella console le seguenti righe (comandi separati):
+Successivamente possiamo procedere al download di KIAUH digitando nella console le seguenti righe (comandi separati):
 
 ```shell
 cd ~
@@ -51,7 +53,7 @@ Se tutto è andato correttamente dovreste trovarvi davanti una situazione del ge
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image26.png" height="350">
 </p>
 
-Complimenti, ora avete correttamente installato Klipper e la WebUI sul vostro Raspberry Pi, siete a metà strada dalla vostra prima stampa con Klipper! :P
+Complimenti, ora avete correttamente installato Klipper e la WebUI sul vostro Raspberry Pi, siete a metà strada dalla vostra prima stampa con Klipper!
 
 ## Aggiornamento KIAUH
 
