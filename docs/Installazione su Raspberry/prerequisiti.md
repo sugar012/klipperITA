@@ -19,6 +19,8 @@ permalink: /installazione-rpi/prerequisiti/
 
 1. MicroSD Card di classe 10 con capacità di almeno 8GB
 
+1. Il firmware originale della Stampante 3D (opzionale, ma utile in caso qualcosa non sia compatibile o vada storto e si debba tornare indietro)
+
 1. Pazienza, pazienza e tanta pazienza
 
 * Software da utilizzare:
