@@ -10,7 +10,7 @@ permalink: /extra/configurazioni-moonraker/
 # Configurazioni Moonraker
 {: .fw-400 }
 
-Moonraker è un server web basato su Python 3 che espone delle [API](https://it.wikipedia.org/wiki/Application_programming_interface).
+Moonraker è un server web basato su Python 3 che espone delle [API](https://it.wikipedia.org/wiki/Application_programming_interface){:target="_blank"}.
 
 Le applicazioni client per esempio le WebUI come Fluidd, Mainsail e affini possono utilizzare Moonraker per interagire con Klipper.
 
