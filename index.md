@@ -24,7 +24,7 @@ Klipper è un firmware per Stampante 3D che combina la potenza di un computer ge
 
 Al seguente link (in Inglese) è possibile visionare le [Caratteristiche di Klipper](https://www.klipper3d.org/Features.html){:target="_blank"}
 
-Mentre al seguente link **DA VISIONARE ATTENTAMENTE** i [PREREQUISITI](https://klipper-italia.xyz/installazione-rpi/prerequisiti/){:target="_blank"} per poter installare Klipper e relativi componenti oggetto di questa guida.
+Mentre al seguente link (**DA VISIONARE ATTENTAMENTE**) i [PREREQUISITI](https://klipper-italia.xyz/installazione-rpi/prerequisiti/){:target="_blank"} per poter installare Klipper e relativi componenti oggetto di questa guida.
 
 ## Introduzione Guida
 
