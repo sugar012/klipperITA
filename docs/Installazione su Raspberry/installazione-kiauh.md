@@ -11,7 +11,7 @@ permalink: /installazione-rpi/installazione-kiauh/
 
 KIAUH, acronimo di "Klipper Installation And Update Helper" (in Italiano "Aiutante per l'installazione e l'aggiornamento di Klipper") consiste in una raccolta di [Shell Script](https://it.wikipedia.org/wiki/Shell_(informatica)){:target="_blank"} utili per automatizzare l'installazione di diverse componenti sul Raspberry Pi, come ad esempio Klipper, Moonraker, Fluidd, Mainsail e molto altro...
 
-Per iniziare è necessario avere installato il pacchetto `git` che è il requisito minimo per successivamente installare KIAUH, quindi procediamo digitando da console `SSH` il comando:
+Per iniziare è necessario avere installato il pacchetto `git` che è il requisito minimo per successivamente scaricare KIAUH, quindi procediamo digitando da console `SSH` il comando:
 
 ```shell
 sudo apt-get install git -y
