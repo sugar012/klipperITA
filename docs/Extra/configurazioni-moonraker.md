@@ -16,6 +16,8 @@ Le applicazioni client per esempio le WebUI come Fluidd, Mainsail e affini posso
 
 ## Guida in stesura
 
+Esempio di configurazione base di Moonraker
+
 {% raw %}
 ```
 # Sample Moonraker Configuration File
