@@ -2,7 +2,7 @@
 layout: default
 title: Installazione e Configurazione Firmware
 parent: Installazione su Raspberry
-nav_order: 5
+nav_order: 4
 has_children: false
 permalink: /installazione-rpi/configurazione-firmware/
 ---
