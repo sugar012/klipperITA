@@ -16,7 +16,7 @@ permalink: /prerequisiti/
 
 1. Un Raspberry Pi (RPi), consigliato RPi 3 ([Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/){:target="_blank"} o [Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/){:target="_blank"}) oppure [RPi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/){:target="_blank"}, ma anche un RPi Zero andrebbe bene (anche se sconsigliato, dato che sono presenti un minor numero di porte ed Hardware meno performante)
 
-1. MicroSD Card di classe 10 con capacità di almeno 8GB
+1. MicroSD Card (meglio se in classe 10) con capacità di almeno 8GB
 
 1. Il firmware originale della Stampante 3D (opzionale, ma utile in caso qualcosa vada storto/incompatibilità di qualche componente e si debba tornare indietro)
 
