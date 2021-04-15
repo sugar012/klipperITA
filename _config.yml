@@ -1,8 +1,8 @@
 title: "Guida installazione Klipper"
 tagline: Guida in italiano installazione Klipper e altri componenti
 description: Documentazione in Italiano per l'installazione del Firmware Klipper, Moonraker, Mainsail, Fluidd e altri componenti per Stampanti 3D
-#remote_theme: pmarsceill/just-the-docs
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: pmarsceill/just-the-docs
+#remote_theme: mmistakes/minimal-mistakes
 logo: "/images/klipper-logo-it.png"
 search_enabled: true
 
