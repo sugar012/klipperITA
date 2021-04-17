@@ -45,7 +45,7 @@ Un'altra particolarità di questo firmware è la sua compatibilità con diverse 
 * **DuetWebControl 2 (DWC2)**;
 * **KlipperScreen** (quest'ultima solo per Display Touchscreen direttamente connesso a un Raspberry Pi).
 
-Queste, oltre ad essere graficamente belle e curate, vanno a sostituire o affiancare il Display della stampante (**ATTENZIONE**: Klipper non funziona sui Display Touchscreen delle Stampanti 3D) e sarà quindi più semplice gestire tutto con mouse e tastiera, tablet/smartphone, con qualsiasi dispositivo con a bordo un browser oppure (vedi KlipperScreen) da un Display Touchscreen connesso direttamente al Raspberry Pi!
+Queste, oltre ad essere graficamente belle e curate, vanno a sostituire o affiancare il Display della stampante (**ATTENZIONE: Klipper, almeno per il momento, non funziona sui Display Touchscreen delle Stampanti 3D**) e sarà quindi più semplice gestire tutto con mouse e tastiera, tablet/smartphone, con qualsiasi dispositivo con a bordo un browser oppure (vedi KlipperScreen) da un Display Touchscreen connesso direttamente al Raspberry Pi!
 
 Tra gli altri vantaggi di Klipper troviamo la possibilità di essere modificato senza alcuna compilazione: tramite l'interfaccia web è infatti possibile accedere al file di configurazione `printer.cfg` e modificarlo al volo. Basterà salvare e fare un restart del firmware et voilà!
 
