@@ -25,4 +25,4 @@ Se non trovi una domanda con relativa risposta scrivine una di seguito, risponde
    - *[VEDI QUI](https://klipper-italia.xyz/impostazioni/calibrazioni-klipper/){:target="_blank"}*
 
 ### **Come faccio a calibrare gli "step/mm" (rotation_distance su Klipper)?**
-   - *[VEDI QUI](https://translate.google.com/translate?sl=en&tl=it&u=https://www.klipper3d.org/Rotation_Distance.html){:target="_blank"} (Articolo tradotto tramite Google Translate)
+   - *[VEDI QUI](https://translate.google.com/translate?sl=en&tl=it&u=https://www.klipper3d.org/Rotation_Distance.html){:target="_blank"} (Articolo tradotto tramite Google Translate)*
