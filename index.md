@@ -38,7 +38,7 @@ Klipper è un firmware che, sfruttando la potenza di calcolo di un Raspberry Pi/
 
 A differenza di Marlin, che gira sulla scheda della stampante ed è quindi limitato dalla potenza di calcolo di quest'ultima, Klipper gira sul Raspberry Pi, esegue tutti i calcoli e invia le istruzioni alla scheda della stampante (anch'essa flashata con klipper per permettere la comunicazione) che deve solo eseguirli inviando i comandi ai motori/attuatori.
 
-Un'altra particolarità di questo firmware è la sua compatibilità con diverse interfacce web, potremo infatti scegliere tra diverse alternative: **Fluidd**, **Mainsail**, **OctoPrint**, **DuetWebControl 2 (DWC2)** ed anche **KlipperScreen** (quest'ultima solo per display touchscreen connessi a un PC/Raspberry Pi).
+Un'altra particolarità di questo firmware è la sua compatibilità con diverse interfacce web, potremo infatti scegliere tra diverse alternative: **Fluidd**, **Mainsail**, **OctoPrint**, **DuetWebControl 2 (DWC2)** ed anche **KlipperScreen** (quest'ultima solo per display touchscreen direttamente connessi a un Raspberry Pi).
 Queste, oltre ad essere graficamente belle e curate, vanno a sostituire o affiancare lo schermo della stampante e sarà quindi più semplice gestire tutto con mouse e tastiera, tablet/smartphone o qualsiasi dispositivo che abbia un browser!
 
 Tra gli altri vantaggi di Klipper troviamo la possibilità di essere modificato senza alcuna compilazione: tramite l'interfaccia web è infatti possibile accedere al file di configurazione `printer.cfg` e modificarlo al volo. Basterà salvare e fare un restart del firmware et voilà!
