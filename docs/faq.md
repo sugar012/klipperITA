@@ -8,7 +8,7 @@ permalink: /faq/
 # F.A.Q. aka Domande Frequenti
 {: .fw-400 }
 
-Se non trovi una domanda con relativa risposta scrivine una di seguito, risponderemo quando possibile sui nostri canali.
+Se non trovi una domanda con relativa risposta scrivine una sui nostri canali, risponderemo quando possibile ed aggiorneremo la seguente lista.
 
 1. [**Dove trovo il file di configurazione "di base" per la mia stampante?**](#dove-trovo-il-file-di-configurazione-di-base-per-la-mia-stampante)
 1. [**Dove devo salvare il file `moonraker.conf` e il file `printer.cfg` della mia stampante?**](#dove-devo-salvare-il-file-moonrakerconf-e-il-file-printercfg-della-mia-stampante)
