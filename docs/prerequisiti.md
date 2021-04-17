@@ -22,7 +22,9 @@ permalink: /prerequisiti/
 
 1. Pazienza, pazienza e tanta pazienza.
 
-* Software che è possibile utilizzare:
+## Software
+
+* Di seguito una lista di Software che è possibile utilizzare:
   * [Raspberry Pi Imager](https://www.raspberrypi.org/software/){:target="_blank"}
   * [Bitvise SSH and sFTP client](https://www.bitvise.com/ssh-client-download){:target="_blank"}
 
