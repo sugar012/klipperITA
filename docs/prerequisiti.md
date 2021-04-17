@@ -25,13 +25,13 @@ permalink: /prerequisiti/
 ## Software Consigliati
 
 Di seguito una lista di Software che è possibile utilizzare per l'installazione e tutte le operazioni oggetto di questa guida:
-  * [Raspberry Pi Imager](https://www.raspberrypi.org/software/){:target="_blank"}
+  * [Raspberry Pi Imager](https://www.raspberrypi.org/software/){:target="_blank"} (Installer)
 
      _e_
 
-  * [Bitvise SSH and sFTP client](https://www.bitvise.com/ssh-client-download){:target="_blank"}
+  * [Bitvise SSH and sFTP client](https://www.bitvise.com/ssh-client-download){:target="_blank"} (Client SSH ed SFTP)
 
      _oppure_
 
-  * [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){:target="_blank"}
-  * [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
+  * [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){:target="_blank"} (Client SSH)
+  * [WinSCP](https://winscp.net/eng/download.php){:target="_blank"} (Client SFTP)
