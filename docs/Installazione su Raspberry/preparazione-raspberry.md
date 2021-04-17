@@ -39,11 +39,11 @@ Aprire con BLOCCO NOTE il file appena copiato denominato `wpa_supplicant.conf`. 
 
 La MicroSD è ora pronta: toglierla dal computer, inserirla nel Raspberry Pi (da spento) ed alimentarlo. Aspettare qualche minuto per l’avvenuta connessione Wi-Fi.
 
-Avvalendosi del programma gratuito della [Nirsoft “Wireless Network Watcher”](https://www.nirsoft.net/utils/wireless_network_watcher.html){:target="_blank"}, trovare l’indirizzo IP locale del RPi, altrimenti ci si puo’ riferire alla pagina di gestione del proprio router.
+Avvalendosi del programma gratuito [Nirsoft “Wireless Network Watcher”](https://www.nirsoft.net/utils/wireless_network_watcher.html){:target="_blank"}, trovare l’indirizzo IP locale del RPi, altrimenti ci si puo’ riferire alla pagina di gestione del proprio Modem/Router.
 
 ## Connessione al Raspberry Pi via SSH
 
-Una volta che si ha l’indirizzo IP, aprire il programma Bitvise SSH Client, e configurarlo come segue, tenendo cura di inserire l’indirizzo IP del RPi trovato in precedenza. 
+Una volta che si conosce l’indirizzo IP del RPi, aprire il programma Bitvise SSH Client, e configurarlo come segue, avendo cura di inserire l’indirizzo IP del RPi trovato in precedenza. 
 
 Inserire l’utente `pi` e la password di default `raspberry`
 
@@ -69,9 +69,9 @@ Ora cambiamo la password di default con una a nostra scelta:
 passwd pi
 ```
 
-Premiamo INVIO, poi digitiamo la nuova password (non c’è da preoccuparsi se non viene visualizzato niente nel terminale, è una misura di sicurezza).
+Premiamo INVIO, poi digitiamo la nuova password (non c’è da preoccuparsi se non viene visualizzato niente nel terminale, è una misura di sicurezza, la password non viene visualizzata e il cursore non si muove digitandola, ma viene registrata lo stesso).
 
-Una volta finito di scriverla premiamo di nuovo INVIO. Potrebbe venire richiesta una conferma della password appena inserita, nel caso basta ri-digitarla e premere INVIO. Una volta fatto riavviamo digitando il comando:
+Una volta finito di scriverla premiamo di nuovo INVIO. Potrebbe venire richiesta una conferma della password appena inserita, quindi basta ri-digitarla e premere INVIO. Una volta aggiornata la password riavviamo digitando il comando:
 
 ```shell
 sudo reboot
@@ -79,4 +79,4 @@ sudo reboot
 
 Bitvise ci notificherà della disconnessione avvenuta. Chiudiamo le finestre SSH e SFTP, clicchiamo su logout in basso, quindi cambiamo la password nella casella di testo con quella appena immessa. Dopodiché aspettiamo che Bitvise si ricolleghi (in basso verrà notificato). Clicchiamo nuovamente login (dare 1 minuto al RPi per avviarsi) e andiamo sulla console SSH.
 
-A questo punto siamo pronti ad installare KIAUH, il gestore che permette di installare comodamente Klipper, le API Moonraker e una webGUI a nostra scelta come ad esempio Fluidd.
+A questo punto siamo pronti ad installare KIAUH, il gestore che permette di installare comodamente Klipper, le Web API Moonraker e una WebGUI a nostra scelta come ad esempio Fluidd (o altro di nostra preferenza).
