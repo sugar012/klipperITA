@@ -30,5 +30,5 @@ Di seguito una lista di Software che è possibile utilizzare per l'installazione
 
      _oppure_
 
-  * [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){:target="_blank"}
+  * [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){:target="_blank"}
   * [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
