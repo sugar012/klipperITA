@@ -10,7 +10,7 @@ permalink: /faq/
 
 Se non trovi una domanda con relativa risposta scrivine una di seguito, risponderemo quando possibile sui nostri canali.
 
-1. **Dove trovo il file di configurazione "di base" per la mia stampante?**
+1. [**Dove trovo il file di configurazione "di base" per la mia stampante?**](#dove-trovo-il-file-di-configurazione-di-base-per-la-mia-stampante)
 1. **Come faccio a calibrare il piatto?**
 1. **Dove devo salvare il file `moonraker.conf` e il file `printer.cfg` della mia stampante?**
    - *Dentro la cartella `~/klipper_config/`*
