@@ -21,10 +21,13 @@ Premere su “Choose SD Card” e selezionare la MicroSD inserita precedentement
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image8.png" width="350"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image5.png" width="350"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image15.png" width="350">
 </p>
 
-Una volta che la scrittura è terminata, rimuovere la MicroSD dal PC e re-inserirla: comparirà un volume "boot"
+Una volta che la scrittura è terminata, rimuovere la MicroSD dal PC e re-inserirla: comparirà un volume denominato "boot".
 
-Per poter abilitare SSH e WIFI direttamente al boot(headless mode) scaricare i [seguenti due files](https://github.com/Blaster1920/RPI_headless_tools/tree/main){:target="_blank"} cliccando su “Code”, poi “download zip”.
-Decomprimere i due file direttamente nella root (cartella principale) della micro sd. 
+Per poter abilitare SSH e Wi-Fi direttamente al boot (headless mode) scaricare i [seguenti due files](https://github.com/Blaster1920/RPI_headless_tools/tree/main){:target="_blank"} cliccando su “Code”, poi “download zip”.
+
+(Se si connette il Raspberry Pi direttamente tramite cavo di rete e non sarà mai necessario utilizzarlo via Wi-Fi, saltare **SOLO** la parte di configurazione Wi-Fi indicata sopra).
+
+Decomprimere i due file direttamente nella root (cartella principale) della MicroSD. 
 Aprire con BLOCCO NOTE il file appena copiato denominato `wpa_supplicant.conf`. Dentro le virgolette mettere il `SSID`, cioè il nome della propria rete Wi-Fi e sotto, alla voce `psk` inserire sempre fra virgolette la password della propria rete Wi-Fi.
 
 <p align="center">
