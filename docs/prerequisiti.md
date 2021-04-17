@@ -29,7 +29,7 @@ Di seguito una lista di Software che è possibile utilizzare per l'installazione
 
      _e_
 
-  * [Bitvise SSH and sFTP client](https://www.bitvise.com/ssh-client-download){:target="_blank"} (Client SSH, SFTP ecc.)
+  * [Bitvise SSH Client](https://www.bitvise.com/ssh-client-download){:target="_blank"} (Client SSH, SFTP ecc.)
 
      _oppure_
 
