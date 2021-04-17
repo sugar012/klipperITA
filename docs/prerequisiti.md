@@ -26,6 +26,9 @@ permalink: /prerequisiti/
 
 Di seguito una lista di Software che è possibile utilizzare per l'installazione e tutte le operazioni oggetto di questa guida:
   * [Raspberry Pi Imager](https://www.raspberrypi.org/software/){:target="_blank"}
+
+     _e_
+
   * [Bitvise SSH and sFTP client](https://www.bitvise.com/ssh-client-download){:target="_blank"}
 
      _oppure_
