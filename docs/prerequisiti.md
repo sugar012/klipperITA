@@ -22,7 +22,7 @@ permalink: /prerequisiti/
 
 1. Pazienza, pazienza e tanta pazienza.
 
-## Software
+## Software Consigliati
 
 * Di seguito una lista di Software che è possibile utilizzare per l'installazione e tutte le operazioni oggetto di questa guida:
   * [Raspberry Pi Imager](https://www.raspberrypi.org/software/){:target="_blank"}
