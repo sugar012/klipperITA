@@ -16,7 +16,7 @@ has_children: false
 </p>
 
 
-*La guida è in continuo aggiornamento, è possibile verificare la data di ultima modifica in fondo ad ogni singola pagina, dove è presente `Utima modifica del GG/MM/AAAA alle ore HH:MM`.*
+*La guida è in continuo aggiornamento, è possibile verificare la data di ultima modifica in fondo ad ogni singola pagina, dove è presente la dicitura `Utima modifica del GG/MM/AAAA alle ore HH:MM`.*
 
 ## Prefazione
 
