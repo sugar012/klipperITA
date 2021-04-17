@@ -23,11 +23,14 @@ Premere su “Choose SD Card” e selezionare la MicroSD inserita precedentement
 
 Una volta che la scrittura è terminata, rimuovere la MicroSD dal PC e re-inserirla: comparirà un volume denominato "boot".
 
+## Abilitazione SSH e Wi-Fi
+
 Per poter abilitare SSH e Wi-Fi direttamente al boot (headless mode) scaricare i [seguenti due files](https://github.com/Blaster1920/RPI_headless_tools/tree/main){:target="_blank"} cliccando su “Code”, poi “download zip”.
 
-(Se si connette il Raspberry Pi direttamente tramite cavo di rete e non sarà mai necessario utilizzarlo via Wi-Fi, saltare **SOLO** la parte di configurazione Wi-Fi indicata sopra).
+Decomprimere i due file direttamente nella root (cartella principale) della MicroSD.
 
-Decomprimere i due file direttamente nella root (cartella principale) della MicroSD. 
+(Se si connette il Raspberry Pi direttamente tramite cavo di rete e non sarà mai necessario utilizzarlo via Wi-Fi, configurare solo SSH e saltare la parte di configurazione Wi-Fi indicata di seguito).
+
 Aprire con BLOCCO NOTE il file appena copiato denominato `wpa_supplicant.conf`. Dentro le virgolette mettere il `SSID`, cioè il nome della propria rete Wi-Fi e sotto, alla voce `psk` inserire sempre fra virgolette la password della propria rete Wi-Fi.
 
 <p align="center">
@@ -37,6 +40,9 @@ Aprire con BLOCCO NOTE il file appena copiato denominato `wpa_supplicant.conf`. 
 La MicroSD è ora pronta: toglierla dal computer, inserirla nel Raspberry Pi (da spento) ed alimentarlo. Aspettare qualche minuto per l’avvenuta connessione Wi-Fi.
 
 Avvalendosi del programma gratuito della [Nirsoft “Wireless Network Watcher”](https://www.nirsoft.net/utils/wireless_network_watcher.html){:target="_blank"}, trovare l’indirizzo IP locale del RPi, altrimenti ci si puo’ riferire alla pagina di gestione del proprio router.
+
+## Connessione al Raspberry Pi via SSH
+
 Una volta che si ha l’indirizzo IP, aprire il programma Bitvise SSH Client, e configurarlo come segue, tenendo cura di inserire l’indirizzo IP del RPi trovato in precedenza. 
 
 Inserire l’utente `pi` e la password di default `raspberry`
