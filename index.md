@@ -12,7 +12,7 @@ has_children: false
 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/klipper-logo-it.png" height="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/klipper-logo-it.png" height="350" alt="Klipper Italia Logo">
 </p>
 
 
