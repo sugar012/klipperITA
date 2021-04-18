@@ -22,7 +22,7 @@ Per compilare e flashare la scheda stampante verrà usato ancora una volta Kiauh
 Su KIAUH selezionare la voce `4) Advanced` e si aprirà il seguente menù:
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image24.png" height="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image24.png" height="350" alt="KIAUH 3">
 </p>
 
 Se la vostra scheda prevede il flash da USB (leggete nelle prime righe del config) selezionare la voce 4) altrimenti la 5).
@@ -30,13 +30,13 @@ Se la vostra scheda prevede il flash da USB (leggete nelle prime righe del confi
 Si aprirà la schermata seguente:
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image16.png" height="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image16.png" height="350" alt="Klipper Make">
 </p>
 
 **MODIFICARE** adesso le impostazioni di compilazione **come suggerito nel file di esempio scaricato precedentemente** (i suggerimenti sono nella parte alta del file .cfg)
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image27.png" height="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image27.png" height="350" alt="Klipper Board Config">
 </p>
 
 seguire nel dettaglio ogni impostazione e fare attenzione se sono previsti comandi aggiuntivi da eseguire dopo il make del firmware.
