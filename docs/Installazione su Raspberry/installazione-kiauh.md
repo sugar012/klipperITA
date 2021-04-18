@@ -28,7 +28,7 @@ git clone https://github.com/th33xitus/kiauh.git
 A questo punto si aprirà l’interfaccia di KIAUH:
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image25.png" height="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image25.png" height="350" alt="KIAUH 1">
 </p>
 
 Quindi andremo ad installare le 3 parti fondamentali dell'ecosistema, ovvero: Klipper + Moonraker + Fluidd
@@ -50,7 +50,7 @@ Se viene richiesta l’installazione di macro, rispondere `y`.
 Se tutto è andato correttamente dovreste trovarvi davanti una situazione del genere:
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image26.png" height="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image26.png" height="350" alt="KIAUH 2">
 </p>
 
 Complimenti, ora avete correttamente installato Klipper e la WebUI sul vostro Raspberry Pi, siete a metà strada dalla vostra prima stampa con Klipper!
@@ -75,7 +75,7 @@ se sono presenti aggiornamenti verranno scaricati i nuovi file, in caso contrari
 In caso siano stati scaricati aggiornamenti, lanciando nuovamente KIAUH con il comando `./kiauh/kiauh.sh` potremo verificare la nuova versione, che nel seguente esempio è la `v3.0-37`
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/kiauh_upgraded.png" height="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/kiauh_upgraded.png" height="350" alt="KIAUH Update">
 </p>
 
 Successivamente sarà possibile entrare nei vari menu per verificare eventuali cambiamenti o funzionalità aggiunte nella nuova versione.
