@@ -18,7 +18,7 @@ Qui, a stampante accesa e collegata al Raspberry, selezionate la voce `6) [Get M
 Se il flashing del firmware è andato correttamente e la stampante comunica con il nostro Raspberry, KIAUH ci restituirà una stringa del tipo: 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image2.png" height="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image2.png" height="350" alt="KIAUH 4">
 </p>
 
 Copiamo questa stringa (ci servirà dopo).
@@ -28,19 +28,19 @@ La parte difficile è adesso finita! Da ora in poi useremo l’interfaccia web :
 Se tutto è andato correttamente e il Raspberry è collegato alla nostra rete LAN, inserendo il suo indirizzo IP su un browser di qualunque dispositivo collegato alla rete di casa dovrebbe comparire l’interfaccia web scelta (negli esempi seguenti l'interfaccia Fluidd).
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image3.png" height="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image3.png" height="350" alt="Fluidd Home">
 </p>
 
 Tramite l’interfaccia web è possibile editare il file printer.cfg. Cliccare in alto a destra sulla voce **PRINTER**
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image28.png" height="50">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image28.png" height="50" alt="Fluidd Home Detail">
 </p>
 
 si aprirà un menù come questo:
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image29.png" height="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image29.png" height="350" alt="Fluidd Config">
 </p>
 
 Cliccare sul file printer.cfg, comparirà un menù a tendina, cliccare su edit.
