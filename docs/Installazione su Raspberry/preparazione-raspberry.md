@@ -12,13 +12,13 @@ permalink: /installazione-rpi/preparazione-raspberry/
 Installare Raspberry Pi Imager sul PC, inserire la MicroSD nel computer, quindi avviare Imager e selezionare “Choose OS”, poi su “Raspberry Pi OS (other)”, quindi Raspberry Pi OS Lite (32-bit).
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image6.png" width="350"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image1.png" width="350"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image20.png" width="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image6.png" width="350" alt="Raspberry Pi Imager 1"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image1.png" width="350" alt="Raspberry Pi Imager 2"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image20.png" width="350" alt="Raspberry Pi Imager 3">
 </p>
 
 Premere su “Choose SD Card” e selezionare la MicroSD inserita precedentemente, quindi premere write ed acconsentire alla formattazione della MicroSD
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image8.png" width="350"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image5.png" width="350"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image15.png" width="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image8.png" width="350" alt="Raspberry Pi Imager 4"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image5.png" width="350" alt="Raspberry Pi Imager 5"> <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image15.png" width="350" alt="Raspberry Pi Imager 6">
 </p>
 
 Una volta che la scrittura è terminata, rimuovere la MicroSD dal PC e re-inserirla: comparirà un volume denominato "boot".
@@ -34,7 +34,7 @@ Decomprimere i due file direttamente nella root (cartella principale) della Micr
 Aprire con BLOCCO NOTE il file appena copiato denominato `wpa_supplicant.conf`. Dentro le virgolette mettere il `SSID`, cioè il nome della propria rete Wi-Fi e sotto, alla voce `psk` inserire sempre fra virgolette la password della propria rete Wi-Fi.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image12.png" width="600">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image12.png" width="600" alt="WPA Config">
 </p>
 
 La MicroSD è ora pronta: toglierla dal computer, inserirla nel Raspberry Pi (da spento) ed alimentarlo. Aspettare qualche minuto per l’avvenuta connessione Wi-Fi.
@@ -48,7 +48,7 @@ Una volta che si conosce l’indirizzo IP del RPi, aprire il programma Bitvise S
 Inserire l’utente `pi` e la password di default `raspberry`
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image11.png" width="380">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image11.png" width="380" alt="Bitvise">
 </p>
 
 Una volta inseriti i dati, premere login, apparirà una notifica che ci chiede se vogliamo salvare la chiave privata per il tunnel SSH, gli diciamo sì per sempre.
