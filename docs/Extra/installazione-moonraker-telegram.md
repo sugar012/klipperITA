@@ -30,13 +30,13 @@ Se non si possiede già un bot Telegram è necessario procedere alla creazione s
 Cerca lo user @BotFather all'interno dell'applicazione Telegram
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/botfather-logo.png" height="75">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/botfather-logo.png" height="75" alt="BotFather Telegram">
 </p>
 
 Clicca su Start per iniziare una conversazione con @BotFather
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/botfather-home.png" height="500">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/botfather-home.png" height="500" alt="BotFather Telegram Home">
 </p>
 
 Invia il comando `/newbot` a @BotFather. @BotFather risponderà:
@@ -202,7 +202,7 @@ essendo una installazione su istanza singola è necessario solo confermare preme
 Da questo punto in poi sarà possibile modificare la configurazione utilizzando l'interfaccia web di Mainsail o Fluidd, modificando il file `telegram_config.sh`
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/telegram-config.png" height="350">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/telegram-config.png" height="350" alt="Fluidd Telegram Config">
 </p>
 
 nelle sezioni `token` e `chatid` inserendo i rispettivi valori creati nei passi precedenti:
@@ -350,7 +350,7 @@ sudo systemctl restart moonraker
 Se tutti i passi saranno stati effettuati correttamente, apparirà la voce `moonraker-telegram` all'interno dell'update manager della GUI, nell'esempio seguente Fluidd
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/moonraker-telegram-update-manager.png" height="500">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/moonraker-telegram-update-manager.png" height="500" alt="Fluidd Update Manager Moonraker-Telegram">
 </p>
 
 ### Inserimento comandi di controllo/interazione con la Stampante 3D
