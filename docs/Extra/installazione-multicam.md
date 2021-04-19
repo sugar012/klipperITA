@@ -14,7 +14,7 @@ permalink: /extra/installazione-multicam/
 Per poter utilizzare due o più webcam con MJPG-Streamer ,avendo seguito la [guida](https://sugar012.github.io/klipperITA/extra/installazione-webcam/){:target="_blank"}, basta aggiungere un altra coppia di scripts per l'avvio automatico nella cartella scripts.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image30.png" height="100">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image30.png" height="100" alt="Multicam 1">
 </p>
 
 e dare i seguenti comandi:
@@ -59,7 +59,7 @@ Le nostre webcam saranno quindi distinte in `/dev/video0` e `/dev/video2`
 Ora modifichiamo i due file `webcamDaemon` aggiungendo a quale device dovranno connettersi e farli uscire con due porte distinte
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image31.png" height="650">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image31.png" height="650" alt="Multicam 2">
 </p>
 
 Nel file `webcamDaemon1` basterà sosituire `/dev/video0` con `/dev/video2` e cambiare la porta con 8081
@@ -67,7 +67,7 @@ Nel file `webcamDaemon1` basterà sosituire `/dev/video0` con `/dev/video2` e ca
 Sostituiamo anche la stringa in `webcam1` come di seguito
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image32.png" height="450">
+<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image32.png" height="450" alt="Multicam 3">
 </p>
 
 In ultimo andiamo quindi ad inserire nel file `/etc/rc.local` la stringa per l'avvio della seconda istanza.
