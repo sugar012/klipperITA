@@ -35,3 +35,7 @@ Di seguito una lista di Software che è possibile utilizzare per l'installazione
 
   * [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){:target="_blank"} (Client SSH)
   * [WinSCP](https://winscp.net/eng/download.php){:target="_blank"} (Client SFTP, SCP ecc.)
+
+     _o ancora_
+     
+  * [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html){:target="_blank"} (Client SSH, SFTP, SCP ecc.)
