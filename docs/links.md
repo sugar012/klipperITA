@@ -38,3 +38,4 @@ permalink: /links/
 * [Bed Mesh e Homing con probe ed endstop separati](https://github.com/KevinOConnor/klipper/blob/master/docs/Bed_Mesh.md#the-relative-reference-index){:target="_blank"}
 * [Configurazioni e Plugins di Moonraker](https://github.com/Arksine/moonraker/blob/master/docs/configuration.md){:target="_blank"} - (per esempio per spegnere e accendere la stampante con relè)
 * [Pressure Advance](https://github.com/KevinOConnor/klipper/blob/master/docs/Pressure_Advance.md "Pressure Advance"){:target="_blank"}
+* [Dimostrazione funzionamento fisico accelerometro](https://youtu.be/JgxIoIRK7Dg){:target="_blank"}
