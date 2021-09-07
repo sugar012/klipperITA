@@ -15,7 +15,8 @@ permalink: /links/
 {: .fw-400 }
 
 * [Canale Telegram](https://t.me/Klipper3DITA "Canale Telegram"){:target="_blank"}
-* [Server Discord](https://discord.gg/df9yTE2 "Server Discord"){:target="_blank"}
+* [Server Discord](https://discord.klipper3d.org/ "Server Discord"){:target="_blank"}
+* [Klipper Community Discourse server](https://community.klipper3d.org/ "Klipper Community Discourse server"){:target="_blank"}
 * [Gruppo Facebook](https://www.facebook.com/groups/klipper/ "Gruppo Facebook"){:target="_blank"}
 
 # Componenti ed interfacce
@@ -38,4 +39,4 @@ permalink: /links/
 * [Bed Mesh e Homing con probe ed endstop separati](https://github.com/KevinOConnor/klipper/blob/master/docs/Bed_Mesh.md#the-relative-reference-index){:target="_blank"}
 * [Configurazioni e Plugins di Moonraker](https://github.com/Arksine/moonraker/blob/master/docs/configuration.md){:target="_blank"} - (per esempio per spegnere e accendere la stampante con relè)
 * [Pressure Advance](https://github.com/KevinOConnor/klipper/blob/master/docs/Pressure_Advance.md "Pressure Advance"){:target="_blank"}
-* [Dimostrazione funzionamento fisico accelerometro](https://youtu.be/JgxIoIRK7Dg){:target="_blank"}
+* [Dimostrazione funzionamento fisico accelerometro](https://youtu.be/JgxIoIRK7Dg "Dimostrazione funzionamento fisico accelerometro"){:target="_blank"}
