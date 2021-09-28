@@ -40,3 +40,4 @@ permalink: /links/
 * [Configurazioni e Plugins di Moonraker](https://github.com/Arksine/moonraker/blob/master/docs/configuration.md){:target="_blank"} - (per esempio per spegnere e accendere la stampante con relè)
 * [Pressure Advance](https://github.com/KevinOConnor/klipper/blob/master/docs/Pressure_Advance.md "Pressure Advance"){:target="_blank"}
 * [Dimostrazione funzionamento fisico accelerometro](https://youtu.be/JgxIoIRK7Dg "Dimostrazione funzionamento fisico accelerometro"){:target="_blank"}
+*  [Zerotier](https://www.zerotier.com/ "Zerotier, secure networks between remote devices"){:target="_blank"}
