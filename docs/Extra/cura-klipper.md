@@ -15,10 +15,10 @@ Link al post di [Alberto Zanardo @alb_za](https://t.me/Klipper3DITA/72760 "Utili
 Usare Cura con flavor "*Marlin*".
 
 # IMPOSTARE L'UPLOAD DI GCODE CON THUMBNAIL
-* Scaricare e copiare il plugin *Cura2Moonraker* nella cartella plugin di Cura (seguire la guida riportata su GitHub https://github.com/emtrax-ltd/Cura2MoonrakerPlugin
+* Scaricare e copiare il plugin *Cura2Moonraker* nella cartella plugin di Cura (seguire la guida riportata su GitHub [Cura2MoonrakerPlugin](https://github.com/emtrax-ltd/Cura2MoonrakerPlugin "Cura2MoonrakerPlugin"){:target="_blank"}
 * aprire Cura, *Preferences>Configure Cura>Printers*, selezionare la propria stampante e cliccare su *"Connect Moonraker"*. Se il pulsante non è presente, è stato installato male il plugin oppure non avete riavviato Cura
-* impostare il *"Moonraker Address"* con il proprio IP della stampante (nel mio caso http://192.168.1.8/) e cliccare su *"Save config"*
-* a questo punto dovrebbe comparire l'opzione *"Upload to <nome stampante>"* dopo lo slicing in basso a destra
+* impostare il *"Moonraker Address"* con il proprio IP della stampante (nel mio caso `http://192.168.1.8/`) e cliccare su *"Save config"*
+* a questo punto dovrebbe comparire l'opzione *"Upload to `<nome stampante>`"* dopo lo slicing in basso a destra
 
 # SOLO THUMBNAIL
 Se serve solo il thumbnail oppure il metodo precedente non ha funzionato:
